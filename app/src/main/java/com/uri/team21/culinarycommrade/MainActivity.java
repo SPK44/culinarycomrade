@@ -19,4 +19,9 @@ public class MainActivity extends AppCompatActivity {
         Intent startNewActivity = new Intent(this, inventory.class);
         startActivity(startNewActivity);
     }
+
+    public void search(View view) {
+        Intent startNewActivity = new Intent(this, search.class);
+        startActivity(startNewActivity);
+    }
 }

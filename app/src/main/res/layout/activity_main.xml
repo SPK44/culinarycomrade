@@ -39,6 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
         android:id="@+id/nav_to_search"
+        android:onClick="search"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
