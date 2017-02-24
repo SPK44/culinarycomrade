@@ -15,13 +15,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void sendMessage(View view) {
+    public void navigateInv(View view) {
         Intent startNewActivity = new Intent(this, inventory.class);
         startActivity(startNewActivity);
     }
 
-    public void search(View view) {
+    public void navigateSearch(View view) {
         Intent startNewActivity = new Intent(this, search.class);
         startActivity(startNewActivity);
     }
+
+    public void navigateShop(View view) {
+        Intent startNewActivity = new Intent(this, shoppinglist.class);
+        startActivity(startNewActivity);
+    }
+
 }
