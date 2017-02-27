@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_40e78f4c84bad66ea7f3c18e0242e838a240f3e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/doug/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_116a2d6e2a5ed3c338250bca5eaf641c82262cfc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_342f65942c89fb74c9ba8c7c2720f19f9a5428ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4cceb644065794482e155e67242ef3893cda4510">
+        <dex dex="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1075d3ef57ce07619761f2c77e095e6efd4dda1f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_62e1105959325f7d0ed59d68da625f37bfa1b878/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_ffcf3aed50c185d2dec49547e4d2fb328ba7dd5f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_ef8611f155e90f1619e4a8d7ced2704f59b14884/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_10113f83e2b309b8f36ce305588cd7de3f3fff10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_1c97ad22274fba69803836e763e85961b528b39f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5ebdae2d4cdfa92b21f7946ceceec70e9c4c432d">
+        <dex dex="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e16efcb9bdf9761e444c6ddb759d6cb0bba1708a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_61d901dd5f9e5dd2717cefe513e43fb5047d58c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/home/doug/AndroidStudioProjects/culinarycomrade/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_2279f5ef56eeff617deec4fc469d1988561e53cf/classes.dex" />
+    </item>
+
+</items>
