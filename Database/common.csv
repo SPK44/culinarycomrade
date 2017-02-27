@@ -1,910 +1,105 @@
-labelOption/languageOption/_languageEnum,labelOption/languageOption/_servingSizeText,labelOption/languageOption/_servingsContainerText,labelOption/_buildInsigFootnote,labelOption/_calcDVRaw,labelOption/_hide449Footnote,labelOption/_hideGramWeight,labelOption/_hideInsigFootnote,labelOption/_hideServings,labelOption/_labelDVStandard,labelOption/_labelElementType,labelOption/_labelFootnoteOrientation,labelOption/_labelStyleFormat,labelOption/_rrUSCalories,labelOption/_rrUSCaloriesFat,labelOption/_rrUSCarbs,labelOption/_rrUSCholesterol,labelOption/_rrUSProtein,labelOption/_rrUSSugars,labelOption/_rrUSVitMin,labelOption/_showStandardFootnote,labelOption/_useAbbrev,labelPageLayout/0/_labelPageObjectHeight,labelPageLayout/0/_labelPageObjectLeft,labelPageLayout/0/_labelPageObjectTop,labelPageLayout/0/_labelPageObjectType,labelPageLayout/0/_labelPageObjectWidth,labelPageLayout/1/_labelPageObjectHeight,labelPageLayout/1/_labelPageObjectLeft,labelPageLayout/1/_labelPageObjectTop,labelPageLayout/1/_labelPageObjectType,labelPageLayout/1/_labelPageObjectWidth,labelPageLayout/2/_labelPageObjectHeight,labelPageLayout/2/_labelPageObjectLeft,labelPageLayout/2/_labelPageObjectTop,labelPageLayout/2/_labelPageObjectType,labelPageLayout/2/_labelPageObjectWidth,GroupData/Group/_groupName,Yield/measure/_gramWeight,Yield/measure/_measureKey,Yield/measure/_quantity,Yield/_cookedYield,Yield/_percentRefuse,Yield/_yieldKey,RecipeItem/0/_ItemName,RecipeItem/0/_itemDataType,RecipeItem/0/_itemDisplayOrder,RecipeItem/0/_itemEshaCode,RecipeItem/0/_itemKey,RecipeItem/0/_itemMeasureKey,RecipeItem/0/_itemQuantity,RecipeItem/0/_itemQuantityText,RecipeItem/0/_itemYieldKey,RecipeItem/1/_ItemName,RecipeItem/1/_itemDataType,RecipeItem/1/_itemDisplayOrder,RecipeItem/1/_itemEshaCode,RecipeItem/1/_itemKey,RecipeItem/1/_itemMeasureKey,RecipeItem/1/_itemQuantity,RecipeItem/1/_itemQuantityText,RecipeItem/1/_itemYieldKey,RecipeItem/2/_ItemName,RecipeItem/2/_itemDataType,RecipeItem/2/_itemDisplayOrder,RecipeItem/2/_itemEshaCode,RecipeItem/2/_itemKey,RecipeItem/2/_itemMeasureKey,RecipeItem/2/_itemQuantity,RecipeItem/2/_itemQuantityText,RecipeItem/2/_itemYieldKey,RecipeItem/3/_ItemName,RecipeItem/3/_itemDataType,RecipeItem/3/_itemDisplayOrder,RecipeItem/3/_itemEshaCode,RecipeItem/3/_itemKey,RecipeItem/3/_itemMeasureKey,RecipeItem/3/_itemQuantity,RecipeItem/3/_itemQuantityText,RecipeItem/3/_itemYieldKey,RecipeItem/4/_ItemName,RecipeItem/4/_itemDataType,RecipeItem/4/_itemDisplayOrder,RecipeItem/4/_itemEshaCode,RecipeItem/4/_itemKey,RecipeItem/4/_itemMeasureKey,RecipeItem/4/_itemQuantity,RecipeItem/4/_itemQuantityText,RecipeItem/4/_itemYieldKey,RecipeItem/5/_ItemName,RecipeItem/5/_itemDataType,RecipeItem/5/_itemDisplayOrder,RecipeItem/5/_itemEshaCode,RecipeItem/5/_itemKey,RecipeItem/5/_itemMeasureKey,RecipeItem/5/_itemQuantity,RecipeItem/5/_itemQuantityText,RecipeItem/5/_itemYieldKey,RecipeItem/6/_ItemName,RecipeItem/6/_itemDataType,RecipeItem/6/_itemDisplayOrder,RecipeItem/6/_itemEshaCode,RecipeItem/6/_itemKey,RecipeItem/6/_itemMeasureKey,RecipeItem/6/_itemQuantity,RecipeItem/6/_itemQuantityText,RecipeItem/6/_itemYieldKey,memo/__cdata,_createDate,_description,_modifyDate,_nutrientRefNum,_primaryKey,_recordType,_useStaticIngrStmt,_userCode,_version,YieldAdjustment/_yieldAmount,YieldAdjustment/_yieldOperation,YieldAdjustment/_yieldType,YieldAdjustment/_yieldUnit,RecipeItem/7/_ItemName,RecipeItem/7/_itemDataType,RecipeItem/7/_itemDisplayOrder,RecipeItem/7/_itemEshaCode,RecipeItem/7/_itemKey,RecipeItem/7/_itemMeasureKey,RecipeItem/7/_itemQuantity,RecipeItem/7/_itemQuantityText,RecipeItem/7/_itemYieldKey,RecipeItem/8/_ItemName,RecipeItem/8/_itemDataType,RecipeItem/8/_itemDisplayOrder,RecipeItem/8/_itemEshaCode,RecipeItem/8/_itemKey,RecipeItem/8/_itemMeasureKey,RecipeItem/8/_itemQuantity,RecipeItem/8/_itemQuantityText,RecipeItem/8/_itemYieldKey,RecipeItem/9/_ItemName,RecipeItem/9/_itemDataType,RecipeItem/9/_itemDisplayOrder,RecipeItem/9/_itemEshaCode,RecipeItem/9/_itemKey,RecipeItem/9/_itemMeasureKey,RecipeItem/9/_itemQuantity,RecipeItem/9/_itemQuantityText,RecipeItem/9/_itemYieldKey,RecipeItem/10/_ItemName,RecipeItem/10/_itemDataType,RecipeItem/10/_itemDisplayOrder,RecipeItem/10/_itemEshaCode,RecipeItem/10/_itemKey,RecipeItem/10/_itemMeasureKey,RecipeItem/10/_itemQuantity,RecipeItem/10/_itemQuantityText,RecipeItem/10/_itemYieldKey,RecipeItem/11/_ItemName,RecipeItem/11/_itemDataType,RecipeItem/11/_itemDisplayOrder,RecipeItem/11/_itemEshaCode,RecipeItem/11/_itemKey,RecipeItem/11/_itemMeasureKey,RecipeItem/11/_itemQuantity,RecipeItem/11/_itemQuantityText,RecipeItem/11/_itemYieldKey,RecipeItem/12/_ItemName,RecipeItem/12/_itemDataType,RecipeItem/12/_itemDisplayOrder,RecipeItem/12/_itemEshaCode,RecipeItem/12/_itemKey,RecipeItem/12/_itemMeasureKey,RecipeItem/12/_itemQuantity,RecipeItem/12/_itemQuantityText,RecipeItem/12/_itemYieldKey,RecipeItem/13/_ItemName,RecipeItem/13/_itemDataType,RecipeItem/13/_itemDisplayOrder,RecipeItem/13/_itemEshaCode,RecipeItem/13/_itemKey,RecipeItem/13/_itemMeasureKey,RecipeItem/13/_itemQuantity,RecipeItem/13/_itemQuantityText,RecipeItem/13/_itemYieldKey,RecipeItem/14/_ItemName,RecipeItem/14/_itemDataType,RecipeItem/14/_itemDisplayOrder,RecipeItem/14/_itemEshaCode,RecipeItem/14/_itemKey,RecipeItem/14/_itemMeasureKey,RecipeItem/14/_itemQuantity,RecipeItem/14/_itemQuantityText,RecipeItem/14/_itemYieldKey,RecipeItem/15/_ItemName,RecipeItem/15/_itemDataType,RecipeItem/15/_itemDisplayOrder,RecipeItem/15/_itemEshaCode,RecipeItem/15/_itemKey,RecipeItem/15/_itemMeasureKey,RecipeItem/15/_itemQuantity,RecipeItem/15/_itemQuantityText,RecipeItem/15/_itemYieldKey,RecipeItem/16/_ItemName,RecipeItem/16/_itemDataType,RecipeItem/16/_itemDisplayOrder,RecipeItem/16/_itemEshaCode,RecipeItem/16/_itemKey,RecipeItem/16/_itemMeasureKey,RecipeItem/16/_itemQuantity,RecipeItem/16/_itemQuantityText,RecipeItem/16/_itemYieldKey,RecipeItem/17/_ItemName,RecipeItem/17/_itemDataType,RecipeItem/17/_itemDisplayOrder,RecipeItem/17/_itemEshaCode,RecipeItem/17/_itemKey,RecipeItem/17/_itemMeasureKey,RecipeItem/17/_itemQuantity,RecipeItem/17/_itemQuantityText,RecipeItem/17/_itemYieldKey,RecipeItem/18/_ItemName,RecipeItem/18/_itemDataType,RecipeItem/18/_itemDisplayOrder,RecipeItem/18/_itemEshaCode,RecipeItem/18/_itemKey,RecipeItem/18/_itemMeasureKey,RecipeItem/18/_itemQuantity,RecipeItem/18/_itemQuantityText,RecipeItem/18/_itemYieldKey,RecipeItem/19/_ItemName,RecipeItem/19/_itemDataType,RecipeItem/19/_itemDisplayOrder,RecipeItem/19/_itemEshaCode,RecipeItem/19/_itemKey,RecipeItem/19/_itemMeasureKey,RecipeItem/19/_itemQuantity,RecipeItem/19/_itemQuantityText,RecipeItem/19/_itemYieldKey,RecipeItem/20/_ItemName,RecipeItem/20/_itemDataType,RecipeItem/20/_itemDisplayOrder,RecipeItem/20/_itemEshaCode,RecipeItem/20/_itemKey,RecipeItem/20/_itemMeasureKey,RecipeItem/20/_itemQuantity,RecipeItem/20/_itemQuantityText,RecipeItem/20/_itemYieldKey,RecipeItem/21/_ItemName,RecipeItem/21/_itemDataType,RecipeItem/21/_itemDisplayOrder,RecipeItem/21/_itemEshaCode,RecipeItem/21/_itemKey,RecipeItem/21/_itemMeasureKey,RecipeItem/21/_itemQuantity,RecipeItem/21/_itemQuantityText,RecipeItem/21/_itemYieldKey,RecipeItem/22/_ItemName,RecipeItem/22/_itemDataType,RecipeItem/22/_itemDisplayOrder,RecipeItem/22/_itemEshaCode,RecipeItem/22/_itemKey,RecipeItem/22/_itemMeasureKey,RecipeItem/22/_itemQuantity,RecipeItem/22/_itemQuantityText,RecipeItem/22/_itemYieldKey,RecipeItem/23/_ItemName,RecipeItem/23/_itemDataType,RecipeItem/23/_itemDisplayOrder,RecipeItem/23/_itemEshaCode,RecipeItem/23/_itemKey,RecipeItem/23/_itemMeasureKey,RecipeItem/23/_itemQuantity,RecipeItem/23/_itemQuantityText,RecipeItem/23/_itemYieldKey,RecipeItem/24/_ItemName,RecipeItem/24/_itemDataType,RecipeItem/24/_itemDisplayOrder,RecipeItem/24/_itemEshaCode,RecipeItem/24/_itemKey,RecipeItem/24/_itemMeasureKey,RecipeItem/24/_itemQuantity,RecipeItem/24/_itemQuantityText,RecipeItem/24/_itemYieldKey
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.870000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,6.000000,100,0,1,Dry Bread Crumbs,1,0,42004,42004,3,2.000000,,1,Salted Butter,1,1,8000,8000,3,0.250000,1/4,1,Microwaved Peeled Apple Slices,1,2,3009,3009,3,4.000000,,1,White Granulated Sugar,1,3,25006,25006,3,0.500000,,1,Ground Cinnamon,1,4,26003,26003,1,0.500000,1/2,1,Ground Nutmeg,1,5,26026,26026,1,0.250000,1/4,1,Municipal Tap Water,1,6,20041,20041,3,0.500000,1/2,1,"SOURCE: ESHA Research
-YIELD: 6 Servings
-EACH PORTION: 3/4 Cup
-PAN SIZE: 9x9"" Baking Dish
-TEMPERATURE: 350° F. Oven
-
-METHOD:
-
-1 Combine the bread crumbs, sugar, cinnamon, and nutmeg. Cut in the butter. Slowly add the water and mix.
-
-2 Pour the apples into a 9x9"" baking dish. Cover with the bread crumb mixture.
-
-3 Bake in a 350 degree F oven for 30 minutes.
-",05/13/2003,Apple Brown Betty,06/12/2008,79296705,79296705,insert,false,3704,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.880000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.640000,COMMON,-1.000000,31,30.000000,100,0,1,Water,1,0,20041,20041,15,4.500000,,1,Baking Soda,1,1,28003,28003,2,2.000000,,1,Apricots-Raw-Whole-Each,1,2,3157,3157,5,30.000000,,1,White Granulated Sugar-Cup,1,3,25006,25006,3,1.500000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Researcg
-YIELD: 30 Pieces
-EACH PORTION: 1 Piece
-
-METHOD:
-
-In large bowl, mix together 4qts water and baking soda. Add fruit. Soak for 10 minutes, then drain. In large sauce pan, combine sugar and 2 cups water. Bring to a boil. Add fruit and simmer for 20 minutes. Remove from heat. Let cool. Simmer mixture for 20 minutes each day until syrup is absorbed. Dry fruit on waxed paper on trays in the sun. Dredge fruit with sugar and store in airtight container.",05/13/2003,"Apricots, candied",05/13/2003,619575702,619575702,insert,false,34402,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.930000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.960000,COMMON,-1.000000,31,20.000000,100,0,1,Enrich All Purpose Bleached White Flour,1,0,38030,38030,3,3.500000,,1,Baking Soda,1,1,28003,28003,1,2.000000,,1,Table Salt,1,2,26014,26014,1,2.000000,,1,Double Acting SodAlumSulft Baking Powder,1,3,28045,28045,1,1.000000,,1,Ground Nutmeg,1,4,26026,26026,1,1.000000,,1,Ground Allspice,1,5,26000,26000,1,1.000000,,1,Ground Cinnamon,1,6,26003,26003,1,1.000000,,1,"SOURCE: ESHA Research
-YIELDS: 20 Servings
-PAN SIZE: Two Loaf Pan
-TEMPERATURE: 350° F Oven
-
-METHOD:
-
-1. Preheat oven to 350° F. Grease two loaf pans.
-
-2. In a medium mixing bowl, combine flour, baking soda, salt, baking powder, nutmeg, allspice, cinnamon and cloves.
-
-3. In a large bowl with an electric mixer, blend sugar, oil and beaten eggs. Stir in pumpkin. Slowly blend the flour mixture into pumpkin mixture. While blending the mixture add water incrementally. Pour the batter into two prepared loaf pans.
-
-4. Bake in a preheated 350° F oven for 90 minutes. Let cool for 10 minutes before removing from the pans.
-",05/13/2003,"Bread, pumpkin",05/13/2003,63683308,63683308,insert,false,34312,2.2.0,9.000000,loss,moisture,0,Ground Cloves,1,7,26019,26019,1,0.500000,,1,White Granulated Sugar,1,8,25006,25006,3,3.000000,,1,Canola Oil,1,9,8084,8084,3,1.000000,,1,Whole Eggs Raw-Lrg,1,10,19501,19501,5,4.000000,,1,Solid Pack Pumpkin-Cnd NFC-LB,1,11,6298,6298,3,2.000000,,1,Municipal Tap Water,1,12,20041,20041,3,0.670000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,All Purpose White Flour Enriched-Blchd,1,0,38030,38030,3,0.500000,1/2,1,Instant Skim Dry Powdered Milk w/VitA,1,1,8,8,2,1.500000,1 1/2,1,Dry Active Baker's Yeast,1,2,28000,28000,2,1.000000,,1,Water,1,3,20041,20041,3,0.500000,1/2,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-
-METHOD:
-
-1  Dissolve the yeast in 1/2 cup lukewarm water.
-
-2  Gradually stir in the powdered milk and flour using a non-metal utensil. 
-
-3  Let stand uncovered at 80 to 90 degrees F for 4-7 days, or until it bubbles. During this period, stir down once per day.
-
-3  When ready, use at once in a sourdough starter bread recipe.",05/13/2003,"Bread, sourdough starter",05/13/2003,43500192,43500192,insert,false,655,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.930000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.960000,COMMON,-1.000000,31,12.000000,100,0,1,Enrich All Purpose Bleached White Flour,1,0,38030,38030,3,2.000000,,1,White Granulated Sugar,1,1,25006,25006,3,2.000000,,1,Baking Soda,1,2,28003,28003,1,1.000000,,1,Ground Cinnamon,1,3,26003,26003,1,1.000000,,1,Table Salt,1,4,26014,26014,1,0.500000,,1,Hard Margarine Soy Hydrog-Stick,1,5,90219,90219,3,0.500000,,1,Baking Shorteningw/Palm Cttnsd HydrogSoy,1,6,8281,8281,3,0.500000,,1,"SOURCE: ESHA Research
-YIELD: 12 Servings
-EACH PORTION: 1 Slice
-PAN SIZE: 10x15"" Jelly Roll Pan
-TEMPERATURE: 350° F. Oven
-
-METHOD:
-
-Chocolate Cake:
-Grease and flour a 10x15"" jelly roll pan. In a large bowl, sift together flour, sugar, baking soda, cinnamon, and salt. In a saucepan, combine margarine, shortening, cocoa, and water. Bring to boil. Cook for 1 minute. Pour over the dry ingredients. Stir well. Blend in beaten eggs and buttermilk. Pour into the jelly roll pan. Bake at 350 degrees F for 30 minutes, or until toothpick inserted into center of cake comes out clean. Let cool.
-
-Cream Cheese Icing:
-In a saucepan, on meadium-low heat, melt butter and cream cheese. Take off heat and combine with the vanilla extract and powdered sugar. Mix until smooth and spread on cake.
-
-Cut into 12 slices before serving.
-
-",05/13/2003,"Cake, chocolate w/cream cheese icing",02/04/2009,404927862,404927862,insert,false,13182,2.2.0,,,,,Cocoa Powder Unsweetened-Dry,1,7,28200,28200,3,0.250000,,1,Municipal Tap Water,1,8,20041,20041,3,1.000000,,1,Whole Eggs Raw-Lrg,1,9,19501,19501,5,2.000000,,1,Cultured Low Fat Buttermilk,1,10,7,7,3,0.500000,,1,Salted Butter,1,11,8000,8000,3,0.500000,,1,Cream Cheese,1,12,1015,1015,6,4.000000,,1,Vanilla Extract,1,13,26624,26624,1,1.000000,,1,Powdered Sugar-Unsifted,1,14,25009,25009,3,2.500000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.930000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.960000,COMMON,-1.000000,31,12.000000,100,0,1,Enrich All Purpose Bleached White Flour,1,0,38030,38030,3,2.000000,,1,White Granulated Sugar,1,1,25006,25006,3,2.000000,,1,Baking Soda,1,2,28003,28003,1,1.000000,,1,Ground Cinnamon,1,3,26003,26003,1,1.000000,,1,Table Salt,1,4,26014,26014,1,0.500000,,1,Hard Margarine Soy Hydrog-Stick,1,5,90219,90219,3,0.500000,,1,Baking Shorteningw/Palm Cttnsd HydrogSoy,1,6,8281,8281,3,0.500000,,1,"SOURCE: ESHA Research
-YIELD: 12 Servings
-EACH PORTION: 1 Slice
-PAN SIZE: 10x15"" Jelly Roll Pan
-TEMPERATURE: 350° F. Oven
-
-METHOD:
-
-Chocolate Cake:
-Grease and flour a 10x15"" jelly roll pan. In a large bowl, sift together flour, sugar, baking soda, cinnamon, and salt. In a saucepan, combine margarine, shortening, cocoa, and water. Bring to boil. Cook for 1 minute. Pour over the dry ingredients. Stir well. Blend in beaten eggs and buttermilk. Pour into the jelly roll pan. Bake in a 350 degree F. oven for 30 minutes, or until toothpick inserted into center of cake comes out clean. Let cool.
-
-Vanilla Icing:
-In large bowl combine powdered sugar, shortening, milk, flour, salt and vanilla extract. Beat at low speed with an electric mixer for 45 seconds or until blended. Increase to high speed and beat for 3 - 5 minutes or until smooth and creamy. Spread on cake.
-
-Cut into 12 slices before serving.",05/13/2003,"Cake, chocolate w/vanilla icing",02/04/2009,110853498,110853498,insert,false,13183,2.2.0,,,,,Cocoa Powder Unsweetened-Dry,1,7,28200,28200,3,0.250000,,1,Municipal Tap Water,1,8,20041,20041,3,1.000000,,1,Whole Eggs Raw-Lrg,1,9,19501,19501,5,2.000000,,1,Cultured Low Fat Buttermilk,1,10,7,7,3,0.500000,,1,Powdered Sugar-Unsifted,1,11,25009,25009,3,3.000000,,1,Baking Shorteningw/Palm Cttnsd HydrogSoy,1,12,8281,8281,3,0.500000,,1,2% Milk w/Add Vit A & D,1,13,2,2,3,0.330000,,1,Enrich All Purpose Bleached White Flour,1,14,38030,38030,3,0.330000,,1,Table Salt,1,15,26014,26014,1,0.250000,,1,Vanilla Extract,1,16,26624,26624,1,0.750000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.930000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.960000,COMMON,-1.000000,31,24.000000,100,0,1,Chocolate Pudding Dry Mix-3.5oz Pkg,1,0,2635,2635,6,3.500000,,1,2% Milk w/Add Vit A & D,1,1,2,2,3,2.000000,,1,FS Devils Food Cake-Dry Mix CHG-PF,1,2,46494,46494,6,18.500000,,1,Semisweet Chocolate Baking Chips,1,3,23012,23012,3,1.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELDS: 24 Servings
-EACH PORTION: 1 Piece
-PAN SIZE: 9x13"" Baking Dish
-TEMPERATURE: 350° F. Oven
-
-METHODS:
-
-1. Preheat oven to 350° F. Grease and flour a 9 x 13-inch pan.
-
-2. In a large saucepan combine the non-instant pudding mix with milk. Cook over medium heat, stirring constantly, until the pudding is thickened. Remove from heat. Pour the dry cake mix into the saucepan and mix until smooth. Pour batter into prepared pan and sprinkle with chocolate chips.
-
-3. Bake in the preheated oven for 20 to 30 minutes, or until a toothpick inserted into the center of the cake comes out clean. ",05/13/2003,"Cake, chocolate, pudding",05/13/2003,499237674,499237674,insert,false,34314,2.2.0,9.000000,loss,moisture,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.930000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.960000,COMMON,-1.000000,31,12.000000,100,0,1,Enrich All Purpose Bleached White Flour,1,0,38030,38030,3,2.000000,,1,White Granulated Sugar,1,1,25006,25006,3,2.000000,,1,Baking Soda,1,2,28003,28003,1,1.000000,,1,Ground Cinnamon,1,3,26003,26003,1,1.000000,,1,Table Salt,1,4,26014,26014,1,0.500000,,1,Hard Margarine Soy Hydrog-Stick,1,5,90219,90219,3,0.500000,,1,Baking Shorteningw/Palm Cttnsd HydrogSoy,1,6,8281,8281,3,0.500000,,1,"SOURCE: ESHA Research
-YIELD: 12 Servings
-EACH PORTION: 1 Slice
-PAN SIZE: 10x15"" Jelly Roll Pan
-TEMPERATURE: 350° F. Oven
-
-METHOD:
-
-Chocolate Cake:
-Grease and flour a 10x15"" jelly roll pan. In a large bowl, sift together flour, sugar, baking soda, cinnamon, and salt. In a saucepan, combine margarine, shortening, cocoa, and water. Bring to boil. Cook for 1 minute. Pour over the dry ingredients. Stir well. Blend in beaten eggs and buttermilk. Bake at 350 degrees F for 30 minutes, or until toothpick inserted into center of cake comes out clean. Let cool.
-
-Fluffy White Icing:
-In a saucepan, combine the sugar, water, and cream of tartar. Cook over medium-high heat until sugar is dissolved and the mixture is bubbly. In a medium bowl, whip egg whites and vanilla to soft peaks. Slowly add the sugar mixture while whipping constantly until soft peaks form, about 7-10 minutes. Spread on cake.
-
-Cut into 12 slices before serving.",05/13/2003,"Cake, chocolate, w/fluffy white icing",02/04/2009,98363139,98363139,insert,false,13192,2.2.0,,,,,Cocoa Powder Unsweetened-Dry,1,7,28200,28200,3,0.250000,,1,Municipal Tap Water,1,8,20041,20041,3,1.000000,,1,Whole Eggs Raw-Lrg,1,9,19501,19501,5,2.000000,,1,Cultured Low Fat Buttermilk,1,10,7,7,3,0.500000,,1,White Granulated Sugar,1,11,25006,25006,3,1.000000,,1,Municipal Tap Water,1,12,20041,20041,3,0.330000,,1,Cream Of Tartar,1,13,26017,26017,1,0.250000,,1,Vanilla Extract,1,14,26624,26624,1,1.000000,,1,Egg Whites Raw-Lrg,1,15,19506,19506,5,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.930000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.960000,COMMON,-1.000000,31,12.000000,100,0,1,Enrich All Purpose Bleached White Flour,1,0,38030,38030,3,2.000000,,1,Double Acting SodAlumSulft Baking Powder,1,1,28045,28045,1,2.000000,,1,Table Salt,1,2,26014,26014,1,0.500000,,1,White Granulated Sugar,1,3,25006,25006,3,1.000000,,1,Salted Butter,1,4,8000,8000,3,0.500000,,1,Whole Eggs Raw-Lrg,1,5,19501,19501,5,2.000000,,1,Vanilla Extract,1,6,26624,26624,1,1.000000,,1,"SOURCE: ESHA Research
-YIELD: 12 Servings
-EACH PORTION: 1 Slice
-PAN SIZE: 2 - 8"" or 9"" Round Pans
-TEMPERATURE: 350° F. Oven
-
-METHOD:
-
-Marble Cake:
-Grease and flour 2 - 8"" or 9"" round pans. In a large bowl, combine flour, baking powder, salt, sugar, softened butter, eggs, vanilla and milk. By hand, beat slowly to moisten, then beat with an electric mixer at medium speed for about 2 minutes or until smooth. Remove 3/4 cup batter. Set aside. Divide remaining batter into the two greased and floured round pans. Stir the cocoa powder into the 3/4 cup batter that was removed earlier. Drob by spoonfuls over top of white batter. Using a knife, swirl the cocoa batter into the white batter, making a marble-type effect. Bake at 350 degree F for 30 to 35 minutes, or until toothpick inserted into center of cake comes out clean. Let cool.
-
-Chocolate Icing:
-In a saucepan, bring to boil margarine, milk, and cocoa. Cook for 1 minute. Remove from heat. Stir in vanilla. Mix in powdered sugar. Spread on cake.
-
-Cut cake into 12 slices before serving. ",05/13/2003,"Cake, marble, w/chocolate icing",02/04/2009,702078880,702078880,insert,false,13184,2.2.0,,,,,2% Milk w/Add Vit A & D,1,7,2,2,3,1.000000,,1,Cocoa Powder Unsweetened-Dry,1,8,28200,28200,2,2.000000,,1,Hard Margarine Soy Hydrog-Stick,1,9,90219,90219,3,0.500000,,1,2% Milk w/Add Vit A & D,1,10,2,2,2,6.000000,,1,Cocoa Powder Unsweetened-Dry,1,11,28200,28200,3,0.250000,,1,Vanilla Extract,1,12,26624,26624,1,1.000000,,1,Powdered Sugar-Unsifted,1,13,25009,25009,3,4.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.940000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.960000,COMMON,-1.000000,31,12.000000,100,0,1,Butter-Salted-Cup,1,0,8000,8000,2,6.000000,,1,Powdered Sugar-Unsifted,1,1,25009,25009,7,1.000000,,1,Light Whipping Cream,1,2,511,511,3,0.250000,1/4,1,Vanilla extract,1,3,26624,26624,8,7.000000,,1,Unsweetened Baking Chocolate-Square,1,4,23010,23010,6,2.000000,,1,WhiteCake-Pudding Type-DryMix-18.5oz Pkg,1,5,46079,46079,5,1.000000,,1,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 12 Servings
-EACH PORTION: 1 Slice
-PAN SIZE: 2 - 8"" or 9"" Cake Pans
-TEMPERATURE: 350° F. Oven
-
-METHOD:
-
-1 Make the cake mix according to the box instructions.
-
-2 Melt the chocolate, slowly, in a saucepan. Mix with the softened butter. Add the powdered sugar, vanilla, and cream. Spread on top of the cake. Cut and serve.",05/13/2003,"Cake, white, w/chocolate icing",05/13/2003,187299720,187299720,insert,false,1261,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.640000,COMMON,-1.000000,31,18.000000,100,0,1,White Granulated Sugar-Cup,1,0,25006,25006,3,2.000000,,1,Light Corn Syrup,1,1,25000,25000,3,0.330000,,1,Light Corn Syrup,1,2,25000,25000,2,2.000000,,1,Light Corn Syrup,1,3,25000,25000,1,1.000000,,1,Water,1,4,20041,20041,3,0.500000,,1,Table Salt,1,5,26014,26014,1,0.250000,,1,Large Raw Egg White-Each,1,6,19506,19506,5,2.000000,,1,"SOURCE: ESHA Research
-YIELDS: 18 Servings
-EACH PORTION: 1 Piece
-
-METHOD:
-
-1. In a heavy 2 quart saucepan, combine the sugar, syrup, hot water and salt. Cook and stir until sugar dissolves and mixture comes to a boil.
-
-2. Cook to hard ball stage (250° F.) without stirring; wipe crystals from sides of pan often. Remove from heat. 
-
-3. Pour hot syrup slowly over stiff beaten egg whites, beating constantly at high speed of mixer for about 5 minutes. Add vanilla and continue beating until mixture forms soft peaks and begins to lose its gloss. If it is too stiff, add a few drops hot water. 
-
-4. Drop and twirl onto wax paper.",05/13/2003,"Candy, divinity",05/13/2003,271910032,271910032,insert,false,34332,2.2.0,,,,,Vanilla extract,1,7,26624,26624,1,1.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.930000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.650000,COMMON,-1.000000,31,20.000000,100,0,1,Dried Pecans-Chopped,1,0,4577,4577,3,1.500000,,1,White Granulated Sugar-Cup,1,1,25006,25006,3,1.500000,,1,Butter-Salted-Cup,1,2,8000,8000,3,0.250000,,1,Butter-Salted-Cup,1,3,8000,8000,2,2.000000,,1,Brown Sugar-Unpacked,1,4,25201,25201,3,0.750000,,1,2% Fat Milk-Vitamin A Added,1,5,2,2,3,0.500000,,1,Vanilla extract,1,6,26624,26624,1,1.000000,,1,"SOURCE: ESHA Research
-YIELDS: 20 Servings
-EACH PORTION: 1 Piece
-
-METHOD:
-
-1. Line a baking sheet with aluminum foil.
-
-2. In a large saucepan over medium heat, combine pecans, sugar, butter, brown sugar, milk and vanilla. Heat to between 234° F and 240° F, or until a small amount of syrup dropped into cold water forms a soft ball that flattens when removed from the water and placed on a flat surface.
-
-3. Drop by spoonfuls onto prepared baking sheet. Let cool completely.
-
-(Note: Recipe calls for toasted pecans, dried pecans substituted above.)",05/13/2003,"Candy, pralines",05/13/2003,458962328,458962328,insert,false,34326,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.870000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.710000,COMMON,-1.000000,31,16.000000,100,0,1,White Granulated Sugar,1,0,25006,25006,3,1.000000,,1,Light Corn Syrup,1,1,25000,25000,3,0.250000,,1,Municipal Tap Water,1,2,20041,20041,3,0.670000,,1,Unsalted Butter,1,3,8025,8025,2,2.000000,,1,Corn Starch,1,4,30000,30000,2,1.000000,,1,Table Salt,1,5,26014,26014,1,1.000000,,1,Vanilla Extract,1,6,26624,26624,1,1.000000,,1,"SOURCE: ESHA Research
-YIELDS: 1 Pound, 16 Servings
-EACH PORTION: 1, 1-oz Piece
-PAN SIZE: 8 x 8"" Square Pan
-
-METHOD:
-
-1. Butter one 8 x 8-inch square pan; set aside.
-
-2. In a 2 quart saucepan over medium heat, combine the sugar, corn syrup, water, butter, cornstarch and salt. Mix together well and bring to a boil. Heat without stirring until a candy thermometer reads 250° F.
-
-3. Remove from heat; stir in vanilla, almond extract, almonds and 10 drops of green food color. Pour into pan. Let stand until cool enough to handle. (Taffy should be lukewarm in center as well as at the edges.)
-
-4. At this point, fold, double and pull the taffy until it is light in color and stiff. Butter hands lightly if taffy begins to stick. Cut taffy into pieces with scissors and wrap the pieces with plastic wrap to maintain shape.",05/13/2003,"Candy, taffy",02/04/2009,92288928,92288928,insert,false,34330,2.2.0,,,,,Almond Extract SPB,1,7,93244,93244,1,2.000000,,1,Dried Sliced Almonds,1,8,4502,4502,3,0.500000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.940000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,40.000000,100,0,1,Butter-Salted-Cup,1,0,8000,8000,3,1.000000,,1,White Granulated Sugar-Cup,1,1,25006,25006,3,1.500000,1 1/2,1,Table Salt,1,2,26014,26014,1,0.500000,1/2,1,All Purpose White Flour Enriched-Blchd,1,3,38030,38030,3,3.000000,,1,Baking Soda,1,4,28003,28003,1,0.750000,3/4,1,Large Raw Egg White-Each,1,5,19506,19506,5,2.000000,,1,Whole Milk-3.3% Fat,1,6,1,1,3,0.250000,1/4,1,"SOURCE: ESHA Research
-YIELD: 40 Cookies
-EACH PORTION: 1 Cookie
-TEMPERATURE: 350° F. Oven
-
-METHOD:
-
-1  Cream together the butter and 1-1/2 cups sugar. Set aside.
-
-2  Mix together the salt, flour, soda, and cream of tartar. Add slowly to the butter mixture.
-
-3  Mix together the egg, milk, and vanilla. Add to the mixture.
-
-4  Bake in a 350 degree oven for 7-10 minutes, or until lightly browned.
-
-5  Mix together the 3 T sugar and cinnamon and sprinkle on top of the warm cookies.",05/13/2003,"Cookie, snickerdoodle",05/13/2003,273950482,273950482,insert,false,1265,2.2.0,,,,,White Granulated Sugar-Cup,1,7,25006,25006,2,3.000000,,1,Cinnamon-ground,1,8,26003,26003,2,3.000000,,1,Vanilla extract,1,9,26624,26624,1,1.000000,,1,Cream of Tartar,1,10,26017,26017,1,1.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.930000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.960000,COMMON,-1.000000,31,18.000000,100,0,1,"Fresh Peeled Apples-Sml 2 3/4""",1,0,3003,3003,7,3.500000,,250,Salted Butter,1,1,8000,8000,3,0.500000,,1,Brown Sugar-Unpacked,1,2,25201,25201,3,1.000000,,1,Enrich All Purpose Bleached White Flour,1,3,38030,38030,3,1.000000,,1,Maple Brown Sug Hot Oatmeal-Inst PCO-QO,1,4,40167,40167,5,3.000000,,1,Table Salt,1,5,26014,26014,1,0.125000,,1,Dried English Walnuts-Chopped,1,6,4556,4556,3,0.500000,,1,"SOURCE: ESHA Research
-YIELDS: 18 Servings
-EACH PORTION: 1 Piece
-PAN SIZE: 9 x 13"" Baking Dish
-TEMPERATURE: 350° F. Oven
-
-METHOD:
-
-1. Preheat oven to 350° F.
-
-2. Place apples in a 9 x 13-inch baking dish. In a bowl, cream together butter and sugar. Stir in flour, instant oatmeal and salt. Fold in walnuts. Sprinle oatmeal mixture evenly over apples. Drizzle with syrup.
-
-3. Bake in preheated oven 50 to 70 minutes, until apples are tender and topping is golden.
-",05/13/2003,"Crisp, apple",05/13/2003,44524370,44524370,insert,false,34325,2.2.0,8.000000,loss,moisture,0,Maple Syrup,1,7,25002,25002,3,0.250000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.870000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,9.000000,100,0,1,Enrich All Purpose White Flour-Bkd Value,1,0,38037,38037,3,0.500000,,1,Brown Sugar-Packed,1,1,25005,25005,3,0.500000,,1,Hard Margarine Soy Hydrog-Stick,1,2,90219,90219,3,0.250000,,1,Ground Cinnamon,1,3,26003,26003,1,1.000000,,1,Lemon Juice-Btl/Cnd,1,4,3069,3069,2,2.000000,,1,Whole Apricots Cnd w/Heavy Syrup-w/Skin,1,5,3011,3011,3,4.000000,,1,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 9 Servings
-EACH PORTION: 3x3"" Each
-PAN SIZE: 9x9"" Baking Dish
-TEMPERATURE: 350° F. Oven
-
-METHOD:
-
-1 Combine the flour, sugar and cinnamon. Cut in the margarine. Stir in the lemon juice.
-
-2 Pour the apricots into a 9x9"" baking dish. Cover with the flour mixture.
-
-3 Bake at 350 degrees F for 30 minutes.",05/13/2003,"Crisp, apricot",02/04/2009,412097036,412097036,insert,false,10826,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.870000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,9.000000,100,0,1,Enrich All Purpose White Flour-Bkd Value,1,0,38037,38037,3,0.500000,1/2,1,Brown Sugar-Packed,1,1,25005,25005,3,0.500000,1/2,1,Hard Margarine Soy Hydrog-Stick,1,2,90219,90219,3,0.250000,1/4,1,Ground Cinnamon,1,3,26003,26003,1,1.000000,,1,Lemon Juice-Btl/Cnd,1,4,3069,3069,2,2.000000,,1,Whole Peaches w/Juice-Cnd,1,5,3175,3175,3,4.000000,,1,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 9 Servings
-EACH PORTION: 3x3"" Each
-PAN SIZE: 9x9"" Baking Dish
-TEMPERATURE: 350° F. Oven
-
-METHOD:
-
-1 Combine the flour, sugar, and cinnamon. Cut in the margarine. Stir in the lemon juice.
-
-2 Pour the peaches into a 9x9"" baking dish. Cover with the flour mixture.
-
-3 Bake in a 350 degree F oven for 30 minutes.",05/13/2003,"Crisp, peach",02/04/2009,126413731,126413731,insert,false,3709,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.930000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,1.020000,COMMON,-1.000000,31,8.000000,100,0,1,Whole Eggs Raw-Lrg,1,0,19501,19501,5,2.000000,,1,2% Milk w/Add Vit A & D,1,1,2,2,3,0.660000,,1,Salted Butter,1,2,8000,8000,2,1.000000,,1,Enrich All Purpose Bleached White Flour,1,3,38030,38030,3,0.500000,,1,Table Salt,1,4,26014,26014,1,0.250000,,1,Ground Veal 8% Fat-Brld,1,5,11530,11530,7,0.250000,,350,Chicken Broil/Fry Whl w/oSkin Chpd-Rstd,1,6,15000,15000,7,0.250000,,360,"SOURCE: ESHA Research
-YIELD: 8 Servings
-PAN SIZE: 9x13"" Baking Dish
-TEMPERATURE: 350° F. Oven
-
-METHOD:
-
-Crepes:
-In a medium bowl, thoroughly beat eggs. Add milk and melted butter. Beat in flour and salt. Mix until smooth. Let batter set .5 hour. Pour batter into medium hot skillet, making 8 crepes, 6-8 inches in circumference. Brown and set aside.
-
-Meat Filling:
-In a large skillet, over medium heat, brown veall, ground chicken (substituted roasted, chopped chicken in recipe), and 1/2 lb raw beef in butter. Stir in minced parsley, cheese, salt, ground pepper, and nutmeg. Let cool.
-
-White Sauce:
-In a small saucepan, over medium heat, cook flour and butter together for 1 minute. Stir in salt, ground pepper, and nutmeg. Then, stir in milk and continue to cook until thick.
-
-Presentation:
-Spread one-half of the 32 oz. jar tomato pasta sauce (substituted Ready-To-Serve Spaghetti/Marinara Sauce in recipe) in bottom of baking dish. Fill crepes with meat mixture, folding over all sides of crepe to form palm-sized bundles. Place seam side down in baking dish. Cover with remaining tomato pasta sauce and pour White Sauce over everthing. Cover with mozzarella cheese first, then with parmesan cheese. Bake in a 9x13"" baking pan, in a 375 degree F oven for 20 to 30 minutes, or until cheese is bubbly and brown on the edges. Serve.",05/13/2003,"Dish, crepe, meat filled",02/07/2006,159386622,159386622,insert,false,12814,2.2.0,,,,,Beef Ground Hamburger 15%Fat-Pan Browned,1,7,58119,58119,7,0.375000,,1,Salted Butter,1,8,8000,8000,2,2.000000,,1,Fresh Parsley-Chpd,1,9,26012,26012,2,1.000000,,1,Parmesan Cheese-Grated,1,10,1075,1075,3,0.500000,,1,Table Salt,1,11,26014,26014,1,0.500000,,1,Black Pepper,1,12,26016,26016,1,0.125000,,1,Nutmeg-Ground,1,13,26026,26026,1,0.125000,,1,Salted Butter,1,14,8000,8000,2,2.000000,,1,Enrich All Purpose Bleached White Flour,1,15,38030,38030,2,2.000000,,1,2% Milk w/Add Vit A & D,1,16,2,2,3,1.000000,,1,Table Salt,1,17,26014,26014,1,0.250000,,1,Black Pepper,1,18,26016,26016,1,0.125000,,1,Nutmeg-Ground,1,19,26026,26026,1,0.125000,,1,Spaghetti/Marinara Sauce-rts,1,20,53524,53524,6,32.000000,,1,Mozzarella Cheese LoMoist PartSkim-Shred,1,21,1019,1019,6,16.000000,,1,Parmesan Cheese-Grated,1,22,1075,1075,3,0.250000,,1,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.880000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,15.000000,100,0,1,Manicotti Pasta-Enr-All Brands-Dry NWP,1,0,91325,91325,6,20.000000,,1,Ricotta Cheese-Part Skim Milk,1,1,1024,1024,7,1.000000,,1,Egg-Medium-Bld-Each,1,2,19514,19514,5,2.000000,,300,Fresh Parsley-Chopped-Cup,1,3,26012,26012,2,1.000000,,1,Parmesan Cheese-Grated,1,4,1075,1075,3,0.500000,1/2,1,Table Salt,1,5,26014,26014,1,0.500000,1/2,1,Black Pepper,1,6,26016,26016,1,0.250000,1/4,1,"SOURCE: ESHA Research
-YIELD: 30 Manicotti - 15 Servings
-EACH PORTION: 2 Manicotti
-PAN SIZE: Baking Dish
-TEMPERTURE: 350 ° F. Oven
-
-METHOD:
-
-1. Boil manicotti shells according to package directions.
-
-2. Combine other ingredients except the spaghetti sauce. Spoon 1 tablespoon cheese mixture into each shell.  
-
-3. Place shells close together in a greased baking dish. Cover with the spaghetti sauce. Heat in a 350° F. oven for 30 minutes, or until hot and bobbly.",05/13/2003,"Dish, manicotti w/cheese filling",05/13/2003,539815152,539815152,insert,false,1452,2.2.0,,,,,Spaghetti Meat Sauce-Homemade,1,7,53010,53010,3,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.870000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,4.000000,100,0,1,Fresh Eggplant-Cube,1,0,5371,5371,7,2.000000,,1,"Lamb Leg Whole Choice 1/4"" Trim-Roasted",1,1,13500,13500,6,12.000000,,1,Onions Chopped Cooked f/Fzn-Drnd,1,2,5300,5300,3,0.500000,1/2,1,Fresh Parsley-Chpd,1,3,26012,26012,2,2.000000,,1,Red Wine,1,4,22501,22501,3,0.250000,1/4,1,Tomato Paste-6oz Can,1,5,5473,5473,2,2.000000,,1,Table Salt,1,6,26014,26014,1,1.000000,,1,"SOURCE: ESHA Research
-YIELD: 4 Servings
-
-METHOD:
-
-1 Slice the eggplant. Combine the milk and egg. Dip the eggplant pieces in the egg and milk mixture, and then in the flour. Fry in margarine until soft. Arrange as one layer in a baking dish.
-
-2 Combine the lamb, onion, parsley, wine, tomato paste and salt. Heat. Pour over the eggplant. Serve.",05/13/2003,"Dish, moussaka, lamb & eggplant",02/04/2009,935984080,935984080,insert,false,1454,2.2.0,,,,,Hard Boiled Eggs-Lrg,1,7,19510,19510,5,2.000000,,1,Hard Margarine Soy Hydrog-Stick,1,8,90219,90219,2,2.000000,,1,Enrich All Purpose White Flour-Bkd Value,1,9,38037,38037,2,2.000000,,1,2% Milk w/Add Vit A & D,1,10,2,2,3,1.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,4.000000,100,0,1,Medium White Sauce-Prep f/Recipe,1,0,53468,53468,3,1.000000,,1,Parmesan Cheese-Grated,1,1,1075,1075,2,5.000000,,1,Cheddar Cheese-Shredded,1,2,1008,1008,2,2.000000,,1,Hard Boiled Eggs-Lrg,1,3,19510,19510,5,4.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 4 Servings
-PAN SIZE: Deep Baking Dish
-TEMPERATURE: 350° F. Oven
-
-METHOD:
-
-Mix all of the ingredients together. Pour into a deep baking dish. Bake at 350 degrees F for 30 minutes. Serve immediately.
-
-Note: use raw eggs for making the recipe. Boiled eggs used above for the nutritional analysis.",05/13/2003,"Dish, souffle, cheese",02/04/2009,33685632,33685632,insert,false,1447,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.930000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.830000,COMMON,-1.000000,31,6.000000,100,0,1,Enrich Spaghetti Pasta-Ckd,1,0,38118,38118,6,8.000000,,325,Olive Salad/Cooking Oil,1,1,8008,8008,3,0.250000,,1,Fresh Garlic Cloves,1,2,26005,26005,5,2.000000,,1,Tomato Sauce-Cnd,1,3,5180,5180,6,24.000000,,1,Mushroom Pieces/Slices Canned-Drnd,1,4,5094,5094,6,4.000000,,1,Sweet Green Bell Peppers Chpd Ckd-Drnd,1,5,5126,5126,3,0.500000,,510,Fresh Parsley-Chpd,1,6,26012,26012,3,0.250000,,1,"SOURCE: ESHA Research
-YIELD: 6 Servings
-
-METHOD:
-
-Spaghetti Noodles:
-Fill large cooking pot with 7qts water. Bring to boil. Add pasta to boiling water. Cook 8 - 10 minutes or until al dente. Drain. Do not rinse.
-
-Spaghetti Sauce:
-Heat olive oil in Dutch oven. Cook and stir onion and finely chopped garlic until onion is tender. Stir in 3-8oz cans tomato sauce, 1-4oz can mushrooms with liquid, green pepper, parsley, salt, ground pepper, sugar, dry basil leaves, and oregano. Heat to boiling, reduce heat. Cover and simmer, stirring occasionally, for 1 hour. Stir in dry red wine. Cover and simmer, stirring occasionally, for 30 minutes. 
-
-Meatballs:
-Mix together 1.5 lb raw ground beef, bread crumbs, finely chopped onion, milk, dry red wine, egg, parsley, salt, Worcestershire Sauce, and ground pepper. Shape into rounded tablespoon size balls. Heat 1/4 cup canola oil (2 tablespoons used in nutritional anaylsis) in 10-inch skillet. Cook meatballs in hot oil until done, about 20 minutes.
-
-Presentation:
-Put meatballs onto spaghetti, cover with sauce, and top with 1 tbsp grated parmesan cheese.",05/13/2003,"Dish, spaghetti w/meatballs",02/04/2009,55841792,55841792,insert,false,1899,2.2.0,,,,,Table Salt,1,7,26014,26014,1,1.000000,,1,Black Pepper,1,8,26016,26016,1,0.500000,,1,White Granulated Sugar,1,9,25006,25006,1,0.250000,,1,"Dried Basil, Ground",1,10,26001,26001,1,0.125000,,1,Ground Oregano,1,11,26009,26009,1,0.125000,,1,Red Wine,1,12,22501,22501,3,1.000000,,1,Parmesan Cheese-Grated,1,13,1075,1075,2,6.000000,,1,Beef Ground Hamburger 15%Fat-Pan Browned,1,14,58119,58119,7,1.125000,,1,Dry Bread Crumbs,1,15,42004,42004,3,0.750000,,1,Steamed Chopped Onions,1,16,5649,5649,3,0.500000,,510,2% Milk w/Add Vit A & D,1,17,2,2,3,0.250000,,1,Red Wine,1,18,22501,22501,3,0.250000,,1,Hard Boiled Eggs-Lrg,1,19,19510,19510,5,1.000000,,1,Fresh Parsley-Chpd,1,20,26012,26012,2,1.000000,,1,Table Salt,1,21,26014,26014,1,1.500000,,1,Worcestershire Sauce,1,22,53099,53099,1,1.000000,,1,Black Pepper,1,23,26016,26016,1,0.125000,,1,Canola Oil,1,24,8084,8084,2,2.000000,,1
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.640000,COMMON,-1.000000,31,30.000000,100,0,1,Water,1,0,20041,20041,15,4.500000,,1,Baking Soda,1,1,28003,28003,2,2.000000,,1,"Fresh Figs-Medium-2 1/4"" Dia-Each",1,2,3160,3160,5,30.000000,,1,White Granulated Sugar-Cup,1,3,25006,25006,3,1.500000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 30 Pieces
-
-METHOD:
-
-In large bowl, mix together 4qts water and baking soda. Add fruit. Soak for 10 minutes, then drain. In large sauce pan, combine sugar and 2 cups water. Bring to a boil. Add fruit and simmer for 20 minutes. Remove from heat. Let cool. Simmer mixture for 20 minutes each day until syrup is absorbed. Dry fruit on waxed paper on trays in the sun. Dredge fruit with sugar and store in airtight container.",05/13/2003,"Figs, candied",05/13/2003,667385541,667385541,insert,false,34401,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.930000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.820000,COMMON,-1.000000,31,16.000000,100,0,1,Brown Sugar-Unpacked,1,0,25201,25201,3,2.000000,,1,White Granulated Sugar-Cup,1,1,25006,25006,3,2.000000,,1,Butter-Salted-Cup,1,2,8000,8000,3,0.250000,,1,2% Fat Milk-Vitamin A Added,1,3,2,2,3,1.000000,,1,Creamy Peanut Butter,1,4,4627,4627,3,1.500000,,1,Vanilla extract,1,5,26624,26624,1,2.000000,,1,Miniature Marshmallows-Cup,1,6,23008,23008,3,2.000000,,1,"SOURCE: ESHA Research
-YIELDS: 16 Servings
-EACH PORTION: 1 Piece
-PAN SIZE: 9x9"" Pan
-
-METHOD:
-
-1. Butter one 9 x 9-inch pan and set aside.
-
-2. In a 3 quart saucepan, combine white sugar, brown sugar, milk and butter. Cook to soft ball stage, 234° F. Remove from heat.
-
-3. Stir in peanut butter, vanilla and marshmallows; continue stirring until marshmallows are melted. Pour into prepared pan and cool. Cut into squares and serve.",05/13/2003,"Fudge, peanut butter",05/13/2003,49717392,49717392,insert,false,34322,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.930000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.820000,COMMON,-1.000000,31,15.000000,100,0,1,White Granulated Sugar-Cup,1,0,25006,25006,3,2.250000,,1,Sweetened Condensed Milk-Canned,1,1,11,11,3,0.670000,,1,Butter-Salted-Cup,1,2,8000,8000,3,0.250000,,1,Marshmallows,1,3,23007,23007,5,16.000000,,1,Vanilla extract,1,4,26624,26624,1,1.000000,,1,Dried English Walnuts-Chopped,1,5,4556,4556,3,0.750000,,1,Semisweet Chocolate Chips,1,6,23012,23012,3,1.000000,,1,"SOURCE: ESHA Research
-YIELDS: 15 Servings
-EACH PORTION: I Piece
-PAN SIZE: 7x11"" Pan
-
-METHOD:
-
-1. Butter a 7 x 11-inch pan. Set aside.
-
-2. In a 3 quart saucepan, mix together sugar, condensed milk, butter and marshmallows. Cook over low heat and bring to a boil. Boil 5 to 7 minutes. Remove from heat.
-
-3. Add vanilla, nuts and chocolate chips. Stir until chips are melted.
-
-4. Pour into prepared pan. Cool. Cut.",05/13/2003,"Fudge, w/marshmallows",05/13/2003,212132620,212132620,insert,false,34328,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.930000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.640000,COMMON,-1.000000,31,12.000000,100,0,1,Brown Sugar-Unpacked,1,0,25201,25201,3,4.000000,,1,Heavy Whipping Cream,1,1,502,502,3,1.000000,,1,Butter-Salted-Cup,1,2,8000,8000,2,2.000000,,1,Vanilla extract,1,3,26624,26624,1,1.000000,,1,Dried Pecans-Chopped,1,4,4577,4577,3,1.670000,,1,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELDS: 12 Servings
-EACH PORTION: 1 Piece
-PAN SIZE:  9x9"" Pan
-
-METHOD:
-
-1. In a medium saucepan, combine brown sugar, cream and butter. Stir until dissolved. Heat to between 234° F. and 240° F., or until a small amount of syrup dropped into cold water forms a soft ball that flattens when removed from the water and placed on a flat surface. Remove from heat and stir vigorously until mixture loses its gloss, or process in a food processor 30 seconds. Quickly stir in vanilla and nuts and spread into a 9 x 9-inch dish. Chill before cutting into squares.",05/13/2003,"Fudge, w/nuts brown sugar",05/13/2003,144505252,144505252,insert,false,34329,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.680000,COMMON,-1.000000,31,8.000000,100,0,1,Gelatin w/Vit C & Salt Dry Mix-3oz Pkg,1,0,23201,23201,5,1.000000,,1,Black Cherry Drink Unswtnd-DryPkg KFT-KA,1,1,20358,20358,5,1.000000,,1,White Granulated Sugar,1,2,25006,25006,3,1.000000,,1,Water,1,3,20041,20041,3,4.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELDS: 8 Servings
-EACH PORTION: 1 Pop
-
-METHOD:
-
-Disolve gelatin, Kool-Aid drink mix and sugar in 2 cups of boiling water. Stir in 2 cups of cold water and pour into popsicle molds or small plastic drinking cups. Freeze until hard. (If using plastic drinking cups, freeze until firm, insert popsicle sticks, then freeze completely.)",05/13/2003,"Gelatin Pops, fzn",02/07/2006,65847900,65847900,insert,false,34305,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.640000,COMMON,-1.000000,31,1.000000,100,0,1,Chocolate Inst Breakfast-Pkt,1,0,63330,63330,5,1.000000,,1,1% Milk w/Add VitA & VitD,1,1,4,4,3,1.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Serving
-
-METHOD:
-
-Open envelope and pour into large glass. Add milk. Stir until well blended.",05/13/2003,"Instant Breakfast, prep w/1% milk",02/05/2009,771916779,771916779,insert,false,13181,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.640000,COMMON,-1.000000,31,1.000000,100,0,1,Chocolate Inst Breakfast-Pkt,1,0,63330,63330,5,1.000000,,1,2% Milk w/Add Vit A & D,1,1,2,2,3,1.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Serving
-
-METHOD:
-
-Open envelope and pour into large glass. Add milk. Stir until well blended.",05/13/2003,"Instant Breakfast, prep w/2% milk",02/05/2009,362860202,362860202,insert,false,899,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.640000,COMMON,-1.000000,31,1.000000,100,0,1,Chocolate Inst Breakfast-Pkt,1,0,63330,63330,5,1.000000,,1,3.25% Whole Milk,1,1,1,1,3,1.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Serving
-
-METHOD:
-
-Open envelope and pour into large glass. Add milk. Stir until well blended.",05/13/2003,"Instant Breakfast, prep w/whole milk",02/05/2009,62682942,62682942,insert,false,900,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.880000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.830000,COMMON,-1.000000,31,10.000000,100,0,1,Tomato Juice-Cnd,1,0,5188,5188,10,46.000000,,1,Fresh Lemon Juice,1,1,3068,3068,10,4.000000,,1,Worcestershire Sauce,1,2,53099,53099,2,2.000000,,1,Table Salt,1,3,26014,26014,1,0.125000,,1,Black Pepper,1,4,26016,26016,1,0.125000,,1,Vodka-80 Proof,1,5,22594,22594,10,1.500000,,1,Water-Ice Cubes,1,6,20441,20441,5,20.000000,,1,"SOURCE: ESHA Research
-YIELDS: 10 Servings
-EACH PORTION: 8 Ounce Glass
-
-METHOD:
-
-1. Combine the tomato juice, lemon juice, Worcestershire sauce,  and a dash of salt and pepper. Stir to mix well.
-
-2. Pour into container and refrigerate until thoroughly chilled. Put 2 cubes in each 8 ounce glass, add 1-1/2 ounces vodka and 5 ounces tomato juice mixture. Garnish with a slice of lemon.",05/13/2003,"Mixed Drink, Bloody Mary",02/07/2006,272271332,272271332,insert,false,34310,2.2.0,,,,,"Fresh Lemon Wedge-1/8 of 2 1/8""",1,7,3700,3700,4,10.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.840000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.640000,COMMON,-1.000000,31,1.000000,100,0,1,Gin-80 Proof,1,0,22514,22514,10,2.000000,,1,Tonic Water,1,1,20010,20010,10,3.000000,,1,Water-Ice Cubes-(1 Cube=3/4 fl oz)-Each,1,2,20441,20441,5,4.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELDS: 1 Serving
-
-METHOD:
-
-1. Stir gin and tonic; strain into a chilled tumbler with ice.",05/13/2003,"Mixed Drink, Gin & Tonic",05/13/2003,7851270,7851270,insert,false,34311,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.640000,COMMON,-1.000000,31,1.000000,100,0,1,Whiskey-80 Proof,1,0,22670,22670,10,2.500000,,1,Sweet Vermouth,1,1,22511,22511,10,0.750000,,1,Water-Ice Cubes-(1 Cube=3/4 fl oz)-Each,1,3,20441,20441,5,3.000000,,1,S&W Maraschino Cherries-Cnd-Each SWF,1,4,3920,3920,5,1.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Angostura Bitters SOURCE: ESHA Research
-YIELDS: 1 Serving
-
-METHOD:
-
-1. Combine the whiskey, vermouth, a dash of bitters, and ice cubes in a mixing glass and stir well. Strain into a cocktail glass. Garnish with the cherry.",05/13/2003,"Mixed Drink, Manhattan",05/13/2003,568630086,568630086,insert,false,34308,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.840000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.660000,COMMON,-1.000000,31,1.000000,100,0,1,Gin-80 Proof,1,0,22514,22514,10,2.000000,,1,Sweet Vermouth,1,1,22511,22511,10,0.500000,,1,Water-Ice Cubes-(1 Cube=3/4 fl oz)-Each,1,2,20441,20441,5,3.000000,,1,S&W Queen Green Olives-Canned-Each SWF,1,3,7847,7847,5,1.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELDS: 1 Serving
-
-METHOD:
-
-1. Combine all ingredients, exept the olive, in a mixing glass and stir. Strain into a well-chilled cocktail glass. Add olive.
-
-(Note: Recipe calls for dry vermouth, sweet vermouth substituted above.)",05/13/2003,"Mixed Drink, Martini",05/13/2003,710451504,710451504,insert,false,34307,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.840000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.640000,COMMON,-1.000000,31,1.000000,100,0,1,Fresh Lemon Juice,1,0,3068,3068,2,1.500000,,1,White Granulated Sugar-Cup,1,1,25006,25006,1,1.500000,,1,Gin-80 Proof,1,2,22514,22514,10,1.500000,,1,Club Soda,1,3,20006,20006,10,8.000000,,1,Lemon-Wedge/Slice-Each,1,4,3700,3700,4,1.000000,,1,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELDS: 1 Serving
-
-METHOD:
-
-1. In a tall glass stir together the lemon juice and superfine sugar until the sugar is dissolved, add the gin and ice cubes to fill the glass and stir the drink well.
-
-2. Top off the drink with the club soda, stir it well, and garnish it with the lemon slice.",05/13/2003,"Mixed Drink, Tom Collins",05/13/2003,541004860,541004860,insert,false,34309,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.640000,COMMON,-1.000000,31,6.000000,100,0,1,Large Pear (D'Anjou)-Each,1,0,3106,3106,5,6.000000,,1,Water,1,1,20041,20041,15,4.500000,,1,Baking Soda,1,2,28003,28003,2,2.000000,,1,White Granulated Sugar-Cup,1,3,25006,25006,3,1.500000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 6 Pieces
-EACH PORTION: 1 Piece
-
-METHOD:
-
-In large bowl, mix together 4qts water and baking soda. Add fruit. Soak for 10 minutes, then drain. In large sauce pan, combine sugar and 2 cups water. Bring to a boil. Add fruit and simmer for 20 minutes. Remove from heat. Let cool. Simmer mixture for 20 minutes each day until syrup is absorbed. Dry fruit on waxed paper on trays in the sun. Dredge fruit with sugar and store in airtight container.",05/13/2003,"Pears, candied",05/13/2003,229731616,229731616,insert,false,34403,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.930000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.690000,COMMON,-1.000000,31,8.000000,100,0,1,Inst Pudding/Pie Mix-ButterscotchDry KFT,1,0,2741,2741,6,3.500000,,1,2% Fat Milk-Vitamin A Added,1,1,2,2,3,2.000000,,1,Cool Whip Topping-NonDairy KFT,1,2,564,564,6,8.000000,,1,Butterscotch Topping,1,3,23069,23069,2,2.000000,,1,"Graham Cracker Crust-Recipe-Chilled-9""",1,4,45531,45531,5,1.000000,,1,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELDS: 1, 9-inch Pie, 8 Servings
-EACH PORTION: 1 Slice
-
-METHOD:
-
-1. In a large bowl, mix pudding mix and milk according to  package directions. Fold half of the thawed whipped topping into pudding. Pour mixture into graham cracker crust. Spread remaining whipped topping on top of pudding layer. Cover and refrigerate for about an hour.
-
-2. Serve cold with a drizzle of butterscotch topping over top of pie. ",05/13/2003,"Pie, butterscotch",05/13/2003,95041536,95041536,insert,false,34304,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.880000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.960000,COMMON,-1.000000,31,8.000000,100,0,1,"Single Piecrust-Homemade-Baked-9""",1,0,45501,45501,5,1.000000,,1,Unsweetened Gelatin-Dry-Envelope,1,1,23009,23009,5,1.000000,,1,Water,1,2,20041,20041,3,0.250000,,1,Large Whole FreshEgg-Raw-Each,1,3,19501,19501,5,4.000000,,1,White Granulated Sugar-Cup,1,4,25006,25006,3,1.000000,,1,Fresh Lemon Peel,1,5,3067,3067,1,1.500000,,1,Fresh Lemon Juice,1,6,3068,3068,3,0.500000,,1,"SOURCE: ESHA Research
-YIELD: 1 Pie, 8 Servings
-EACH PORTION: 1 Slice
-PAN SIZE: 9"" Pie Plate
-
-METHOD:
-
-Mix gelatin and cold water. Set aside.
-Separate eggs. Set aside egg whites. Beat egg yolks until thick. In a heavy sauce pan, combine egg yolks with sugar, grated lemon rind (lemon peel in recipe), lemon juice, and salt. Cook for 5 minutes, or until thickened, over medium heat. Stir constantly. Remove from heat, add gelatin mixture. Stir until gelatin dissolves. Set aside. Let cool.
-
-Beat room temperature egg whites until foamy. Gradually add the last .5 cup of sugar, one spoonful at a time, while beating until soft peaks form. Carefully fold egg whites and whipped cream into cooled lemon mixture. Pile into 9"" cooled pie crust. Chill until set. Cut into eight slices. Serve.",05/13/2003,"Pie, lemon chiffon",05/13/2003,760956523,760956523,insert,false,15698,2.2.0,,,,,Table Salt,1,7,26014,26014,1,0.125000,,1,White Granulated Sugar-Cup,1,8,25006,25006,3,0.500000,,1,Light Whipping Cream-Whipped,1,9,512,512,3,0.500000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.870000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.960000,COMMON,-1.000000,31,8.000000,100,0,1,"Single Pie Crust Prep f/Rec Unbkd-9""",1,0,45537,45537,5,2.000000,,1,Fresh Diced Rhubarb,1,1,3209,3209,3,4.000000,,1,White Granulated Sugar,1,2,25006,25006,3,1.330000,,1,Enrich All Purpose Bleached White Flour,1,3,38030,38030,2,6.000000,,1,Salted Butter,1,4,8000,8000,2,1.000000,,1,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Pie, 8 Servings
-EACH PORTION: 1 Slice
-PAN SIZE: 9"" Pie Plate
-TEMPERATURE: 350° F. Oven
-
-METHOD:
-
-In a small bowl, combine sugar and flour. Sprinkle one-quarter of mixture over pastry in 9"" pie plate. Heap chopped rhubarb in pie plate. Sprinkle with remaining sugar mixture. Dot with small pieces of butter. Cover with top crust.
-
-Place pie on lowest rack in oven. Bake for 15 minutes at 450 degrees F, then reduce oven temperature to 350°F. Bake an additional 40 to 45 minutes, until crust is golden. Cut into eight slices before serving. Serve warm or cold.",05/13/2003,"Pie, rhubarb",02/05/2009,329101344,329101344,insert,false,15703,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.940000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,6.000000,100,0,1,"Strawberries-Frozen,Unsweetd,Unthaw-Cup",1,0,3137,3137,3,3.000000,,1,White Granulated Sugar-Cup,1,1,25006,25006,3,0.750000,3/4,1,Unsweetened Gelatin-Dry-Envelope,1,2,23009,23009,5,2.000000,,1,Heavy Whipping Cream,1,3,502,502,3,0.750000,3/4,1,"Single Piecrust-Mix-Prepared-Baked-9""",1,4,45503,45503,5,1.000000,,1,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 6 Servings
-EACH PORTION: 1 Slice
-PAN SIZE: 8"" Pie Plate
-
-
-METHOD:
-
-1  Place strawberries, sugar, and gelatin in a blender, blend until smooth, and pour into the pie crust. Chill until firm.
-
-2  Beat the whipping cream until stiff and spread on top of the pie and serve.",05/13/2003,"Pie, strawberry chiffon",05/13/2003,209219969,209219969,insert,false,1251,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.880000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.960000,COMMON,-1.000000,31,6.000000,100,0,1,Enrich All Purpose Bleached White Flour,1,0,38030,38030,3,1.000000,,1,Table Salt,1,1,26014,26014,1,0.250000,,1,Whole Eggs Raw-Lrg,1,2,19501,19501,5,3.000000,,1,2% Milk w/Add Vit A & D,1,3,2,2,3,1.000000,,1,Unsalted Butter,1,4,8025,8025,2,3.000000,,1,Buttery CookngSpray Oil-1SecSpray GFA-SB,1,5,4069,4069,5,3.000000,,1,,,,,,,,,,"SOURCE: ESHA Research
-YIELDS: 6 Servings
-EACH PORTION: 1 Each
-PAN SIZE: Popover Baking Dish
-TEMPERATURE: 425° F. Oven
-
-METHOD:
-
-1. Preheat oven to 425° F.
-
-2. Spray a popover pan with nonstick cooking spray. Place pan on center rack of oven and preheat for 2 minutes.
-
-3. Blend flour, salt, eggs, milk and 1 tablespoon of melted butter until it looks like heavy cream, about 1 to 2 minutes.
-
-4. Cut 2 tablespoons chilled butter into 6 even pieces. Place 1 piece of butter in each cup and place pan back in the oven until butter is bubbly (about 1 minute).
-
-5. Fill each cup half full with batter and bake 20 minutes. Reduce heat to 325° F and bake for another 15 to 20 minutes.",05/13/2003,"Popover, w/2% milk",05/13/2003,43103925,43103925,insert,false,34316,2.2.0,36.000000,loss,moisture,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.880000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.960000,COMMON,-1.000000,31,6.000000,100,0,1,Enrich All Purpose Bleached White Flour,1,0,38030,38030,3,1.000000,,1,Table Salt,1,1,26014,26014,1,0.250000,,1,Whole Eggs Raw-Lrg,1,2,19501,19501,5,3.000000,,1,3.25% Whole Milk,1,3,1,1,3,1.000000,,1,Unsalted Butter,1,4,8025,8025,2,3.000000,,1,Buttery CookngSpray Oil-1SecSpray GFA-SB,1,5,4069,4069,5,3.000000,,1,,,,,,,,,,"SOURCE: ESHA Research
-YIELDS: 6 Servings
-EACH PORTION: 1 Each
-PAN SIZE: Popover Baking Dish
-TEMPERATURE: 425° F. Oven
-
-METHOD:
-
-1. Preheat oven to 425° F.
-
-2. Spray a popover pan with nonstick cooking spray. Place pan on center rack of oven and preheat for 2 minutes.
-
-3. Blend flour, salt, eggs, milk, and 1 tablespoon melted butter until it looks like heavy cream, about 1 to 2 minutes.
-
-4. Cut 2 tablespoons chilled butter into 6 even pieces. Place 1 piece of butter in each cup and place pan back in oven until butter is bubbly (about 1 minute).
-
-5. Fill each cup half full with batter and bake 20 minutes. Reduce heat to 325° F. and bake another 15 to 20 minutes.",05/13/2003,"Popover, w/whole milk",05/13/2003,229847386,229847386,insert,false,34317,2.2.0,36.000000,loss,moisture,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.870000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.960000,COMMON,-1.000000,31,6.000000,100,0,1,White Bread-Soft-Enrich-Slice-Lrg,1,0,42216,42216,4,10.000000,,1,Butter-Salted-Cup,1,1,8000,8000,3,0.250000,,1,Cinnamon-ground,1,2,26003,26003,1,1.000000,,1,Seedless Raisins-Cup-Unpacked,1,3,3130,3130,3,0.500000,,1,Large Whole FreshEgg-Raw-Each,1,4,19501,19501,5,6.000000,,1,2% Fat Milk-Vitamin A Added,1,5,2,2,3,3.000000,,1,Vanilla extract,1,6,26624,26624,1,2.000000,,1,"SOURCE: ESHA Research
-YIELDS: 6 Servings
-PAN SIZE: 2 Quart Baking Dish
-TEMPERATURE: 375° F. Oven
-
-METHOD:
-
-1. Heat oven to 375° F.
-
-2. Combine bread cubes, margarine, raisins and cinnamon; mix well and place in a 2 quart dish.
-
-3. Slightly beat eggs. Stir in sugar, vanilla and salt. Beat until sugar is dissolved. Add hot milk to eggs; beat well. Pour over bread cubes and let soak for 5 minutes.
-
-4. Sprinkle with nutmeg. Bake for 25 minutes.",05/13/2003,"Pudding, bread",05/13/2003,204120792,204120792,insert,false,34324,2.2.0,,,,,White Granulated Sugar-Cup,1,7,25006,25006,3,0.750000,,1,Table Salt,1,8,26014,26014,1,0.500000,,1,Ground Nutmeg,1,9,26026,26026,1,0.125000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,2.050000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.820000,COMMON,-1.000000,31,7.000000,100,0,1,Lemon-Lime Soda Pop,1,0,20032,20032,3,0.750000,,1,Lemon-Lime Soda Pop,1,1,20032,20032,2,2.000000,,1,Miniature Marshmallows-Cup,1,2,23008,23008,3,2.000000,,1,Jello Gelatin-Lime-Dry Mix KFT,1,3,23339,23339,6,3.000000,,1,Cream Cheese,1,4,1015,1015,6,8.000000,,1,Pineapple InItsOwnJuice-Crushed-Cnd DLM,1,5,2939,2939,6,20.000000,,1,Dried Pecans-Chopped,1,6,4577,4577,3,0.750000,,1,"SOURCE: ESHA Research
-YIELDS: 7 Servings
-EACH PORTION: 1 Piece
-PAN SIZE: 7x11"" Dish
-
-METHOD:
-
-1. In a non-reactive sauce pan, combine the lemon-lime soda pop and marshmallows; heat until dissolved stirring constantly. Add gelatin and stir until dissolved.
-
-2. Add cream cheese and blend by hand or with electric mixer until smooth.
-
-3. Add pineapple and juice, pecans, mayonnaise and whipped topping. Pour into a 7 x 11-inch dish, chill until set.",05/13/2003,"Salad, gelatin, fruity",05/13/2003,6581169,6581169,insert,false,34306,2.2.0,,,,,Mayonnaise Type Dressing,1,7,8021,8021,1,1.000000,,1,Cool Whip Topping-NonDairy KFT,1,8,564,564,3,1.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.940000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,3.000000,100,0,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,0,8145,8145,3,0.500000,1/2,1,Celery-Raw-Diced,1,1,5054,5054,3,1.000000,,1,Apple w/Peel-Slices-Cup,1,2,3002,3002,3,1.250000,1 1/4,1,Dried English Walnuts-Chopped,1,3,4556,4556,3,0.500000,1/2,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 3 Servings
-
-METHOD:
-
-1  Mix all of the ingredients together.
-
-2  Chill until ready to serve.",05/13/2003,"Salad, waldorf",05/13/2003,117304200,117304200,insert,false,1273,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.710000,COMMON,-1.000000,31,1.000000,100,0,1,Fresh Alfalfa Sprouts,1,0,5010,5010,3,0.333330,1/3,1,All Varieties Fresh Avocado,1,1,3016,3016,5,0.333330,1/3,1,Monterey Jack Cheese-Diced,1,2,1018,1018,6,1.000000,,1,"Fresh Red Tomatoes YearRndAvg Med-2 3/5""",1,3,5169,5169,5,0.200000,,1,Mayonnaise w/Safflower & Soybean Oil,1,4,8145,8145,1,2.000000,,1,Enrich Soft White Bread-Lrg Slc,1,5,42216,42216,4,2.000000,,1,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on one slice of bread. Layer the sprouts, avocado, cheese and tomato on top of the mayonniase. Top with the remianing slice of bread. Serve.",05/13/2003,"Sandwich, avocado & cheese, on white",02/07/2006,693286269,693286269,insert,false,1289,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Fresh Alfalfa Sprouts,1,0,5010,5010,3,0.333330,1/3,1,All Varieties Fresh Avocado,1,1,3016,3016,5,0.333330,1/3,1,Monterey Jack Cheese-Diced,1,2,1018,1018,6,1.000000,,1,"Fresh Red Tomatoes YearRndAvg Med-2 3/5""",1,3,5169,5169,5,0.200000,,1,Mayonnaise w/Safflower & Soybean Oil,1,4,8145,8145,1,2.000000,,1,Wheat Bread-Slc,1,5,42012,42012,4,2.000000,,1,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on one slice of bread. Layer the sprouts, avocado, and tomato on the mayonnaise. Cover with the remaining slice of bread. Serve.",05/13/2003,"Sandwich, avocado & cheese, part wheat",02/07/2006,138924887,138924887,insert,false,1290,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Fresh Alfalfa Sprouts,1,0,5010,5010,3,0.333330,1/3,1,All Varieties Fresh Avocado,1,1,3016,3016,5,0.333330,1/3,1,Monterey Jack Cheese-Shredded,1,2,1017,1017,6,1.000000,,1,"Fresh Red Tomatoes YearRndAvg Med-2 3/5""",1,3,5169,5169,5,0.200000,,1,Mayonnaise w/Safflower & Soybean Oil,1,4,8145,8145,1,2.000000,,1,Whole Wheat Bread-Slc,1,5,42014,42014,4,2.000000,,1,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on one slice of bread.  Layer the sprouts, avocado, cheese, and tomato on the mayonnaise. Cover with the remaining slice of bread. Serve.",05/13/2003,"Sandwich, avocado & cheese, whole wheat",02/07/2006,105269667,105269667,insert,false,1291,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Beef Ground HamburgerPatty20%Fat-PanBrld,1,0,58123,58123,6,3.000000,,1,Hard Margarine Soy Hydrog-Stick,1,1,90219,90219,1,1.000000,,1,Past Proc American Cheese Product-Slc,1,2,1072,1072,6,1.000000,,1,Mayonnaise Dressing w/Safflower&SoyOil,1,3,8145,8145,1,2.000000,,1,Rducd Calorie Rye Bread-Slc,1,4,42127,42127,5,2.000000,,1,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on one slice of bread and the margarine on the other. Layer the cooked hamburger patty and the cheese between the slices of bread. Serve.",05/13/2003,"Sandwich, beef, patty melt, on rye",02/05/2009,439201359,439201359,insert,false,1307,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Cured Pork Bacon-Ckd-Med Slice,1,0,12000,12000,4,3.000000,,1,Iceberg/Crisphead Lettuce Lrg Leaf,1,1,5084,5084,4,1.000000,,1,"Medium Whole Tomato,Red,Ripe-Raw-Each",1,2,5169,5169,5,0.250000,1/4,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,3,8145,8145,1,2.000000,,1,Wheat Bread-Slice,1,4,42012,42012,4,2.000000,,1,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on one of the slices of bread. Layer the tomato, lettuce, and bacon on the mayonniase. Top with the remaining slice of bread. Serve.",05/13/2003,"Sandwich, BLT, on part whole wheat",05/13/2003,170428938,170428938,insert,false,1279,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.880000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,Cured Pork Bacon-Ckd-Med Slice,1,0,12000,12000,4,3.000000,,1,Iceberg/Crisphead Lettuce Lrg Leaf,1,1,5084,5084,4,1.000000,,1,"Medium Whole Tomato,Red,Ripe-Raw-Each",1,2,5169,5169,5,0.250000,1/4,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,3,8145,8145,1,2.000000,,1,White Bread-Soft-Enrich-Slice-Lrg,1,4,42216,42216,4,2.000000,,1,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-1  Spread 1 tsp of mayonnaise on each slice of bread.
-2 Layer the bacon, lettuce, and tomato between the two slices of bread, and serve.",05/13/2003,"Sandwich, BLT, on white",05/13/2003,6843350,6843350,insert,false,1277,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Cured Pork Bacon-Ckd-Med Slice,1,0,12000,12000,4,3.000000,,1,Iceberg/Crisphead Lettuce Lrg Leaf,1,1,5084,5084,4,1.000000,,1,"Medium Whole Tomato,Red,Ripe-Raw-Each",1,2,5169,5169,5,0.250000,1/4,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,3,8145,8145,1,2.000000,,1,Whole Wheat Bread-Slice,1,4,42014,42014,4,2.000000,,1,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on one slice of bread. Layer the tomatoes, lettuce, and bacon on top of the mayonnaise. Top with the second slice of bread. Serve.",05/13/2003,"Sandwich, BLT, on whole wheat",05/13/2003,141475720,141475720,insert,false,1278,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Chicken Spread-Canned,1,0,13095,13095,3,0.250000,1/4,1,Mayonnaise w/Safflower & Soybean Oil,1,1,8145,8145,1,2.000000,,1,Wheat Bread-Slc,1,2,42012,42012,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Make the chicken salad according to the recipe instructions. Spread the mayonnaise on the bread. Spread the chicken salad on one slice of bread. Cover with the other slice of bread. Serve.",05/13/2003,"Sandwich, chicken salad, on part wheat",02/07/2006,670738803,670738803,insert,false,1287,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,Chicken Spread-Canned,1,0,13095,13095,3,0.250000,1/4,1,Mayonnaise w/Safflower & Soybean Oil,1,1,8145,8145,1,2.000000,,1,Enrich Soft White Bread-Lrg Slc,1,2,42216,42216,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Prepare the chicken salad according to the recipe. Spread the mayonnaise on the bread. Spread the chicken salad on one slice of bread. Cover with the other slice of bread. Serve.",05/13/2003,"Sandwich, chicken salad, on white",02/07/2006,308826910,308826910,insert,false,1285,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Chicken Spread-Canned,1,0,13095,13095,3,0.250000,1/4,1,Mayonnaise w/Safflower & Soybean Oil,1,1,8145,8145,1,2.000000,,1,Whole Wheat Bread-Slc,1,2,42014,42014,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Make the chicken salad according to the recipe instructions. Spread the mayonniase on the bread. Spread the chicken salad on one slice of bread. Cover with the other slice of bread. Serve.",05/13/2003,"Sandwich, chicken salad, on whole wheat",02/07/2006,185622120,185622120,insert,false,1286,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,0,8145,8145,1,2.000000,,1,Rye Bread-Rducd Calorie-Slice,1,1,42127,42127,4,2.000000,,1,Grey Poupon Country Dijon Mustard  NBI,1,2,27072,27072,1,1.000000,,1,Corned Beef-Cured-Cnd-Slice-.75oz Ea,1,3,10008,10008,6,2.000000,,1,Swiss Processed Cheese Food-8oz Pkg,1,4,1071,1071,6,1.000000,,1,,,,,,,,,,,,,,,,,,,"SOURCH: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on one slice of bread. Spread the mustard on the other slice of bread. Layer the cheese and corned beef between the slices of bread. Serve.",05/13/2003,"Sandwich, corned beef & swiss, on rye",05/13/2003,48497310,48497310,insert,false,1288,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Egg Salad,1,0,56003,56003,3,0.250000,1/4,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,1,8145,8145,1,2.000000,,1,Wheat Bread-Slice,1,2,42012,42012,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Make the egg salad according to the recipe instructions. Spread the mayonnaise on one slice of bread. Spread the egg salad on top of the mayonnaise. Top with the remaining slice of bread. Serve.",05/13/2003,"Sandwich, egg salad, on part wheat",05/13/2003,249485608,249485608,insert,false,1295,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.710000,COMMON,-1.000000,31,1.000000,100,0,1,Egg Salad,1,0,56003,56003,3,0.250000,1/4,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,1,8145,8145,1,2.000000,,1,White Bread-Soft-Enrich-Slice-Lrg,1,2,42216,42216,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Make the egg salad according to the recipe instructions. Spread the mayonnaise on one slice of bread. Spread the egg salad on top of the mayonnaise. Top with the second slice of bread. Serve.",05/13/2003,"Sandwich, egg salad, on white",05/13/2003,428808110,428808110,insert,false,1293,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Egg Salad,1,0,56003,56003,3,0.250000,1/4,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,1,8145,8145,1,2.000000,,1,Whole Wheat Bread-Slice,1,2,42014,42014,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD:  1 Sandwich
-
-METHOD:
-
-Make the egg salad according to the recipe instructions. Spread the mayonnaise on one slice of bread. Spread the egg salad on top of the mayonnaise. Top with the remaining slice of bread. Serve.",05/13/2003,"Sandwich, egg salad, on whole wheat",05/13/2003,243460796,243460796,insert,false,1294,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Past Proc American Cheese-Thin Slc,1,0,1000,1000,6,2.000000,,1,Hard Margarine Soy Hydrog-Stick,1,1,90219,90219,1,1.000000,,1,Wheat Bread-Slc,1,2,42012,42012,5,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Place the cheese between the two slices of bread. Spread 1 tsp margarine on the outside of each slice of bread. Grill the sandwich until each side is lightly browned. Serve.
-",05/13/2003,"Sandwich, grilled cheese, part wheat",02/05/2009,604788246,604788246,insert,false,1283,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.640000,COMMON,-1.000000,31,1.000000,100,0,1,Past Proc American Cheese-Thin Slc,1,0,1000,1000,6,2.000000,,1,Hard Margarine Soy Hydrog-Stick,1,1,90219,90219,1,1.000000,,1,Soft White Bread-Lrg Slc,1,2,42216,42216,5,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Place the cheese between the two slices of bread. Spread 1 tsp margarine on the outter surfaces of each slice of bread. Grill the sandwich until lightly browned on each side. Serve.",05/13/2003,"Sandwich, grilled cheese, white",02/05/2009,267867062,267867062,insert,false,1281,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Past Proc American Cheese-Thin Slc,1,0,1000,1000,6,2.000000,,1,Hard Margarine Soy Hydrog-Stick,1,1,90219,90219,1,1.000000,,1,Whole Wheat Bread-Slc,1,2,42014,42014,5,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Place cheese between the two slices of bread. Spread 1 tsp margarine on the outside of each slice of bread. Grill the sandwich until lightly browned on each side. Serve.",05/13/2003,"Sandwich, grilled cheese, whole wheat",02/05/2009,315940398,315940398,insert,false,1282,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,11% Fat Ham Lunchmeat-Slc,1,0,13263,13263,6,2.000000,,1,Mayonnaise Dressing w/Safflower&SoyOil,1,1,8145,8145,1,2.000000,,1,Yellow Mustard-Prep,1,2,435,435,1,1.000000,,1,Past Proc American Cheese-Thin Slc,1,3,1000,1000,6,1.000000,,1,Wheat Bread-Slc,1,4,42012,42012,5,2.000000,,1,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on one slice of bread and the mustard on the other slice. Layer the cheese and ham between the slices of bread. Serve.",05/13/2003,"Sandwich, ham & cheese, on part wheat",02/05/2009,265209174,265209174,insert,false,1305,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,11% Fat Ham Lunchmeat-Slc,1,0,13263,13263,6,2.000000,,1,Mayonnaise Dressing w/Safflower&SoyOil,1,1,8145,8145,1,2.000000,,1,Yellow Mustard-Prep,1,2,435,435,1,1.000000,,1,Past Proc American Cheese-Thin Slc,1,3,1000,1000,6,1.000000,,1,Whole Wheat Bread-Slc,1,4,42014,42014,5,2.000000,,1,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on one slice of bread and the mustard on the other slice. Layer the cheese and ham between the two slices of bread. Serve.",05/13/2003,"Sandwich, ham & cheese, on wheat",02/05/2009,31344880,31344880,insert,false,1304,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,11% Fat Ham Lunchmeat-Slc,1,0,13263,13263,6,2.000000,,1,Mayonnaise Dressing w/Safflower&SoyOil,1,1,8145,8145,1,2.000000,,1,Yellow Mustard-Prep,1,2,435,435,1,1.000000,,1,Past Proc American Cheese-Thin Slc,1,3,1000,1000,6,1.000000,,1,Soft White Bread-Lrg Slc,1,4,42216,42216,5,2.000000,,1,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on one slice of bread and the mustanrd on the other slice. Layer the cheese and ham between the two slices of bread. Serve.",05/13/2003,"Sandwich, ham & cheese, on white",02/05/2009,409426714,409426714,insert,false,1303,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,11% Fat Ham Lunchmeat-Slc,1,0,13263,13263,6,2.000000,,1,Mayonnaise Dressing w/Safflower&SoyOil,1,1,8145,8145,1,2.000000,,1,Yellow Mustard-Prep,1,2,435,435,1,1.000000,,1,Rye Bread-Slc,1,3,42005,42005,5,2.000000,,1,Swiss Cheese Food Past Proc-8oz Pkg,1,4,1071,1071,6,1.000000,,1,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on one slice of bread and mustard on the other. Layer the ham and cheese between the slices of bread. Serve.",05/13/2003,"Sandwich, ham & swiss, on rye",02/05/2009,7344870,7344870,insert,false,1301,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Ham Salad Spread,1,0,13034,13034,3,0.250000,1/4,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,1,8145,8145,1,2.000000,,1,Wheat Bread-Slice,1,2,42012,42012,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Make the ham salad spread according to the recipe instructions. Spread the mayonnaise on the two slices of bread. Spread the ham salad spread on one slice of bread. Cover with the other slice of bread. Serve.",05/13/2003,"Sandwich, ham salad, on part wheat",05/13/2003,-1,-1,insert,false,1347,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,Ham Salad Spread,1,0,13034,13034,3,0.250000,1/4,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,1,8145,8145,1,2.000000,,1,White Bread-Soft-Enrich-Slice-Lrg,1,2,42216,42216,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Prepare the ham salad spread according to the recipe instructions. Spread the mayonnaise on the two slices of bread. Spread the ham salad spread on one slice of bread. Top with the second slice of bread. Serve.",05/13/2003,"Sandwich, ham salad, on white",05/13/2003,367850288,367850288,insert,false,1345,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Ham Salad Spread,1,0,13034,13034,3,0.250000,1/4,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,1,8145,8145,1,2.000000,,1,Whole Wheat Bread-Slice,1,2,42014,42014,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Make the ham salad spread according to the recipe instructions. Spread the mayonnaise on the two slices of bread. Spread the ham salad spread on one slice of bread. Cover with the remaining slice of bread. Serve.",05/13/2003,"Sandwich, ham salad, on whole wheat",05/13/2003,32990540,32990540,insert,false,1346,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,11% Fat Ham Lunchmeat-Slc,1,0,13263,13263,6,3.000000,,1,Mayonnaise Dressing w/Safflower&SoyOil,1,1,8145,8145,1,2.000000,,1,Yellow Mustard-Prep,1,2,435,435,1,1.000000,,1,Wheat Bread-Slc,1,3,42012,42012,5,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on one slice of bread and the mustard on the other slice. Place the ham between the slices of bread. Serve.",05/13/2003,"Sandwich, ham, on part wheat",02/05/2009,459283440,459283440,insert,false,1299,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,Ham Lunchmeat-Low Sodium-Thin Slice,1,0,13076,13076,6,3.000000,,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,1,8145,8145,1,2.000000,,1,Yellow Mustard-Prep,1,2,435,435,1,1.000000,,1,Rye Bread-Slice,1,3,42005,42005,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on one slice of bread and mustard on the other slice. Place the ham between the slices of bread. Serve.",05/13/2003,"Sandwich, ham, on rye",05/13/2003,618541536,618541536,insert,false,1300,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,11% Fat Ham Lunchmeat-Slc,1,0,13263,13263,6,3.000000,,1,Mayonnaise Dressing w/Safflower&SoyOil,1,1,8145,8145,1,2.000000,,1,Yellow Mustard-Prep,1,2,435,435,1,1.000000,,1,Soft White Bread-Lrg Slc,1,3,42216,42216,5,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on one slice of bread, and the mustard on the other. Place the ham between the two slices of bread. Serve.",05/13/2003,"Sandwich, ham, on white",02/05/2009,503574038,503574038,insert,false,1297,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.640000,COMMON,-1.000000,31,1.000000,100,0,1,11% Fat Ham Lunchmeat-Slc,1,0,13263,13263,6,3.000000,,1,Mayonnaise Dressing w/Safflower&SoyOil,1,1,8145,8145,1,2.000000,,1,Yellow Mustard-Prep,1,2,435,435,1,1.000000,,1,Whole Wheat Bread-Slc,1,3,42014,42014,5,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonaise on one slice of bread and the mustard on the other. Place the ham between the two slices of bread. Serve.",05/13/2003,"Sandwich, ham, on whole wheat",02/05/2009,404368127,404368127,insert,false,1298,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.640000,COMMON,-1.000000,31,1.000000,100,0,1,White Bread-Soft-Enrich-Slice-Lrg,1,0,42216,42216,4,2.000000,,1,Creamy Peanut Butter,1,1,4627,4627,2,1.500000,1 1/2,1,Jam/Preserves,1,2,23054,23054,2,1.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the peanut butter on one slice of bread. spread the jam on top of the peanut butter. Cover with the remaining slice of bread. Serve.",05/13/2003,"Sandwich, peanut butter/jam, on white",05/13/2003,549754920,549754920,insert,false,1309,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Whole Wheat Bread-Slice,1,0,42014,42014,4,2.000000,,1,Creamy Peanut Butter,1,1,4627,4627,2,1.500000,1 1/2,1,Jam/Preserves,1,2,23054,23054,2,1.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the peanut butter on one of the slices of bread. Spread the jam on top of the peanut butter. Cover with the remaining piece of bread. Serve.",05/13/2003,"Sandwich, peanut butter/jam, part wheat",05/13/2003,674689546,674689546,insert,false,1311,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Wheat Bread-Slice,1,0,42012,42012,4,2.000000,,1,Creamy Peanut Butter,1,1,4627,4627,2,1.500000,1 1/2,1,Jam/Preserves,1,2,23054,23054,2,1.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the peanut butter on one of the slices of bread. Spread the jam on top of the peanut butter. Cover with the remaining slice of bread. Serve.",05/13/2003,"Sandwich, peanut butter/jam, whole wheat",05/13/2003,327580176,327580176,insert,false,1310,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Beef Lunchmeat-Thin Slice,1,0,13000,13000,6,3.000000,,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,1,8145,8145,2,1.000000,,1,Wheat Bread-Slice,1,2,42012,42012,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on both slices of bread. Place the beef between the slices of bread. Serve.",05/13/2003,"Sandwich, roast beef, on part wheat",05/13/2003,239193990,239193990,insert,false,1316,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,Beef Lunchmeat-Thin Slice,1,0,13000,13000,6,3.000000,,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,1,8145,8145,2,1.000000,,1,White Bread-Soft-Enrich-Slice-Lrg,1,2,42216,42216,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on both slices of bread. Place the beef between the slices of bread. Serve.",05/13/2003,"Sandwich, roast beef, on white",05/13/2003,541974740,541974740,insert,false,1314,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Beef Lunchmeat-Thin Slice,1,0,13000,13000,6,3.000000,,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,1,8145,8145,2,1.000000,,1,Whole Wheat Bread-Slice,1,2,42014,42014,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on the two pieces of bread. Place the beef between the two slices of bread. Serve.",05/13/2003,"Sandwich, roast beef, on whole wheat",05/13/2003,538400250,538400250,insert,false,1315,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Tuna Salad,1,0,56007,56007,3,0.250000,1/4,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,1,8145,8145,1,2.000000,,1,Wheat Bread-Slice,1,2,42012,42012,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD:  1 Sandwich
-
-METHOD:
-
-Make the tuna salad according to the recipe instructions. Spread the mayonnaise on the two slices of bread. Spread the tuna salad on one slice of bread. Cover with the other slice. Serve.",05/13/2003,"Sandwich, tuna salad, on part wheat",05/13/2003,109086992,109086992,insert,false,1320,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,Tuna Salad,1,0,56007,56007,3,0.250000,1/4,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,1,8145,8145,1,2.000000,,1,White Bread-Soft-Enrich-Slice-Lrg,1,2,42216,42216,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Make the tuna salad according to the recipe directions. Spread the mayonnaise on the two slices of bread. Spread the tuna salad on one of the slices of bread. Cover with the other bread slice. Serve.",05/13/2003,"Sandwich, tuna salad, on white",05/13/2003,776350211,776350211,insert,false,1318,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Tuna Salad,1,0,56007,56007,3,0.250000,1/4,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,1,8145,8145,1,2.000000,,1,Whole Wheat Bread-Slice,1,2,42014,42014,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Make the tuna salad according to the recipe instructions. Spread the mayonnaise on the two slices of bread. Spread the tuna salad on one slice of bread. Top with the other slice of bread. Serve.",05/13/2003,"Sandwich, tuna salad, on whole wheat",05/13/2003,371717136,371717136,insert,false,1319,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.710000,COMMON,-1.000000,31,1.000000,100,0,1,Wheat Bread-Slice,1,0,42012,42012,4,2.000000,,1,Turkey Ham Lunchmeat-Cured Thigh-Slice,1,1,13014,13014,6,3.000000,,1,Yellow Mustard-Prep,1,2,435,435,1,1.000000,,1,Mayonnaise-(Soybean Oil) w/Salt,1,3,8046,8046,2,1.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread mayonnaise on one slice of bread. Spread mustard on the other slice of bread. Place the turkey ham between the two slices of bread. Serve.",05/13/2003,"Sandwich, turkey ham, on part wheat",05/13/2003,128041416,128041416,insert,false,2803,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,Turkey Ham Lunchmeat-Cured Thigh-Slice,1,0,13014,13014,6,3.000000,,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,1,8145,8145,1,2.000000,,1,Yellow Mustard-Prep,1,2,435,435,1,1.000000,,1,Rye Bread-Rducd Calorie-Slice,1,3,42127,42127,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread mayonnaise on one slice of bread. Spread mustard on the other slice of bread. Place the turkey between the slices of bread. Serve.
-
-",05/13/2003,"Sandwich, turkey ham, on rye",05/13/2003,87585453,87585453,insert,false,2800,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,Turkey Ham Lunchmeat-Cured Thigh-Slice,1,0,13014,13014,6,3.000000,,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,1,8145,8145,1,2.000000,,1,Yellow Mustard-Prep,1,2,435,435,1,1.000000,,1,White Bread-Soft-Enrich-Slice-Lrg,1,3,42216,42216,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread mayonnaise on one slice of bread. Spread mustard on the other slice of bread. Place the turkey between the slices of bread. Serve.",05/13/2003,"Sandwich, turkey ham, on white",05/13/2003,256122269,256122269,insert,false,2801,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,Turkey Ham Lunchmeat-Cured Thigh-Slice,1,0,13014,13014,6,3.000000,,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,1,8145,8145,1,2.000000,,1,Yellow Mustard-Prep,1,2,435,435,1,1.000000,,1,Whole Wheat Bread-Slice,1,3,42014,42014,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread mayonnaise on one slice of bread. Spread mustard on the other slice of bread. Place the turkey ham between the slices of bread. Serve.",05/13/2003,"Sandwich, turkey ham, on whole wheat",05/13/2003,710173752,710173752,insert,false,2802,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,Turkey Ham Lunchmeat-Cured Thigh-Slice,1,0,13014,13014,6,2.000000,,1,Amer Process Cheese-Slice.75oz-w/DiNAPhs,1,1,1000,1000,6,1.000000,,1,Yellow Mustard-Prep,1,2,435,435,1,1.000000,,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,3,8145,8145,1,2.000000,,1,Rye Bread-Rducd Calorie-Slice,1,4,42127,42127,4,2.000000,,1,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on one slice of bread. Spread the mustard on the other slice of bread. Layer the cheese and turkey ham between the two slices of bread. Serve.",05/13/2003,"Sandwich, turkey ham/cheese, on rye",05/13/2003,861342072,861342072,insert,false,1325,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,Turkey Ham Lunchmeat-Cured Thigh-Slice,1,0,13014,13014,6,2.000000,,1,Amer Process Cheese-Slice.75oz-w/DiNAPhs,1,1,1000,1000,6,1.000000,,1,Yellow Mustard-Prep,1,2,435,435,1,1.000000,,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,3,8145,8145,1,2.000000,,1,White Bread-Soft-Enrich-Slice-Lrg,1,4,42216,42216,4,2.000000,,1,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on one slice of bread. Spread the mustard on the other slice of bread. Layer the cheese and turkey ham between the two slices of bread. Serve.",05/13/2003,"Sandwich, turkey ham/cheese, on white",05/13/2003,397637784,397637784,insert,false,1327,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,Turkey Ham Lunchmeat-Cured Thigh-Slice,1,0,13014,13014,6,2.000000,,1,Amer Process Cheese-Slice.75oz-w/DiNAPhs,1,1,1000,1000,6,1.000000,,1,Yellow Mustard-Prep,1,2,435,435,1,1.000000,,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,3,8145,8145,1,2.000000,,1,Whole Wheat Bread-Slice,1,4,42014,42014,4,2.000000,,1,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on one slice of bread.  Spread the mustard on the other slice of bread. Layer the cheese and turkey ham between the two slices of bread. Serve.",05/13/2003,"Sandwich, turkey ham/cheese, whole wheat",05/13/2003,7823376,7823376,insert,false,1328,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,"Turkey Breast Lunchmeat-Slice-3.5"" Sqr",1,0,16160,16160,6,3.000000,,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,1,8145,8145,2,1.000000,,1,Wheat Bread-Slice,1,2,42012,42012,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on the two slices of bread. Place the turkey between the two slices of bread. Serve.",05/13/2003,"Sandwich, turkey, on part wheat",05/13/2003,391486800,391486800,insert,false,1324,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.680000,COMMON,-1.000000,31,1.000000,100,0,1,"Turkey Breast Lunchmeat-Slice-3.5"" Sqr",1,0,16160,16160,6,3.000000,,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,1,8145,8145,2,1.000000,,1,White Bread-Soft-Enrich-Slice-Lrg,1,2,42216,42216,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on the two slices of bread. Place the turkey between the slices of bread. Serve.",05/13/2003,"Sandwich, turkey, on white",05/13/2003,18969300,18969300,insert,false,1322,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,"Turkey Breast Lunchmeat-Slice-3.5"" Sqr",1,0,16160,16160,6,3.000000,,1,Mayonnaise-Safflower & Soy Oil (Saffola),1,1,8145,8145,2,1.000000,,1,Whole Wheat Bread-Slice,1,2,42014,42014,4,2.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Sandwich
-
-METHOD:
-
-Spread the mayonnaise on the two slices of bread. Place the turkey between the slices of bread. Serve.",05/13/2003,"Sandwich, turkey, on whole wheat",05/13/2003,262245860,262245860,insert,false,1323,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.940000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,2.000000,100,0,1,Medium White Wine,1,0,22504,22504,3,0.250000,,1,Cider Vinegar,1,1,27007,27007,2,2.000000,,1,Ground Tarragon,1,2,26032,26032,1,0.120000,,1,White Onions-Raw-Chopped-Cup,1,3,5101,5101,2,1.000000,,1,Butter-Salted-Cup,1,4,8000,8000,3,0.670000,,1,Large Raw Egg Yolk-Fresh-Each,1,5,19508,19508,5,3.000000,,1,Table Salt,1,6,26014,26014,1,0.250000,,1,"SOURCE: ESHA Research
-YIELD: 2 Servings
-EACH PORTION: 2/3 Cup
-
-METHOD:
-
-Melt butter slowly in a double boiler. Slowly add the egg yolks, stirring constantly. Add the other ingredients. Serve.
-",05/13/2003,"Sauce, bearnaise",05/13/2003,47378837,47378837,insert,false,1419,2.2.0,,,,,Fresh Parsley-Chopped-Cup,1,7,26012,26012,1,1.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.880000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,4.000000,100,0,1,Butter-Salted-Cup,1,0,8000,8000,2,2.000000,,1,All Purpose White Flour Enriched-Blchd,1,1,38030,38030,2,2.000000,,1,Chicken Broth-Dry Mix + Water-Cup,1,2,50034,50034,3,1.000000,,1,Table Salt,1,3,26014,26014,1,0.250000,1/4,1,Black Pepper,1,4,26016,26016,1,0.250000,1/4,1,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 4 Servings
-EACH PORTION: ¼ Cup
-
-METHOD:
-
-Slowly melt the butter in a saucepan. Gradually add the flour, stirring constantly. Slowly add the chicken broth, salt and pepper, stirring constantly. Serve.",05/13/2003,"Sauce, bechamel",05/13/2003,52751335,52751335,insert,false,1416,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,4.000000,100,0,1,White Onions Chopped Cooked-Drnd,1,0,5108,5108,2,2.000000,,1,Ground Thyme,1,1,26033,26033,1,0.500000,1/2,1,Red Wine,1,2,22501,22501,3,0.500000,1/2,1,Salted Butter,1,3,8000,8000,2,2.000000,,1,Enrich All Purpose Bleached White Flour,1,4,38030,38030,2,2.000000,,1,Beef Bouillon-14.5oz rts Can,1,5,50002,50002,6,8.000000,,1,Fresh Lemon Juice,1,6,3068,3068,2,1.000000,,1,"SOURCE: ESHA Research
-YIELD: 4 Servings
-EACH PORTION: ¼ Cup
-
-METHOD:
-
-Slowly melt the butter in a saucepan. Gradually add the flour, stirring constantly. Gradually add the broth, stirring constantly. Add the other ingredients. Serve.",05/13/2003,"Sauce, bordelaise",02/05/2009,453338171,453338171,insert,false,1417,2.2.0,,,,,Black Pepper,1,7,26016,26016,1,0.120000,,1,Sherry Cooking Wine BGF-RE,1,8,27079,27079,2,1.000000,,1,Fresh Parsley-Chpd,1,9,26012,26012,2,1.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,3.000000,100,0,1,Enrich All Purpose White Flour-Bkd Value,1,0,38037,38037,2,2.000000,,1,Hard Margarine Soy Hydrog-Stick,1,1,90219,90219,2,2.000000,,1,Chicken Broth Prep w/Wtr f/Cnd,1,2,50004,50004,3,2.000000,,1,Curry Powder,1,3,26004,26004,1,1.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD:  3 Servings
-
-METHOD:
-
-Melt the margarine in a saucepan over low heat.  Gradually add the flour, stirring constantly. Slowly add the chicken broth, stirring constantly. Add the curry powder. Serve.",05/13/2003,"Sauce, curry",02/05/2009,371423536,371423536,insert,false,1414,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.880000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,1.000000,100,0,1,Medium White Sauce-Prep f/Recipe,1,0,53468,53468,3,1.000000,,1,Parmesan Cheese-Grated,1,1,1075,1075,2,4.000000,,1,Egg Yolks-Ckd SVY,1,2,19523,19523,5,1.000000,,1,Salted Butter,1,3,8000,8000,2,2.000000,,1,White Onions Chopped Cooked-Drnd,1,4,5108,5108,2,2.000000,,1,Table Salt,1,5,26014,26014,1,0.250000,,1,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Serving
-
-METHOD:
-
-Make the white sauce according to the recipe instructions. Gradually add, stirring constantly, the melted butter and egg yolk. Add the cheese, onion, and salt. Serve.",05/13/2003,"Sauce, mornay",02/07/2006,326996280,326996280,insert,false,1415,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.960000,COMMON,-1.000000,31,6.000000,100,0,1,Low Sodium Beef Broth/Bouillon-Cnd SVY,1,0,50183,50183,3,9.000000,,1,Low Sodium Vegetable Juice-Cnd CAM-V8,1,1,6502,6502,3,3.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 6 Servings
-EACH PORTION: 2 Cups
-
-METHOD:
-
-Slice 1 large onion. Chop 2 stalks celery including leaves, and 3 large carrots into 1-inch chunks. Place carrots, onion, celery, and 6 lbs beef soup bones in large, shallow roasting pan. Bake, uncovered & turning occasionally, for 30 minutes or until bones are well browned.
-
-After bones are browned, drain off excess fat. Place contents of roasting pan into large soup pot or Dutch oven. Pour .5 cup water into roasting pan and rinse. Pour this liquid into soup pot. Add l large tomato, 1/2 cup chopped parsnip, 1/2 cup cubed potatoes, 8 whole black peppercorns, 4 sprigs fresh parsley, 1 bay leaf, 1 tbsp salt, 2 tsp dried thyme, 2 cloves garlic and 12 cups water. Bring mixture to a boil. Reduce heat. Cover and simmer for 5 hours. Strain stock. Discard meat, vegetables, and seasonings.
-
-TO CLARIFY STOCK:
-To remove pieces too small to be strained out with cheesecloth, combine .25 cup cold water, 1 egg white, and 1 crushed eggshell. Add to strained stock. Bring to a boil. Remove from heat. Let stand 5 minutes. Strain again through sieve lined with cheesecloth.",05/13/2003,"Soup, beef stock",02/07/2006,79683822,79683822,insert,false,24639,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.930000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.660000,COMMON,-1.000000,31,12.000000,100,0,1,Beef Tripe-Cooked,1,0,10089,10089,7,6.000000,,1,Water,1,1,20041,20041,3,16.000000,,1,"White Onions-Raw-Med-Whole-2 1/2"" Dia",1,2,5104,5104,5,2.000000,,1,Fresh Garlic Cloves-Each Measure,1,3,26005,26005,5,2.000000,,1,Table Salt,1,4,26014,26014,2,1.000000,,1,Black Pepper,1,5,26016,26016,1,0.500000,,1,Ancho/Poblano Pepper-Dried-Each,1,6,7930,7930,5,2.000000,,1,"SOURCE: ESHA Research
-YIELD: 12 Servings
-
-METHOD:
-
-1 Cut the beef into bite-sized pieces.
-
-2 Slice the onions, garlic, and cilantro.
-
-3 Pour the water into a large soup pot. Add the other ingredients. Simmer for 1 hour, until the flavors are blended.",05/13/2003,"Soup, menudo, Mexican beef soup",05/13/2003,220365900,220365900,insert,false,32216,2.2.0,,,,,Coriander/Cilantro-Leaves-Raw,1,7,26038,26038,2,1.000000,,1,Hominy-Ckd,1,8,5640,5640,3,7.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.930000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.890000,COMMON,-1.000000,31,12.000000,100,0,1,Cured Salt Pork-Raw,1,0,12171,12171,7,0.250000,,1,"Brlr/FryrWhole Chicken+Giblet,Neck-Stwd",1,1,15098,15098,7,2.000000,,155,Water,1,2,20041,20041,3,8.000000,,1,"Peeled Potato-Bld w/o Skn-1.75""-2.5"" Dia",1,3,5135,5135,5,3.000000,,350,Med Whole White Onion-Boiled-Drained,1,4,5110,5110,5,3.000000,,510,S&W Whole Peeled Tomatoes-Canned-Cup SWF,1,5,7896,7896,6,28.000000,,1,Golden Corn-Whole Kernel-Cnd DLM,1,6,51059,51059,3,2.000000,,1,"SOURCE: ESHA Research
-YIELD: 12 Servings
-
-METHOD:
-
-1. In a large pot over high heat, combine the diced salt pork, chicken, and water and bring to boil. Reduce heat to low, cover and simmer for 45 minutes, or until chicken is tender.
-
-2. Remove chicken and allow to cool until easy to handle. Remove meat and discard the skin and bones. Chop meat into bite size pieces and return to the soup.
-
-3. Add the cubed potatoes, chopped onions, diced tomatoes, corn, lima beans, Worchestershire sauce, salt and ground black pepper. Stir well and simmer, uncovered, for 1 hour.",05/13/2003,"Stew, Brunswick",05/13/2003,37792480,37792480,insert,false,34301,2.2.0,,,,,"Baby Lima Beans,ImmSeed,Fzn,Ckd,Drnd-Cup",1,7,5019,5019,6,10.000000,,340,Worcestershire Sauce,1,8,53099,53099,2,1.000000,,1,Table Salt,1,9,26014,26014,1,0.500000,,1,Black Pepper,1,10,26016,26016,1,0.250000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.930000,0,4.000000,2.000000,3,0.860000,0,4.000000,2.000000,4,0.960000,COMMON,-1.000000,31,24.000000,100,0,1,2% Milk w/Add Vit A & D,1,0,2,2,3,1.000000,,1,Municipal Tap Water,1,1,20041,20041,3,1.000000,,1,Salted Butter,1,2,8000,8000,3,0.250000,,1,Table Salt,1,3,26014,26014,1,1.500000,,1,Enrich All Purpose Bleached White Flour,1,4,38030,38030,3,6.000000,,1,Active Dry Bakers Yeast,1,5,28000,28000,2,1.000000,,1,Active Dry Bakers Yeast,1,6,28000,28000,1,1.500000,,1,"SOURCE: ESHA Research
-YIELDS: 24
-EACH PORTION: 1 Roll
-PAN SIZE: 9x13"" Baking Dish
-TEMPERATURE: 375° F. Oven
-
-METHOD:
-
-1. In saucepan, heat 1 cup milk, water and 1/4 cup butter until very warm (butter doesn't need to be completely melted). Remove from heat.
-
-2. Mix together salt, flour, yeast, 1/2 cup sugar, eggs and 1/3 cup softened butter in a medium bowl. Add the heated mixture until mixed well.
-
-3. Divide dough into two parts. On a floured surface, roll each part into a large rectangle. Smear each rectangle with softened butter. Combine the cinnamon and 3/4 cup sugar. Sprinkle over the rectangles. Generously sprinkle the raisins and nuts over the top.
-
-4. Roll the dough up into two logs starting at the long side. Cut each log into 12 slices. Place the rolls cut side down into to a  9 x 13-inch greased baking pans. Cover, and let rise in a warm place until almost doubled (about 30 minutes).
-
-5. Bake in a preheated 375° F oven for 20 to 25 minutes, or until golden brown.
-
-6. To make the frosting: Combine the powdered sugar, 3 tablespoons melted butter, vanilla and 3 tablespoons milk. Frosting should be thick. Spread over baked rolls.
-
-(Note: Recipe calls to use bread machine to mix dough, mixing by hand substituted above.)",05/13/2003,"Sweet Roll, cinnamon, w/raisins walnuts",02/07/2006,448462608,448462608,insert,false,34318,2.2.0,1.000000,loss,moisture,0,White Granulated Sugar,1,7,25006,25006,3,0.500000,,1,Whole Eggs Raw-Lrg,1,8,19501,19501,5,2.000000,,1,Salted Butter,1,9,8000,8000,3,0.330000,,1,Ground Cinnamon,1,10,26003,26003,1,1.500000,,1,White Granulated Sugar,1,11,25006,25006,3,0.750000,,1,Seedless Raisins-Unpacked Cup,1,12,3130,3130,3,0.750000,,1,Dried English Walnuts-Chopped,1,13,4556,4556,3,0.750000,,1,Powdered Sugar-Unsifted,1,14,25009,25009,3,2.000000,,1,Salted Butter,1,15,8000,8000,2,3.000000,,1,Vanilla Extract,1,16,26624,26624,1,0.500000,,1,2% Milk w/Add Vit A & D,1,17,2,2,2,3.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,3.000000,100,0,1,WhiteOnion Cooked Drained Whole-Lrg,1,0,5109,5109,5,1.000000,,510,Salted Butter-Stick,1,1,90208,90208,2,2.000000,,1,"Tomato Juice,w/Salt-Cnd",1,2,5188,5188,3,0.500000,1/2,1,Fresh Whole Hot Green Chili Peppers,1,3,5400,5400,5,3.000000,,1,Chicken Broil/Fry Whl w/oSkin Chpd-Rstd,1,4,15000,15000,3,1.000000,,1,Ground Thyme,1,5,26033,26033,1,0.125000,1/8,1,Table Salt,1,6,26014,26014,1,1.000000,,1,"SOURCE: ESHA Research
-YIELD: 6 Tacos - 3 Servings
-EACH PORTION: 2 Tacos
-
-METHOD:
-
-1. Heat the taco shells in the oven according to the package directions.
-
-2. Saute the onion in the butter until golden brown. Add the remaining ingredients (except the taco shells) and simmer about three minutes, until the liquid has been absorbed. 
-
-3. Divide the chicken mixture into the taco shells and serve.",05/13/2003,"Taco, chicken",02/05/2009,60712368,60712368,insert,false,1340,2.2.0,,,,,Dried Ground Cayenne Pepper,1,7,82043,82043,1,0.125000,1/8,1,"Baked Taco Shells Medium-5""",1,8,42168,42168,5,6.000000,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.940000,0,4.000000,2.000000,3,0.860000,0,3.000000,5.000000,4,2.000000,COMMON,-1.000000,31,9.000000,100,0,1,Cream Cheese,1,0,1015,1015,6,8.000000,,1,Sweetened Condensed Milk-Canned,1,1,11,11,8,396.000000,,1,Lemon Juice-Bottled/Canned-Cup,1,2,3069,3069,3,0.333330,1/3,1,Sour/TartRed Cherries-InWtr-UnDrndCndCup,1,3,3035,3035,3,1.500000,1 1/2,1,White Granulated Sugar-Cup,1,4,25006,25006,3,0.250000,1/4,1,Cornstarch,1,5,30000,30000,2,1.000000,,1,"Graham Cracker Piecrust-Baked-9""single",1,6,45500,45500,5,1.000000,,1,"SOURCE: ESHA Research
-YIELD: 9 Servings
-
-METHOD:
-
-Spread the softened cream cheese in the bottom of the graham cracker crust. Combine the milk, cornstarch, lemon juice, and sugar. Heat until thickened. Add the cherries and pour the mixture over the cream cheese. Chill until set.",05/13/2003,"Torte, cherry & cream cheese",05/13/2003,312868080,312868080,insert,false,1445,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-1,,,true,true,false,false,false,false,1,0,1.000000,0,0,0,0,0,0,0,0,true,false,0,0.500000,0.500000,2,1.810000,0,4.000000,2.000000,3,0.860000,0,0.000000,0.000000,4,0.640000,COMMON,-1.000000,31,1.000000,100,0,1,Tostado Shells GML-EP,1,0,42447,42447,5,1.000000,,1,Fresh Iceberg Lettuce-Chopped,1,1,5083,5083,6,1.000000,,1,Cheddar Cheese-Shredded,1,2,1008,1008,6,0.500000,1/2,1,Refried Beans-Cnd,1,3,7024,7024,6,1.000000,,1,Picante Sauce CAM-PA,1,4,7479,7479,6,1.000000,,1,Chicken Broil/Fry Whl w/oSkin Chpd-Rstd,1,5,15000,15000,6,1.500000,1 1/2,1,,,,,,,,,,"SOURCE: ESHA Research
-YIELD: 1 Tostada
-
-METHOD:
-
-Heat the beans and chicken. Layer on the tostada shell, the beans, chicken, cheese, lettuce, and picante sauce. Serve.",05/13/2003,"Tostada, bean & chicken",02/05/2009,128560940,128560940,insert,false,1343,2.2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+RecipeItem/0/_ItemName,RecipeItem/1/_ItemName,RecipeItem/2/_ItemName,RecipeItem/3/_ItemName,RecipeItem/4/_ItemName,RecipeItem/5/_ItemName,RecipeItem/6/_ItemName,_description,RecipeItem/7/_ItemName,RecipeItem/8/_ItemName,RecipeItem/9/_ItemName,RecipeItem/10/_ItemName,RecipeItem/11/_ItemName,RecipeItem/12/_ItemName,RecipeItem/13/_ItemName,RecipeItem/14/_ItemName,RecipeItem/15/_ItemName,RecipeItem/16/_ItemName,RecipeItem/17/_ItemName,RecipeItem/18/_ItemName,RecipeItem/19/_ItemName,RecipeItem/20/_ItemName,RecipeItem/21/_ItemName,RecipeItem/22/_ItemName,RecipeItem/23/_ItemName,RecipeItem/24/_ItemName
+Dry Bread Crumbs,Salted Butter,Microwaved Peeled Apple Slices,White Granulated Sugar,Ground Cinnamon,Ground Nutmeg,Municipal Tap Water,Apple Brown Betty,,,,,,,,,,,,,,,,,,
+Water,Baking Soda,Apricots-Raw-Whole-Each,White Granulated Sugar-Cup,,,,"Apricots, candied",,,,,,,,,,,,,,,,,,
+Enrich All Purpose Bleached White Flour,Baking Soda,Table Salt,Double Acting SodAlumSulft Baking Powder,Ground Nutmeg,Ground Allspice,Ground Cinnamon,"Bread, pumpkin",Ground Cloves,White Granulated Sugar,Canola Oil,Whole Eggs Raw-Lrg,Solid Pack Pumpkin-Cnd NFC-LB,Municipal Tap Water,,,,,,,,,,,,
+All Purpose White Flour Enriched-Blchd,Instant Skim Dry Powdered Milk w/VitA,Dry Active Baker's Yeast,Water,,,,"Bread, sourdough starter",,,,,,,,,,,,,,,,,,
+Enrich All Purpose Bleached White Flour,White Granulated Sugar,Baking Soda,Ground Cinnamon,Table Salt,Hard Margarine Soy Hydrog-Stick,Baking Shorteningw/Palm Cttnsd HydrogSoy,"Cake, chocolate w/cream cheese icing",Cocoa Powder Unsweetened-Dry,Municipal Tap Water,Whole Eggs Raw-Lrg,Cultured Low Fat Buttermilk,Salted Butter,Cream Cheese,Vanilla Extract,Powdered Sugar-Unsifted,,,,,,,,,,
+Enrich All Purpose Bleached White Flour,White Granulated Sugar,Baking Soda,Ground Cinnamon,Table Salt,Hard Margarine Soy Hydrog-Stick,Baking Shorteningw/Palm Cttnsd HydrogSoy,"Cake, chocolate w/vanilla icing",Cocoa Powder Unsweetened-Dry,Municipal Tap Water,Whole Eggs Raw-Lrg,Cultured Low Fat Buttermilk,Powdered Sugar-Unsifted,Baking Shorteningw/Palm Cttnsd HydrogSoy,2% Milk w/Add Vit A & D,Enrich All Purpose Bleached White Flour,Table Salt,Vanilla Extract,,,,,,,,
+Chocolate Pudding Dry Mix-3.5oz Pkg,2% Milk w/Add Vit A & D,FS Devils Food Cake-Dry Mix CHG-PF,Semisweet Chocolate Baking Chips,,,,"Cake, chocolate, pudding",,,,,,,,,,,,,,,,,,
+Enrich All Purpose Bleached White Flour,White Granulated Sugar,Baking Soda,Ground Cinnamon,Table Salt,Hard Margarine Soy Hydrog-Stick,Baking Shorteningw/Palm Cttnsd HydrogSoy,"Cake, chocolate, w/fluffy white icing",Cocoa Powder Unsweetened-Dry,Municipal Tap Water,Whole Eggs Raw-Lrg,Cultured Low Fat Buttermilk,White Granulated Sugar,Municipal Tap Water,Cream Of Tartar,Vanilla Extract,Egg Whites Raw-Lrg,,,,,,,,,
+Enrich All Purpose Bleached White Flour,Double Acting SodAlumSulft Baking Powder,Table Salt,White Granulated Sugar,Salted Butter,Whole Eggs Raw-Lrg,Vanilla Extract,"Cake, marble, w/chocolate icing",2% Milk w/Add Vit A & D,Cocoa Powder Unsweetened-Dry,Hard Margarine Soy Hydrog-Stick,2% Milk w/Add Vit A & D,Cocoa Powder Unsweetened-Dry,Vanilla Extract,Powdered Sugar-Unsifted,,,,,,,,,,,
+Butter-Salted-Cup,Powdered Sugar-Unsifted,Light Whipping Cream,Vanilla extract,Unsweetened Baking Chocolate-Square,WhiteCake-Pudding Type-DryMix-18.5oz Pkg,,"Cake, white, w/chocolate icing",,,,,,,,,,,,,,,,,,
+White Granulated Sugar-Cup,Light Corn Syrup,Light Corn Syrup,Light Corn Syrup,Water,Table Salt,Large Raw Egg White-Each,"Candy, divinity",Vanilla extract,,,,,,,,,,,,,,,,,
+Dried Pecans-Chopped,White Granulated Sugar-Cup,Butter-Salted-Cup,Butter-Salted-Cup,Brown Sugar-Unpacked,2% Fat Milk-Vitamin A Added,Vanilla extract,"Candy, pralines",,,,,,,,,,,,,,,,,,
+White Granulated Sugar,Light Corn Syrup,Municipal Tap Water,Unsalted Butter,Corn Starch,Table Salt,Vanilla Extract,"Candy, taffy",Almond Extract SPB,Dried Sliced Almonds,,,,,,,,,,,,,,,,
+Butter-Salted-Cup,White Granulated Sugar-Cup,Table Salt,All Purpose White Flour Enriched-Blchd,Baking Soda,Large Raw Egg White-Each,Whole Milk-3.3% Fat,"Cookie, snickerdoodle",White Granulated Sugar-Cup,Cinnamon-ground,Vanilla extract,Cream of Tartar,,,,,,,,,,,,,,
+"Fresh Peeled Apples-Sml 2 3/4""",Salted Butter,Brown Sugar-Unpacked,Enrich All Purpose Bleached White Flour,Maple Brown Sug Hot Oatmeal-Inst PCO-QO,Table Salt,Dried English Walnuts-Chopped,"Crisp, apple",Maple Syrup,,,,,,,,,,,,,,,,,
+Enrich All Purpose White Flour-Bkd Value,Brown Sugar-Packed,Hard Margarine Soy Hydrog-Stick,Ground Cinnamon,Lemon Juice-Btl/Cnd,Whole Apricots Cnd w/Heavy Syrup-w/Skin,,"Crisp, apricot",,,,,,,,,,,,,,,,,,
+Enrich All Purpose White Flour-Bkd Value,Brown Sugar-Packed,Hard Margarine Soy Hydrog-Stick,Ground Cinnamon,Lemon Juice-Btl/Cnd,Whole Peaches w/Juice-Cnd,,"Crisp, peach",,,,,,,,,,,,,,,,,,
+Whole Eggs Raw-Lrg,2% Milk w/Add Vit A & D,Salted Butter,Enrich All Purpose Bleached White Flour,Table Salt,Ground Veal 8% Fat-Brld,Chicken Broil/Fry Whl w/oSkin Chpd-Rstd,"Dish, crepe, meat filled",Beef Ground Hamburger 15%Fat-Pan Browned,Salted Butter,Fresh Parsley-Chpd,Parmesan Cheese-Grated,Table Salt,Black Pepper,Nutmeg-Ground,Salted Butter,Enrich All Purpose Bleached White Flour,2% Milk w/Add Vit A & D,Table Salt,Black Pepper,Nutmeg-Ground,Spaghetti/Marinara Sauce-rts,Mozzarella Cheese LoMoist PartSkim-Shred,Parmesan Cheese-Grated,,
+Manicotti Pasta-Enr-All Brands-Dry NWP,Ricotta Cheese-Part Skim Milk,Egg-Medium-Bld-Each,Fresh Parsley-Chopped-Cup,Parmesan Cheese-Grated,Table Salt,Black Pepper,"Dish, manicotti w/cheese filling",Spaghetti Meat Sauce-Homemade,,,,,,,,,,,,,,,,,
+Fresh Eggplant-Cube,"Lamb Leg Whole Choice 1/4"" Trim-Roasted",Onions Chopped Cooked f/Fzn-Drnd,Fresh Parsley-Chpd,Red Wine,Tomato Paste-6oz Can,Table Salt,"Dish, moussaka, lamb & eggplant",Hard Boiled Eggs-Lrg,Hard Margarine Soy Hydrog-Stick,Enrich All Purpose White Flour-Bkd Value,2% Milk w/Add Vit A & D,,,,,,,,,,,,,,
+Medium White Sauce-Prep f/Recipe,Parmesan Cheese-Grated,Cheddar Cheese-Shredded,Hard Boiled Eggs-Lrg,,,,"Dish, souffle, cheese",,,,,,,,,,,,,,,,,,
+Enrich Spaghetti Pasta-Ckd,Olive Salad/Cooking Oil,Fresh Garlic Cloves,Tomato Sauce-Cnd,Mushroom Pieces/Slices Canned-Drnd,Sweet Green Bell Peppers Chpd Ckd-Drnd,Fresh Parsley-Chpd,"Dish, spaghetti w/meatballs",Table Salt,Black Pepper,White Granulated Sugar,"Dried Basil, Ground",Ground Oregano,Red Wine,Parmesan Cheese-Grated,Beef Ground Hamburger 15%Fat-Pan Browned,Dry Bread Crumbs,Steamed Chopped Onions,2% Milk w/Add Vit A & D,Red Wine,Hard Boiled Eggs-Lrg,Fresh Parsley-Chpd,Table Salt,Worcestershire Sauce,Black Pepper,Canola Oil
+Water,Baking Soda,"Fresh Figs-Medium-2 1/4"" Dia-Each",White Granulated Sugar-Cup,,,,"Figs, candied",,,,,,,,,,,,,,,,,,
+Brown Sugar-Unpacked,White Granulated Sugar-Cup,Butter-Salted-Cup,2% Fat Milk-Vitamin A Added,Creamy Peanut Butter,Vanilla extract,Miniature Marshmallows-Cup,"Fudge, peanut butter",,,,,,,,,,,,,,,,,,
+White Granulated Sugar-Cup,Sweetened Condensed Milk-Canned,Butter-Salted-Cup,Marshmallows,Vanilla extract,Dried English Walnuts-Chopped,Semisweet Chocolate Chips,"Fudge, w/marshmallows",,,,,,,,,,,,,,,,,,
+Brown Sugar-Unpacked,Heavy Whipping Cream,Butter-Salted-Cup,Vanilla extract,Dried Pecans-Chopped,,,"Fudge, w/nuts brown sugar",,,,,,,,,,,,,,,,,,
+Gelatin w/Vit C & Salt Dry Mix-3oz Pkg,Black Cherry Drink Unswtnd-DryPkg KFT-KA,White Granulated Sugar,Water,,,,"Gelatin Pops, fzn",,,,,,,,,,,,,,,,,,
+Chocolate Inst Breakfast-Pkt,1% Milk w/Add VitA & VitD,,,,,,"Instant Breakfast, prep w/1% milk",,,,,,,,,,,,,,,,,,
+Chocolate Inst Breakfast-Pkt,2% Milk w/Add Vit A & D,,,,,,"Instant Breakfast, prep w/2% milk",,,,,,,,,,,,,,,,,,
+Chocolate Inst Breakfast-Pkt,3.25% Whole Milk,,,,,,"Instant Breakfast, prep w/whole milk",,,,,,,,,,,,,,,,,,
+Tomato Juice-Cnd,Fresh Lemon Juice,Worcestershire Sauce,Table Salt,Black Pepper,Vodka-80 Proof,Water-Ice Cubes,"Mixed Drink, Bloody Mary","Fresh Lemon Wedge-1/8 of 2 1/8""",,,,,,,,,,,,,,,,,
+Gin-80 Proof,Tonic Water,Water-Ice Cubes-(1 Cube=3/4 fl oz)-Each,,,,,"Mixed Drink, Gin & Tonic",,,,,,,,,,,,,,,,,,
+Whiskey-80 Proof,Sweet Vermouth,Water-Ice Cubes-(1 Cube=3/4 fl oz)-Each,S&W Maraschino Cherries-Cnd-Each SWF,,,,"Mixed Drink, Manhattan",,,,,,,,,,,,,,,,,,
+Gin-80 Proof,Sweet Vermouth,Water-Ice Cubes-(1 Cube=3/4 fl oz)-Each,S&W Queen Green Olives-Canned-Each SWF,,,,"Mixed Drink, Martini",,,,,,,,,,,,,,,,,,
+Fresh Lemon Juice,White Granulated Sugar-Cup,Gin-80 Proof,Club Soda,Lemon-Wedge/Slice-Each,,,"Mixed Drink, Tom Collins",,,,,,,,,,,,,,,,,,
+Large Pear (D'Anjou)-Each,Water,Baking Soda,White Granulated Sugar-Cup,,,,"Pears, candied",,,,,,,,,,,,,,,,,,
+Inst Pudding/Pie Mix-ButterscotchDry KFT,2% Fat Milk-Vitamin A Added,Cool Whip Topping-NonDairy KFT,Butterscotch Topping,"Graham Cracker Crust-Recipe-Chilled-9""",,,"Pie, butterscotch",,,,,,,,,,,,,,,,,,
+"Single Piecrust-Homemade-Baked-9""",Unsweetened Gelatin-Dry-Envelope,Water,Large Whole FreshEgg-Raw-Each,White Granulated Sugar-Cup,Fresh Lemon Peel,Fresh Lemon Juice,"Pie, lemon chiffon",Table Salt,White Granulated Sugar-Cup,Light Whipping Cream-Whipped,,,,,,,,,,,,,,,
+"Single Pie Crust Prep f/Rec Unbkd-9""",Fresh Diced Rhubarb,White Granulated Sugar,Enrich All Purpose Bleached White Flour,Salted Butter,,,"Pie, rhubarb",,,,,,,,,,,,,,,,,,
+"Strawberries-Frozen,Unsweetd,Unthaw-Cup",White Granulated Sugar-Cup,Unsweetened Gelatin-Dry-Envelope,Heavy Whipping Cream,"Single Piecrust-Mix-Prepared-Baked-9""",,,"Pie, strawberry chiffon",,,,,,,,,,,,,,,,,,
+Enrich All Purpose Bleached White Flour,Table Salt,Whole Eggs Raw-Lrg,2% Milk w/Add Vit A & D,Unsalted Butter,Buttery CookngSpray Oil-1SecSpray GFA-SB,,"Popover, w/2% milk",,,,,,,,,,,,,,,,,,
+Enrich All Purpose Bleached White Flour,Table Salt,Whole Eggs Raw-Lrg,3.25% Whole Milk,Unsalted Butter,Buttery CookngSpray Oil-1SecSpray GFA-SB,,"Popover, w/whole milk",,,,,,,,,,,,,,,,,,
+White Bread-Soft-Enrich-Slice-Lrg,Butter-Salted-Cup,Cinnamon-ground,Seedless Raisins-Cup-Unpacked,Large Whole FreshEgg-Raw-Each,2% Fat Milk-Vitamin A Added,Vanilla extract,"Pudding, bread",White Granulated Sugar-Cup,Table Salt,Ground Nutmeg,,,,,,,,,,,,,,,
+Lemon-Lime Soda Pop,Lemon-Lime Soda Pop,Miniature Marshmallows-Cup,Jello Gelatin-Lime-Dry Mix KFT,Cream Cheese,Pineapple InItsOwnJuice-Crushed-Cnd DLM,Dried Pecans-Chopped,"Salad, gelatin, fruity",Mayonnaise Type Dressing,Cool Whip Topping-NonDairy KFT,,,,,,,,,,,,,,,,
+Mayonnaise-Safflower & Soy Oil (Saffola),Celery-Raw-Diced,Apple w/Peel-Slices-Cup,Dried English Walnuts-Chopped,,,,"Salad, waldorf",,,,,,,,,,,,,,,,,,
+Fresh Alfalfa Sprouts,All Varieties Fresh Avocado,Monterey Jack Cheese-Diced,"Fresh Red Tomatoes YearRndAvg Med-2 3/5""",Mayonnaise w/Safflower & Soybean Oil,Enrich Soft White Bread-Lrg Slc,,"Sandwich, avocado & cheese, on white",,,,,,,,,,,,,,,,,,
+Fresh Alfalfa Sprouts,All Varieties Fresh Avocado,Monterey Jack Cheese-Diced,"Fresh Red Tomatoes YearRndAvg Med-2 3/5""",Mayonnaise w/Safflower & Soybean Oil,Wheat Bread-Slc,,"Sandwich, avocado & cheese, part wheat",,,,,,,,,,,,,,,,,,
+Fresh Alfalfa Sprouts,All Varieties Fresh Avocado,Monterey Jack Cheese-Shredded,"Fresh Red Tomatoes YearRndAvg Med-2 3/5""",Mayonnaise w/Safflower & Soybean Oil,Whole Wheat Bread-Slc,,"Sandwich, avocado & cheese, whole wheat",,,,,,,,,,,,,,,,,,
+Beef Ground HamburgerPatty20%Fat-PanBrld,Hard Margarine Soy Hydrog-Stick,Past Proc American Cheese Product-Slc,Mayonnaise Dressing w/Safflower&SoyOil,Rducd Calorie Rye Bread-Slc,,,"Sandwich, beef, patty melt, on rye",,,,,,,,,,,,,,,,,,
+Cured Pork Bacon-Ckd-Med Slice,Iceberg/Crisphead Lettuce Lrg Leaf,"Medium Whole Tomato,Red,Ripe-Raw-Each",Mayonnaise-Safflower & Soy Oil (Saffola),Wheat Bread-Slice,,,"Sandwich, BLT, on part whole wheat",,,,,,,,,,,,,,,,,,
+Cured Pork Bacon-Ckd-Med Slice,Iceberg/Crisphead Lettuce Lrg Leaf,"Medium Whole Tomato,Red,Ripe-Raw-Each",Mayonnaise-Safflower & Soy Oil (Saffola),White Bread-Soft-Enrich-Slice-Lrg,,,"Sandwich, BLT, on white",,,,,,,,,,,,,,,,,,
+Cured Pork Bacon-Ckd-Med Slice,Iceberg/Crisphead Lettuce Lrg Leaf,"Medium Whole Tomato,Red,Ripe-Raw-Each",Mayonnaise-Safflower & Soy Oil (Saffola),Whole Wheat Bread-Slice,,,"Sandwich, BLT, on whole wheat",,,,,,,,,,,,,,,,,,
+Chicken Spread-Canned,Mayonnaise w/Safflower & Soybean Oil,Wheat Bread-Slc,,,,,"Sandwich, chicken salad, on part wheat",,,,,,,,,,,,,,,,,,
+Chicken Spread-Canned,Mayonnaise w/Safflower & Soybean Oil,Enrich Soft White Bread-Lrg Slc,,,,,"Sandwich, chicken salad, on white",,,,,,,,,,,,,,,,,,
+Chicken Spread-Canned,Mayonnaise w/Safflower & Soybean Oil,Whole Wheat Bread-Slc,,,,,"Sandwich, chicken salad, on whole wheat",,,,,,,,,,,,,,,,,,
+Mayonnaise-Safflower & Soy Oil (Saffola),Rye Bread-Rducd Calorie-Slice,Grey Poupon Country Dijon Mustard  NBI,Corned Beef-Cured-Cnd-Slice-.75oz Ea,Swiss Processed Cheese Food-8oz Pkg,,,"Sandwich, corned beef & swiss, on rye",,,,,,,,,,,,,,,,,,
+Egg Salad,Mayonnaise-Safflower & Soy Oil (Saffola),Wheat Bread-Slice,,,,,"Sandwich, egg salad, on part wheat",,,,,,,,,,,,,,,,,,
+Egg Salad,Mayonnaise-Safflower & Soy Oil (Saffola),White Bread-Soft-Enrich-Slice-Lrg,,,,,"Sandwich, egg salad, on white",,,,,,,,,,,,,,,,,,
+Egg Salad,Mayonnaise-Safflower & Soy Oil (Saffola),Whole Wheat Bread-Slice,,,,,"Sandwich, egg salad, on whole wheat",,,,,,,,,,,,,,,,,,
+Past Proc American Cheese-Thin Slc,Hard Margarine Soy Hydrog-Stick,Wheat Bread-Slc,,,,,"Sandwich, grilled cheese, part wheat",,,,,,,,,,,,,,,,,,
+Past Proc American Cheese-Thin Slc,Hard Margarine Soy Hydrog-Stick,Soft White Bread-Lrg Slc,,,,,"Sandwich, grilled cheese, white",,,,,,,,,,,,,,,,,,
+Past Proc American Cheese-Thin Slc,Hard Margarine Soy Hydrog-Stick,Whole Wheat Bread-Slc,,,,,"Sandwich, grilled cheese, whole wheat",,,,,,,,,,,,,,,,,,
+11% Fat Ham Lunchmeat-Slc,Mayonnaise Dressing w/Safflower&SoyOil,Yellow Mustard-Prep,Past Proc American Cheese-Thin Slc,Wheat Bread-Slc,,,"Sandwich, ham & cheese, on part wheat",,,,,,,,,,,,,,,,,,
+11% Fat Ham Lunchmeat-Slc,Mayonnaise Dressing w/Safflower&SoyOil,Yellow Mustard-Prep,Past Proc American Cheese-Thin Slc,Whole Wheat Bread-Slc,,,"Sandwich, ham & cheese, on wheat",,,,,,,,,,,,,,,,,,
+11% Fat Ham Lunchmeat-Slc,Mayonnaise Dressing w/Safflower&SoyOil,Yellow Mustard-Prep,Past Proc American Cheese-Thin Slc,Soft White Bread-Lrg Slc,,,"Sandwich, ham & cheese, on white",,,,,,,,,,,,,,,,,,
+11% Fat Ham Lunchmeat-Slc,Mayonnaise Dressing w/Safflower&SoyOil,Yellow Mustard-Prep,Rye Bread-Slc,Swiss Cheese Food Past Proc-8oz Pkg,,,"Sandwich, ham & swiss, on rye",,,,,,,,,,,,,,,,,,
+Ham Salad Spread,Mayonnaise-Safflower & Soy Oil (Saffola),Wheat Bread-Slice,,,,,"Sandwich, ham salad, on part wheat",,,,,,,,,,,,,,,,,,
+Ham Salad Spread,Mayonnaise-Safflower & Soy Oil (Saffola),White Bread-Soft-Enrich-Slice-Lrg,,,,,"Sandwich, ham salad, on white",,,,,,,,,,,,,,,,,,
+Ham Salad Spread,Mayonnaise-Safflower & Soy Oil (Saffola),Whole Wheat Bread-Slice,,,,,"Sandwich, ham salad, on whole wheat",,,,,,,,,,,,,,,,,,
+11% Fat Ham Lunchmeat-Slc,Mayonnaise Dressing w/Safflower&SoyOil,Yellow Mustard-Prep,Wheat Bread-Slc,,,,"Sandwich, ham, on part wheat",,,,,,,,,,,,,,,,,,
+Ham Lunchmeat-Low Sodium-Thin Slice,Mayonnaise-Safflower & Soy Oil (Saffola),Yellow Mustard-Prep,Rye Bread-Slice,,,,"Sandwich, ham, on rye",,,,,,,,,,,,,,,,,,
+11% Fat Ham Lunchmeat-Slc,Mayonnaise Dressing w/Safflower&SoyOil,Yellow Mustard-Prep,Soft White Bread-Lrg Slc,,,,"Sandwich, ham, on white",,,,,,,,,,,,,,,,,,
+11% Fat Ham Lunchmeat-Slc,Mayonnaise Dressing w/Safflower&SoyOil,Yellow Mustard-Prep,Whole Wheat Bread-Slc,,,,"Sandwich, ham, on whole wheat",,,,,,,,,,,,,,,,,,
+White Bread-Soft-Enrich-Slice-Lrg,Creamy Peanut Butter,Jam/Preserves,,,,,"Sandwich, peanut butter/jam, on white",,,,,,,,,,,,,,,,,,
+Whole Wheat Bread-Slice,Creamy Peanut Butter,Jam/Preserves,,,,,"Sandwich, peanut butter/jam, part wheat",,,,,,,,,,,,,,,,,,
+Wheat Bread-Slice,Creamy Peanut Butter,Jam/Preserves,,,,,"Sandwich, peanut butter/jam, whole wheat",,,,,,,,,,,,,,,,,,
+Beef Lunchmeat-Thin Slice,Mayonnaise-Safflower & Soy Oil (Saffola),Wheat Bread-Slice,,,,,"Sandwich, roast beef, on part wheat",,,,,,,,,,,,,,,,,,
+Beef Lunchmeat-Thin Slice,Mayonnaise-Safflower & Soy Oil (Saffola),White Bread-Soft-Enrich-Slice-Lrg,,,,,"Sandwich, roast beef, on white",,,,,,,,,,,,,,,,,,
+Beef Lunchmeat-Thin Slice,Mayonnaise-Safflower & Soy Oil (Saffola),Whole Wheat Bread-Slice,,,,,"Sandwich, roast beef, on whole wheat",,,,,,,,,,,,,,,,,,
+Tuna Salad,Mayonnaise-Safflower & Soy Oil (Saffola),Wheat Bread-Slice,,,,,"Sandwich, tuna salad, on part wheat",,,,,,,,,,,,,,,,,,
+Tuna Salad,Mayonnaise-Safflower & Soy Oil (Saffola),White Bread-Soft-Enrich-Slice-Lrg,,,,,"Sandwich, tuna salad, on white",,,,,,,,,,,,,,,,,,
+Tuna Salad,Mayonnaise-Safflower & Soy Oil (Saffola),Whole Wheat Bread-Slice,,,,,"Sandwich, tuna salad, on whole wheat",,,,,,,,,,,,,,,,,,
+Wheat Bread-Slice,Turkey Ham Lunchmeat-Cured Thigh-Slice,Yellow Mustard-Prep,Mayonnaise-(Soybean Oil) w/Salt,,,,"Sandwich, turkey ham, on part wheat",,,,,,,,,,,,,,,,,,
+Turkey Ham Lunchmeat-Cured Thigh-Slice,Mayonnaise-Safflower & Soy Oil (Saffola),Yellow Mustard-Prep,Rye Bread-Rducd Calorie-Slice,,,,"Sandwich, turkey ham, on rye",,,,,,,,,,,,,,,,,,
+Turkey Ham Lunchmeat-Cured Thigh-Slice,Mayonnaise-Safflower & Soy Oil (Saffola),Yellow Mustard-Prep,White Bread-Soft-Enrich-Slice-Lrg,,,,"Sandwich, turkey ham, on white",,,,,,,,,,,,,,,,,,
+Turkey Ham Lunchmeat-Cured Thigh-Slice,Mayonnaise-Safflower & Soy Oil (Saffola),Yellow Mustard-Prep,Whole Wheat Bread-Slice,,,,"Sandwich, turkey ham, on whole wheat",,,,,,,,,,,,,,,,,,
+Turkey Ham Lunchmeat-Cured Thigh-Slice,Amer Process Cheese-Slice.75oz-w/DiNAPhs,Yellow Mustard-Prep,Mayonnaise-Safflower & Soy Oil (Saffola),Rye Bread-Rducd Calorie-Slice,,,"Sandwich, turkey ham/cheese, on rye",,,,,,,,,,,,,,,,,,
+Turkey Ham Lunchmeat-Cured Thigh-Slice,Amer Process Cheese-Slice.75oz-w/DiNAPhs,Yellow Mustard-Prep,Mayonnaise-Safflower & Soy Oil (Saffola),White Bread-Soft-Enrich-Slice-Lrg,,,"Sandwich, turkey ham/cheese, on white",,,,,,,,,,,,,,,,,,
+Turkey Ham Lunchmeat-Cured Thigh-Slice,Amer Process Cheese-Slice.75oz-w/DiNAPhs,Yellow Mustard-Prep,Mayonnaise-Safflower & Soy Oil (Saffola),Whole Wheat Bread-Slice,,,"Sandwich, turkey ham/cheese, whole wheat",,,,,,,,,,,,,,,,,,
+"Turkey Breast Lunchmeat-Slice-3.5"" Sqr",Mayonnaise-Safflower & Soy Oil (Saffola),Wheat Bread-Slice,,,,,"Sandwich, turkey, on part wheat",,,,,,,,,,,,,,,,,,
+"Turkey Breast Lunchmeat-Slice-3.5"" Sqr",Mayonnaise-Safflower & Soy Oil (Saffola),White Bread-Soft-Enrich-Slice-Lrg,,,,,"Sandwich, turkey, on white",,,,,,,,,,,,,,,,,,
+"Turkey Breast Lunchmeat-Slice-3.5"" Sqr",Mayonnaise-Safflower & Soy Oil (Saffola),Whole Wheat Bread-Slice,,,,,"Sandwich, turkey, on whole wheat",,,,,,,,,,,,,,,,,,
+Medium White Wine,Cider Vinegar,Ground Tarragon,White Onions-Raw-Chopped-Cup,Butter-Salted-Cup,Large Raw Egg Yolk-Fresh-Each,Table Salt,"Sauce, bearnaise",Fresh Parsley-Chopped-Cup,,,,,,,,,,,,,,,,,
+Butter-Salted-Cup,All Purpose White Flour Enriched-Blchd,Chicken Broth-Dry Mix + Water-Cup,Table Salt,Black Pepper,,,"Sauce, bechamel",,,,,,,,,,,,,,,,,,
+White Onions Chopped Cooked-Drnd,Ground Thyme,Red Wine,Salted Butter,Enrich All Purpose Bleached White Flour,Beef Bouillon-14.5oz rts Can,Fresh Lemon Juice,"Sauce, bordelaise",Black Pepper,Sherry Cooking Wine BGF-RE,Fresh Parsley-Chpd,,,,,,,,,,,,,,,
+Enrich All Purpose White Flour-Bkd Value,Hard Margarine Soy Hydrog-Stick,Chicken Broth Prep w/Wtr f/Cnd,Curry Powder,,,,"Sauce, curry",,,,,,,,,,,,,,,,,,
+Medium White Sauce-Prep f/Recipe,Parmesan Cheese-Grated,Egg Yolks-Ckd SVY,Salted Butter,White Onions Chopped Cooked-Drnd,Table Salt,,"Sauce, mornay",,,,,,,,,,,,,,,,,,
+Low Sodium Beef Broth/Bouillon-Cnd SVY,Low Sodium Vegetable Juice-Cnd CAM-V8,,,,,,"Soup, beef stock",,,,,,,,,,,,,,,,,,
+Beef Tripe-Cooked,Water,"White Onions-Raw-Med-Whole-2 1/2"" Dia",Fresh Garlic Cloves-Each Measure,Table Salt,Black Pepper,Ancho/Poblano Pepper-Dried-Each,"Soup, menudo, Mexican beef soup",Coriander/Cilantro-Leaves-Raw,Hominy-Ckd,,,,,,,,,,,,,,,,
+Cured Salt Pork-Raw,"Brlr/FryrWhole Chicken+Giblet,Neck-Stwd",Water,"Peeled Potato-Bld w/o Skn-1.75""-2.5"" Dia",Med Whole White Onion-Boiled-Drained,S&W Whole Peeled Tomatoes-Canned-Cup SWF,Golden Corn-Whole Kernel-Cnd DLM,"Stew, Brunswick","Baby Lima Beans,ImmSeed,Fzn,Ckd,Drnd-Cup",Worcestershire Sauce,Table Salt,Black Pepper,,,,,,,,,,,,,,
+2% Milk w/Add Vit A & D,Municipal Tap Water,Salted Butter,Table Salt,Enrich All Purpose Bleached White Flour,Active Dry Bakers Yeast,Active Dry Bakers Yeast,"Sweet Roll, cinnamon, w/raisins walnuts",White Granulated Sugar,Whole Eggs Raw-Lrg,Salted Butter,Ground Cinnamon,White Granulated Sugar,Seedless Raisins-Unpacked Cup,Dried English Walnuts-Chopped,Powdered Sugar-Unsifted,Salted Butter,Vanilla Extract,2% Milk w/Add Vit A & D,,,,,,,
+WhiteOnion Cooked Drained Whole-Lrg,Salted Butter-Stick,"Tomato Juice,w/Salt-Cnd",Fresh Whole Hot Green Chili Peppers,Chicken Broil/Fry Whl w/oSkin Chpd-Rstd,Ground Thyme,Table Salt,"Taco, chicken",Dried Ground Cayenne Pepper,"Baked Taco Shells Medium-5""",,,,,,,,,,,,,,,,
+Cream Cheese,Sweetened Condensed Milk-Canned,Lemon Juice-Bottled/Canned-Cup,Sour/TartRed Cherries-InWtr-UnDrndCndCup,White Granulated Sugar-Cup,Cornstarch,"Graham Cracker Piecrust-Baked-9""single","Torte, cherry & cream cheese",,,,,,,,,,,,,,,,,,
+Tostado Shells GML-EP,Fresh Iceberg Lettuce-Chopped,Cheddar Cheese-Shredded,Refried Beans-Cnd,Picante Sauce CAM-PA,Chicken Broil/Fry Whl w/oSkin Chpd-Rstd,,"Tostada, bean & chicken",,,,,,,,,,,,,,,,,,
