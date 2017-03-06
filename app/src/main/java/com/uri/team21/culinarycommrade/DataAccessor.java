@@ -5,9 +5,6 @@ import android.content.Context;
 import java.util.*;
 
 
-/**
- * Created by douglas on 2/23/17.
- */
 
 public class DataAccessor {
 
@@ -23,7 +20,7 @@ public class DataAccessor {
     public ArrayList<String> getRecipies() {
 
         ArrayList<String> data = new ArrayList<>();
-        Cursor cursor = mDbHelper.query("SELECT _description FROM vegi");
+        Cursor cursor = mDbHelper.query("SELECT _description FROM esha");
         while(!cursor.isAfterLast()) {
             data.add(cursor.getString(cursor.getColumnIndex("_description")));
             cursor.moveToNext();
