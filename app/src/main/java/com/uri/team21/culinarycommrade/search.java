@@ -34,7 +34,7 @@ public class search extends AppCompatActivity {
         tv.setLayoutParams(lp);
 
         // Set text to display in TextView
-        tv.setText(dataAccess.getRecipies().toString());
+        tv.setText(dataAccess.getRecipes().toString());
 
         // Set a text color for TextView text
         tv.setTextColor(Color.parseColor("#ff0000"));

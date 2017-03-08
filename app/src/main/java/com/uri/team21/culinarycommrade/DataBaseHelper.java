@@ -6,6 +6,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteQueryBuilder;
 import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
 
+// This is a database helper for the recipe database
 public class DataBaseHelper extends SQLiteAssetHelper {
 
     private static final String DATABASE_NAME = "recipes.db3";
