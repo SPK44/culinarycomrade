@@ -36,7 +36,7 @@ public class DataAccessor {
     public ArrayList<String> getInventory() {
 
         ArrayList<String> data = new ArrayList<>();
-        Cursor cursor = rDbHelper.query("SELECT Ingredient FROM Inventory");
+        Cursor cursor = iDbHelper.query("SELECT Ingredient FROM Inventory");
         while(!cursor.isAfterLast()) {
             data.add(cursor.getString(cursor.getColumnIndex("Ingredient")));
             cursor.moveToNext();
@@ -49,11 +49,11 @@ public class DataAccessor {
 
     public String[][] getShoppingList() {
 
-        Cursor cursor = rDbHelper.query("SELECT COUNT(Ingredient) AS Count FROM List");
+        Cursor cursor = lDbHelper.query("SELECT COUNT(Ingredient) AS Count FROM List");
         int length = cursor.getInt(cursor.getColumnIndex("Count"));
         String[][] data = new String[length][2];
         cursor.close();
-        Cursor cursor2 = rDbHelper.query("SELECT Ingredient,Recipe FROM List");
+        Cursor cursor2 = lDbHelper.query("SELECT Ingredient,Recipe FROM List");
         int i = 0;
         while(!cursor.isAfterLast()) {
             data[i][0] = cursor.getString(cursor.getColumnIndex("Ingredient"));
