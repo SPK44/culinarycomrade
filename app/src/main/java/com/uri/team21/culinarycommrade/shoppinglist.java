@@ -29,10 +29,15 @@ public class shoppinglist extends ListActivity {
         //Sample Code for displaying data using DataAccess
         DataAccessor dataAccess = new DataAccessor(this);
 
+        //TODO: once shoppinglist has items remove these and add empty check
+        dataAccess.addToShoppingList("apples", "apple pie");
+        dataAccess.addToShoppingList("bananas", "banana split");
+        dataAccess.addToShoppingList("oranges", "orange creamsicle");
+
         String[][] shoppingList = dataAccess.getShoppingList();
 
         //TODO: iterate through database
-        /*for (int i = 0; i < shoppingList.length; i++) {
+        for (int i = 0; i < shoppingList.length; i++) {
             String ingredient = shoppingList[i][0];
             String recipe = shoppingList[i][1];
             String concat = ingredient + " - (" + recipe + ")";
@@ -40,7 +45,6 @@ public class shoppinglist extends ListActivity {
             //ingredientView ingredientView = new ingredientView(concat);
             List_file.add(concat);
         }
-        */
 
         //Create an adapter for the listView and add the ArrayList to the adapter.
         list.setAdapter(new ArrayAdapter<String>(shoppinglist.this, android.R.layout.simple_list_item_1,List_file));
