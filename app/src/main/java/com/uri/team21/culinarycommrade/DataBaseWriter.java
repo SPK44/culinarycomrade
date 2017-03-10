@@ -38,7 +38,7 @@ public class DataBaseWriter extends SQLiteOpenHelper {
         String query = "CREATE TABLE " + DATABASE_NAME + " (" +
                 "Ingredient TEXT";
         if (DATABASE_NAME == "List") {
-            query += "Recipe TEXT";
+            query += ", Recipe TEXT";
         }
         query += ");";
         db.execSQL(query);
