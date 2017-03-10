@@ -16,11 +16,8 @@ public class search extends AppCompatActivity {
 
         RelativeLayout rl = (RelativeLayout) findViewById(R.id.activity_search);
 
-
-
         //Sample Code for displaying data using DataAccess
         DataAccessor dataAccess = new DataAccessor(this);
-
 
         // Create a TextView programmatically.
         TextView tv = new TextView(getApplicationContext());

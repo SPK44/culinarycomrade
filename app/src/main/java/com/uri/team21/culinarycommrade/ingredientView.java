@@ -22,16 +22,12 @@ public class ingredientView extends LinearLayout {
         shoppingButton = new Button(context);
 
         addView(ingredientName);
-
     }
 
     public void setName(String name){
         ingredientName.setText(name);
     }
-
     public void setIngredientName(String name){
         ingredientName.setText(name);
     }
-
-
 }
