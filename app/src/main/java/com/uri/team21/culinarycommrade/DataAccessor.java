@@ -55,10 +55,10 @@ public class DataAccessor {
         cursor.close();
         Cursor cursor2 = lDbHelper.query("SELECT Ingredient,Recipe FROM List");
         int i = 0;
-        while(!cursor.isAfterLast()) {
+        while(!cursor2.isAfterLast()) {
             data[i][0] = cursor2.getString(cursor2.getColumnIndex("Ingredient"));
             data[i][1] = cursor2.getString(cursor2.getColumnIndex("Recipe"));
-            cursor.moveToNext();
+            cursor2.moveToNext();
             i++;
         }
         cursor2.close();
