@@ -1,9 +1,8 @@
 package com.uri.team21.culinarycommrade;
 
-import android.app.Activity;
 import android.app.ListActivity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 import java.util.ArrayList;
@@ -11,6 +10,8 @@ import java.util.List;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+
+import static android.content.ContentValues.TAG;
 
 public class shoppinglist extends ListActivity {
     /** Called when the activity is first created. */
@@ -29,21 +30,23 @@ public class shoppinglist extends ListActivity {
         //Sample Code for displaying data using DataAccess
         DataAccessor dataAccess = new DataAccessor(this);
 
-        //TODO: once shoppinglist has items remove these and add empty check
+        //TODO: these are only here for testing, remove once we can add items to inventory from other places
         dataAccess.addToShoppingList("apples", "apple pie");
         dataAccess.addToShoppingList("bananas", "banana split");
         dataAccess.addToShoppingList("oranges", "orange creamsicle");
 
         String[][] shoppingList = dataAccess.getShoppingList();
 
-        //TODO: iterate through database
         for (int i = 0; i < shoppingList.length; i++) {
             String ingredient = shoppingList[i][0];
             String recipe = shoppingList[i][1];
             String concat = ingredient + " - (" + recipe + ")";
             //TODO: make ingredientViews to add to list
             //ingredientView ingredientView = new ingredientView(concat);
-            List_file.add(concat);
+            if(!(concat.equals("null - (null)"))) {
+                List_file.add(concat);
+                Log.d(TAG, "adding " + concat + " to list_file");
+            }
         }
 
         //Create an adapter for the listView and add the ArrayList to the adapter.
