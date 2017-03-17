@@ -22,7 +22,6 @@ public class shoppinglist extends ListActivity {
         setContentView(R.layout.activity_shoppinglist);
         List_file = new ArrayList<String>();
         list = (ListView) findViewById(android.R.id.list);
-
         CreateListView();
     }
 

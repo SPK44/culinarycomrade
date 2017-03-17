@@ -22,7 +22,6 @@ public class inventory extends ListActivity {
         setContentView(R.layout.activity_inventory);
         List_file = new ArrayList<String>();
         list = (ListView) findViewById(android.R.id.list);
-
         CreateListView();
     }
     private void CreateListView() {
