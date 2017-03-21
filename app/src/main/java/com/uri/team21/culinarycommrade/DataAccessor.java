@@ -66,6 +66,60 @@ public class DataAccessor {
 
     }
 
+     public ArrayList<String> getIngredients(String Name) { 
+        String query = "SELECT RecipeItem/0/_ItemName";
+             for( int i=1; i<25; i++)     {         query+=", RecipeItem/"+i+"/_ItemName";
+             }     query+= "FROM esha";
+             query+= "WHERE _description ="+ Name;
+             ArrayList<String> data = new ArrayList<>();
+             Cursor cursor = rDbHelper.query(query);
+              for( int i=0; i<25; i++)     {
+               String someData=  cursor.getString(cursor.getColumnIndex("RecipeItem/"+i+"/_ItemName"));
+                 if (someData == null) {
+                     break; 
+            } 
+                else  { 
+                data.add(someData); 
+            } 
+        }     cursor.close();
+              return data;  
+    }
+
+      public ArrayList<String> getAllIngredients() { 
+        ArrayList<String> allIngredients =new ArrayList<String>();
+             ArrayList<String> recipes = getRecipes();
+             int size = recipes.size(); 
+        for (int i = 0; i<size; i++)     {
+                 ArrayList<String> someIngredients = getIngredients(recipes[i]); 
+            allIngredients = concat(allIngredients,someIngredients);
+                 } 
+        return allIngredients;
+         }
+
+          public String[] concat(String[] a, String[] b) { 
+        int aLen = a.length;
+             int bLen = b.length;
+             String[] c= new String[aLen+bLen];
+             System.arraycopy(a, 0, c, 0, aLen); 
+            System.arraycopy(b, 0, c, aLen, bLen); 
+        return c; 
+    }  
+
+    public int getYield(String Name){
+          String query ="SELECT Yeild/measure/_quantity From esha WHERE _description="+Name; 
+        Cursor cursor = rDbHelper.query(query);
+             String someData=  cursor.getString(cursor.getColumnIndex("Yeild/measure/_quantity")); 
+        int yield = Integer.parseInt(someData);
+             return yield;
+         }
+
+          public String getDescription(String Name){  
+        String query ="SELECT memo/__cdata From esha WHERE _description="+Name; 
+        Cursor cursor = rDbHelper.query(query);
+             String Directions=  cursor.getString(cursor.getColumnIndex("memo/__cdata"));
+             return Directions;
+         }
+
     public void addToInventory(String Ingredient) {
         iDbHelper.query("INSERT INTO Inventory (Ingredient) VALUES ('" + Ingredient + "');");
     }
