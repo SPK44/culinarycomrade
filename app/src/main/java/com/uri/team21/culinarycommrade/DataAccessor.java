@@ -4,7 +4,7 @@ import android.content.Context;
 import android.database.Cursor;
 
 import java.util.ArrayList;
-
+import java.util.*;
 
 public class DataAccessor {
 
@@ -86,25 +86,54 @@ public class DataAccessor {
     }
 
 
-    public ArrayList<String> getAllIngredients() {
+    public ArrayList<String> getAllIngredients()
+    {
         ArrayList<String> allIngredients = new ArrayList<String>();
         ArrayList<String> recipes = getRecipes();
         int size = recipes.size();
+        String[] aRecipes = recipes.toArray(new String[size]);
+        String[] aAllIngredients;
         for (int i = 0; i < size; i++) {
-            ArrayList<String> someIngredients = getIngredients(recipes[i]);
-            allIngredients = concat(allIngredients, someIngredients);
+            ArrayList<String> someIngredients = getIngredients(aRecipes[i]);
+            String[] aSomeIngredients = someIngredients.toArray(new String[someIngredients.size()]);
+            aAllIngredients = allIngredients.toArray(new String[allIngredients.size()]);
+            allIngredients = concat(aAllIngredients, aSomeIngredients);
         }
+        aAllIngredients = allIngredients.toArray(new String[allIngredients.size()]);
+        allIngredients = uniqueIngredients(aAllIngredients);
         return allIngredients;
     }
 
+    //I got most of this Method from stackoverflow, it should work!
+    public ArrayList<String> uniqueIngredients(String[] arr)
+    {
+        ArrayList<String> arrList = new ArrayList<String>();
+        int count= 0;
+        //List<String> arrList = Arrays.asList(arr);
+        ArrayList<String> lenList = new ArrayList<String>();
+        for(int i=0;i<arr.length;i++){
+            for(int j=i+1;j<arr.length;j++){
+                if(arr[i].equals(arr[j])){
+                    count+=1;
+                }
+            }
+            if(count<1){
+                arrList.add(arr[i]);
+            }
+            count=0;
+        }
+        return arrList;
+    }
 
-    public String[] concat(String[] a, String[] b) {
+
+    public ArrayList<String> concat(String[] a, String[] b) {
         int aLen = a.length;
         int bLen = b.length;
         String[] c = new String[aLen + bLen];
         System.arraycopy(a, 0, c, 0, aLen);
         System.arraycopy(b, 0, c, aLen, bLen);
-        return c;
+        ArrayList<String> d = new ArrayList<String>(Arrays.asList(c));
+        return d;
     }
 
     public int getYield(String Name) {
