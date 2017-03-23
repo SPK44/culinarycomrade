@@ -11,6 +11,7 @@ public class DataAccessor {
     private DataBaseHelper rDbHelper;
     private DataBaseWriter lDbHelper;
     private DataBaseWriter iDbHelper;
+    private static ArrayList<String> unique;
 
 
     DataAccessor(Context context) {
@@ -88,20 +89,25 @@ public class DataAccessor {
 
     public ArrayList<String> getAllIngredients()
     {
-        ArrayList<String> allIngredients = new ArrayList<String>();
-        ArrayList<String> recipes = getRecipes();
-        int size = recipes.size();
-        String[] aRecipes = recipes.toArray(new String[size]);
-        String[] aAllIngredients;
-        for (int i = 0; i < size; i++) {
-            ArrayList<String> someIngredients = getIngredients(aRecipes[i]);
-            String[] aSomeIngredients = someIngredients.toArray(new String[someIngredients.size()]);
+
+        if (unique.isEmpty()) {
+            ArrayList<String> allIngredients = new ArrayList<String>();
+            ArrayList<String> recipes = getRecipes();
+            int size = recipes.size();
+            String[] aRecipes = recipes.toArray(new String[size]);
+            String[] aAllIngredients;
+            for (int i = 0; i < size; i++) {
+                ArrayList<String> someIngredients = getIngredients(aRecipes[i]);
+                String[] aSomeIngredients = someIngredients.toArray(new String[someIngredients.size()]);
+                aAllIngredients = allIngredients.toArray(new String[allIngredients.size()]);
+                allIngredients = concat(aAllIngredients, aSomeIngredients);
+            }
             aAllIngredients = allIngredients.toArray(new String[allIngredients.size()]);
-            allIngredients = concat(aAllIngredients, aSomeIngredients);
+            allIngredients = uniqueIngredients(aAllIngredients);
+            unique = new ArrayList<String>(allIngredients);
+            return allIngredients;
         }
-        aAllIngredients = allIngredients.toArray(new String[allIngredients.size()]);
-        allIngredients = uniqueIngredients(aAllIngredients);
-        return allIngredients;
+        return unique;
     }
 
     //I got most of this Method from stackoverflow, it should work!
