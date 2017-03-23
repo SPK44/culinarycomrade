@@ -29,6 +29,7 @@ captures/
 .idea/dictionaries
 .idea/libraries
 .idea/runConfigurations.xml
+.idea/misc.xml
 
 *.jks
 
