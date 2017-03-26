@@ -158,6 +158,26 @@ public class DataAccessor {
         return Directions;
     }
 
+    public boolean toggleInventory(String Ingredient) {
+        Cursor cursor = iDbHelper.query("SELECT Ingredient FROM Inventory WHERE Ingredient='" + Ingredient+ "';");
+        if(cursor.isNull(cursor.getColumnIndex("Ingredient"))) {
+            addToInventory(Ingredient);
+            return true;
+        }
+        removeFromInventory(Ingredient);
+        return false;
+    }
+
+    public boolean toggleShoppingList(String Ingredient, String Recipe) {
+        Cursor cursor = lDbHelper.query("SELECT Ingredient FROM Inventory WHERE Ingredient='" + Ingredient + "' AND Recipe='" + Recipe + "';");
+        if(cursor.isNull(cursor.getColumnIndex("Ingredient"))) {
+            addToShoppingList(Ingredient, Recipe);
+            return true;
+        }
+        removeFromShoppingList(Ingredient, Recipe);
+        return false;
+    }
+
     public void addToInventory(String Ingredient) {
         iDbHelper.query("INSERT INTO Inventory (Ingredient) VALUES ('" + Ingredient + "');");
     }
