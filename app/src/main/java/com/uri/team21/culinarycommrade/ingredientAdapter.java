@@ -19,7 +19,7 @@ import java.util.ArrayList;
 
 public class ingredientAdapter extends ArrayAdapter<ingredientView> {
 
-    ArrayList<ingredientView> ingredients = new ArrayList<>();
+    private ArrayList<ingredientView> ingredients = new ArrayList<>();
     private Context mContext;
     private ArrayList<String> ingredNames;
 
@@ -28,6 +28,7 @@ public class ingredientAdapter extends ArrayAdapter<ingredientView> {
         super(context, textViewResourceId, objects);
         mContext = context;
         System.out.println(objects);
+        ingredients = objects;
     }
 
     @Override
@@ -35,18 +36,22 @@ public class ingredientAdapter extends ArrayAdapter<ingredientView> {
         ingredientView view;
         View v = convertView;
 
+        System.out.println(convertView);
+
         if(convertView == null){
-            view = new ingredientView(mContext);
-        } else {
-            view = (ingredientView) convertView;
+            LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            convertView = inflater.inflate(R.layout.ingredientlayout, parent, false);
         }
 
         LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         //v = inflater.inflate(R.layout.ingredientlayout, null);
-        view.setIngredientName("hi");
-        //TextView textView = (TextView) view.findViewById(R.id.textView);
-        //Button shop = (Button) v.findViewById(R.id.button);
-        //textView.setText(ingredients.get(position).getName());
-        return view;
+        //view.setIngredientName("hi");
+        TextView ingName = (TextView) convertView.findViewById(R.id.ingName);
+        Button inventBut = (Button) convertView.findViewById(R.id.inventBut);
+        Button shopBut = (Button) convertView.findViewById(R.id.shopBut);
+        ingName.setText(ingredients.get(position).getName());
+
+
+        return convertView;
     }
 }

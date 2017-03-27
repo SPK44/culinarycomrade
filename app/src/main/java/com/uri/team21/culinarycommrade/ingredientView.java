@@ -27,8 +27,8 @@ public class ingredientView extends LinearLayout {
         addView(inventoryButton);
         addView(shoppingButton);
 
-        id = "unset";
-        setIngredientName(id);
+        id = "unsety";
+        setName(id);
 
         DataAccessor dataAccess = new DataAccessor(this.getContext());
     }
@@ -44,7 +44,7 @@ public class ingredientView extends LinearLayout {
         addView(shoppingButton);
 
         id = name;
-        setIngredientName(id);
+        setName(id);
 
         DataAccessor dataAccess = new DataAccessor(this.getContext());
     }
@@ -65,11 +65,7 @@ public class ingredientView extends LinearLayout {
     }
 
     public void inventoryClick(){
-        setIngredientName("butt");
+        setName("click");
     }
 
-    public void setIngredientName(String name){
-        id = name;
-        ingredientName.setText(id);
-    }
 }

@@ -22,8 +22,8 @@ public class inventory extends ListActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inventory);
-        List_file = new ArrayList<ingredientView>();
-        list_file_names = new ArrayList<String>();
+        List_file = new ArrayList<>();
+
         list = (ListView) findViewById(android.R.id.list);
         CreateListView();
     }
@@ -41,9 +41,9 @@ public class inventory extends ListActivity {
         for (int i = 0; i < inventory.size(); i++) {
             String ingredient = inventory.get(i);
             //TODO: make ingredientViews to add to list
-            ingredientView ingredientView = new ingredientView(this, ingredient);
+            ingredientView ingredientViewAdd = new ingredientView(this, ingredient);
             if(!(ingredient.equals("null"))) {
-                List_file.add(ingredientView);
+                List_file.add(ingredientViewAdd);
                 Log.d(TAG, "adding " + ingredient + " to list_file");
             }
         }

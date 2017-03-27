@@ -1,38 +1,38 @@
 package com.uri.team21.culinarycommrade;
 
-import android.app.ListActivity;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.ListView;
-import java.util.ArrayList;
-import java.util.List;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
+        import android.app.ListActivity;
+        import android.os.Bundle;
+        import android.util.Log;
+        import android.view.View;
+        import android.widget.ListView;
+        import java.util.ArrayList;
+        import java.util.List;
+        import android.widget.AdapterView.OnItemClickListener;
+        import android.widget.AdapterView;
+        import android.widget.ArrayAdapter;
 
-import static android.content.ContentValues.TAG;
+        import static android.content.ContentValues.TAG;
 
 public class shoppinglist extends ListActivity {
     /** Called when the activity is first created. */
-    ListView list;
-    private List<String> List_file;
+    private ListView list;
+    private ArrayList<ingredientView> List_file;
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shoppinglist);
-        List_file = new ArrayList<String>();
+        List_file = new ArrayList<>();
         list = (ListView) findViewById(android.R.id.list);
         CreateListView();
     }
-
     private void CreateListView() {
         //Sample Code for displaying data using DataAccess
         DataAccessor dataAccess = new DataAccessor(this);
 
-        //TODO: these are only here for testing, remove once we can add items to inventory from other places
+        //TODO: these are only here for testing, remove once we can add items to the shopping list from other places
         dataAccess.addToShoppingList("apples", "apple pie");
-        dataAccess.addToShoppingList("bananas", "banana split");
-        dataAccess.addToShoppingList("oranges", "orange creamsicle");
+        dataAccess.addToShoppingList("bananas", "banana pie");
+        dataAccess.addToShoppingList("oranges", "orange pie");
 
         String[][] shoppingList = dataAccess.getShoppingList();
 
@@ -41,15 +41,15 @@ public class shoppinglist extends ListActivity {
             String recipe = shoppingList[i][1];
             String concat = ingredient + " - (" + recipe + ")";
             //TODO: make ingredientViews to add to list
-            //ingredientView ingredientView = new ingredientView(concat);
+            ingredientView ingredientViewAdd = new ingredientView(this, ingredient);
             if(!(concat.equals("null - (null)"))) {
-                List_file.add(concat);
-                Log.d(TAG, "adding " + concat + " to list_file");
+                List_file.add(ingredientViewAdd);
+                Log.d(TAG, "adding " + ingredient + " to list_file");
             }
         }
 
         //Create an adapter for the listView and add the ArrayList to the adapter.
-        list.setAdapter(new ArrayAdapter<String>(shoppinglist.this, android.R.layout.simple_list_item_1,List_file));
+        list.setAdapter(new ingredientAdapter(shoppinglist.this, R.layout.ingredientlayout, List_file));
         list.setOnItemClickListener(new OnItemClickListener()
         {
             @Override
@@ -60,4 +60,3 @@ public class shoppinglist extends ListActivity {
         });
     }
 }
-
