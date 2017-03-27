@@ -24,7 +24,7 @@ public class recipe extends Activity {
         String  recipeName = "Apple Pie";
 
         ListView ingList = (ListView)findViewById(R.id.list1);
-        ListView dirList = (ListView)findViewById(R.id.list2);
+        ListView dirList = (ListView)findViewById(R.id.list_recipe);
         TextView recName = (TextView) findViewById(R.id.text);
 
         recName.setText(recipeName);

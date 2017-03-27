@@ -16,11 +16,14 @@ import static android.content.ContentValues.TAG;
 public class inventory extends ListActivity {
     /** Called when the activity is first created. */
     ListView list;
-    private List<String> List_file;
+    private ArrayList<ingredientView> List_file;
+    private List<String> list_file_names;
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inventory);
-        List_file = new ArrayList<String>();
+        List_file = new ArrayList<ingredientView>();
+        list_file_names = new ArrayList<String>();
         list = (ListView) findViewById(android.R.id.list);
         CreateListView();
     }
@@ -38,15 +41,15 @@ public class inventory extends ListActivity {
         for (int i = 0; i < inventory.size(); i++) {
             String ingredient = inventory.get(i);
             //TODO: make ingredientViews to add to list
-            //ingredientView ingredientView = new ingredientView(concat);
+            ingredientView ingredientView = new ingredientView(this, ingredient);
             if(!(ingredient.equals("null"))) {
-                List_file.add(ingredient);
+                List_file.add(ingredientView);
                 Log.d(TAG, "adding " + ingredient + " to list_file");
             }
         }
 
         //Create an adapter for the listView and add the ArrayList to the adapter.
-        list.setAdapter(new ArrayAdapter<String>(inventory.this, android.R.layout.simple_list_item_1,List_file));
+        list.setAdapter(new ingredientAdapter(inventory.this, R.layout.ingredientlayout, List_file));
         list.setOnItemClickListener(new OnItemClickListener()
         {
             @Override

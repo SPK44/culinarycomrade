@@ -11,7 +11,7 @@
     tools:context="com.uri.team21.culinarycommrade.shoppinglist">
 
     <ListView
-        android:id="@android:id/list"
+        android:id="@+id/list_shop"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_centerHorizontal="true"
