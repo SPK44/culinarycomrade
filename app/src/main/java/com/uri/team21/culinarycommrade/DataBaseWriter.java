@@ -1,15 +1,16 @@
 package com.uri.team21.culinarycommrade;
 
 
+import android.Manifest;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-// This is a class for writeing to writable databases such as the Ingredient and Shopping List
+// This is a class for writing to writable databases such as the Ingredient and Shopping List
 public class DataBaseWriter extends SQLiteOpenHelper {
 
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 2;
     private String DATABASE_NAME;
 
 
@@ -29,6 +30,7 @@ public class DataBaseWriter extends SQLiteOpenHelper {
         Cursor c = db.rawQuery(sql, null);
 
         c.moveToFirst();
+        db.close();
         return c;
 
     }
