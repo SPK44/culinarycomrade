@@ -73,8 +73,8 @@ public class DataAccessor {
         for (int i = 1; i < 25; i++) {
             query += ", RecipeItem/" + i + "/_ItemName";
         }
-        query += "FROM esha";
-        query += "WHERE _description =" + Name;
+        query += " FROM esha ";
+        query += "WHERE _description = '" + Name + "';";
         ArrayList<String> data = new ArrayList<>();
         Cursor cursor = rDbHelper.query(query);
         for (int i = 0; i < 25; i++) {
@@ -90,7 +90,7 @@ public class DataAccessor {
     public ArrayList<String> getAllIngredients()
     {
 
-        if (unique.isEmpty()) {
+        if (unique == null) {
             ArrayList<String> allIngredients = new ArrayList<String>();
             ArrayList<String> recipes = getRecipes();
             int size = recipes.size();
@@ -169,13 +169,15 @@ public class DataAccessor {
     }
 
     public boolean toggleShoppingList(String Ingredient, String Recipe) {
-        Cursor cursor = lDbHelper.query("SELECT Ingredient FROM Inventory WHERE Ingredient='" + Ingredient + "' AND Recipe='" + Recipe + "';");
-        if(cursor.isNull(cursor.getColumnIndex("Ingredient"))) {
-            addToShoppingList(Ingredient, Recipe);
-            return true;
+        Cursor cursor = lDbHelper.query("SELECT Ingredient FROM List WHERE Ingredient='" + Ingredient + "' AND Recipe='" + Recipe + "';");
+        if(cursor.getCount() > 0) {
+            removeFromShoppingList(Ingredient, Recipe);
+            cursor.close();
+            return false;
         }
-        removeFromShoppingList(Ingredient, Recipe);
-        return false;
+        addToShoppingList(Ingredient, Recipe);
+        cursor.close();
+        return true;
     }
 
     public void addToInventory(String Ingredient) {
