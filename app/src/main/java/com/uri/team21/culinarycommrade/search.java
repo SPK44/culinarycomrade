@@ -1,42 +1,57 @@
 package com.uri.team21.culinarycommrade;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.ListActivity;
 import android.os.Bundle;
-import android.widget.RelativeLayout;
-import android.widget.RelativeLayout.LayoutParams;
-import android.widget.TextView;
-import android.graphics.Color;
+import android.util.Log;
+import android.view.View;
+import android.widget.ListView;
+import java.util.ArrayList;
+import java.util.List;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 
-public class search extends AppCompatActivity {
+import static android.content.ContentValues.TAG;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+public class search extends ListActivity {
+    /** Called when the activity is first created. */
+    ListView list;
+    private List<String> List_file;
+
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
+        List_file = new ArrayList<String>();
 
-        RelativeLayout rl = (RelativeLayout) findViewById(R.id.activity_search);
+        list = (ListView) findViewById(android.R.id.list);
+        CreateListView();
+    }
 
-        //Sample Code for displaying data using DataAccess
-        DataAccessor dataAccess = new DataAccessor(this);
+    private void CreateListView() {
+        WeightedSearch weightedList = new WeightedSearch(this);
+        WeightedMessenger sortedList = weightedList.getSortedList();
+        String[] sortedRecipes = sortedList.recipes;
+        double[] sortedWeights = sortedList.weights;
 
-        // Create a TextView programmatically.
-        TextView tv = new TextView(getApplicationContext());
+        for (int i = 0; i < sortedList.index; i++) {
+            String recipeName = sortedRecipes[i];
+            double recipeWeight = Math.floor(sortedWeights[i] * 100) / 100;
+            String concat = recipeName + " - " + recipeWeight + " % match";
+            if(!(recipeName.equals("null"))) {
+                List_file.add(concat);
+                Log.d(TAG, "adding " + recipeName + " to list_file");
+            }
+        }
 
-        // Create a LayoutParams for TextView
-        LayoutParams lp = new RelativeLayout.LayoutParams(
-                LayoutParams.WRAP_CONTENT, // Width of TextView
-                LayoutParams.WRAP_CONTENT); // Height of TextView
-
-        // Apply the layout parameters to TextView widget
-        tv.setLayoutParams(lp);
-
-        // Set text to display in TextView
-        tv.setText(dataAccess.getRecipes().toString());
-
-        // Set a text color for TextView text
-        tv.setTextColor(Color.parseColor("#ff0000"));
-
-        // Add newly created TextView to parent view group (RelativeLayout)
-        rl.addView(tv);
+        //Create an adapter for the listView and add the ArrayList to the adapter.
+        list.setAdapter(new ArrayAdapter<String>(search.this, android.R.layout.simple_list_item_1,List_file));
+        list.setOnItemClickListener(new OnItemClickListener()
+        {
+            @Override
+            public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3)
+            {
+                //args2 is the listViews Selected index
+            }
+        });
     }
 }

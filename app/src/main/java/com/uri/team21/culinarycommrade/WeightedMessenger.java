@@ -7,7 +7,7 @@ import java.util.Comparator;
 public class WeightedMessenger {
     public String[] recipes;
     public double[] weights;
-    private int index = 0;
+    public int index = 0;
 
     WeightedMessenger(int length) {
         recipes = new String[length];
@@ -41,9 +41,6 @@ public class WeightedMessenger {
         }
 
     }
-
-
-
 }
 
 class NameNumber
