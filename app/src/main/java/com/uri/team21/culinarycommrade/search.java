@@ -35,7 +35,7 @@ public class search extends ListActivity {
 
         for (int i = 0; i < sortedList.index; i++) {
             String recipeName = sortedRecipes[i];
-            double recipeWeight = Math.floor(sortedWeights[i] * 100) / 100;
+            double recipeWeight = sortedWeights[i] * 100;
             String concat = recipeName + " - " + recipeWeight + " % match";
             if(!(recipeName.equals("null"))) {
                 List_file.add(concat);

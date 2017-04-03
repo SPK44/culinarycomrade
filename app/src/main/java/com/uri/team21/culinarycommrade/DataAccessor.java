@@ -74,6 +74,7 @@ public class DataAccessor {
             query += ", RecipeItem_" + i + "_ItemName";
         }
         query += " FROM esha ";
+        Name = Name.replaceAll("'", "''");
         query += "WHERE _description = '" + Name + "';";
         ArrayList<String> data = new ArrayList<>();
         Cursor cursor = rDbHelper.query(query);
