@@ -42,6 +42,17 @@ public class DataBaseTest {
     }
 
     @Test
+    public void test_toogle_inv() {
+        ArrayList<String> all = access.getAllIngredients();
+        for(String i : all) {
+            assertTrue(access.toggleInventory(i));
+            assertFalse(access.toggleInventory(i));
+        }
+
+
+    }
+
+    @Test
     public void test_shopping_list() {
         assertTrue("Item already in",access.toggleShoppingList(TEST_ITEM, TEST_ITEM));
         String [][] list = access.getShoppingList();
@@ -60,6 +71,8 @@ public class DataBaseTest {
         }
         assertFalse("Toggling again didn't work",test);
     }
+
+
 
     @Test
     public void test_recipes() {

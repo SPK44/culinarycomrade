@@ -25,11 +25,12 @@ public class WeightedSearch {
             ArrayList<String> ingredients = db.getIngredients(i);
             int count = 0;
             for(String j: ingredients) {
-                if (j.equals(i)) {
-                    count++;
-                }
+                for(String l : inventory)
+                    if (j.equals(l)) {
+                        count++;
+                    }
             }
-            weightedList.append(i, (double)count/ingredients.size());
+            weightedList.append(i, ((double)count/ingredients.size()));
         }
 
         weightedList.sort();

@@ -144,6 +144,7 @@ public class DataAccessor {
     }
 
     public int getYield(String Name) {
+        Name = Name.replaceAll("'", "''");
         String query = "SELECT Yeild/measure/_quantity From esha WHERE _description=" + Name;
         Cursor cursor = rDbHelper.query(query);
         String someData = cursor.getString(cursor.getColumnIndex("Yeild/measure/_quantity"));
@@ -153,6 +154,7 @@ public class DataAccessor {
 
 
     public String getDescription(String Name) {
+        Name = Name.replaceAll("'", "''");
         String query = "SELECT memo/__cdata From esha WHERE _description=" + Name;
         Cursor cursor = rDbHelper.query(query);
         String Directions = cursor.getString(cursor.getColumnIndex("memo/__cdata"));
@@ -160,16 +162,21 @@ public class DataAccessor {
     }
 
     public boolean toggleInventory(String Ingredient) {
+        Ingredient = Ingredient.replaceAll("'", "''");
         Cursor cursor = iDbHelper.query("SELECT Ingredient FROM Inventory WHERE Ingredient='" + Ingredient+ "';");
-        if(cursor.isNull(cursor.getColumnIndex("Ingredient"))) {
-            addToInventory(Ingredient);
-            return true;
+        if(cursor.getCount() > 0) {
+            removeFromInventory(Ingredient);
+            cursor.close();
+            return false;
         }
-        removeFromInventory(Ingredient);
-        return false;
+        addToInventory(Ingredient);
+        cursor.close();
+        return true;
     }
 
     public boolean toggleShoppingList(String Ingredient, String Recipe) {
+        Ingredient = Ingredient.replaceAll("'", "''");
+        Recipe = Recipe.replaceAll("'", "''");
         Cursor cursor = lDbHelper.query("SELECT Ingredient FROM List WHERE Ingredient='" + Ingredient + "' AND Recipe='" + Recipe + "';");
         if(cursor.getCount() > 0) {
             removeFromShoppingList(Ingredient, Recipe);
@@ -181,19 +188,19 @@ public class DataAccessor {
         return true;
     }
 
-    public void addToInventory(String Ingredient) {
+    private void addToInventory(String Ingredient) {
         iDbHelper.query("INSERT INTO Inventory (Ingredient) VALUES ('" + Ingredient + "');");
     }
 
-    public void addToShoppingList(String Ingredient, String Recipe) {
+    private void addToShoppingList(String Ingredient, String Recipe) {
         lDbHelper.query("INSERT INTO List (Ingredient, Recipe) VALUES ('" + Ingredient + "','" + Recipe + "');");
     }
 
-    public void removeFromInventory(String Ingredient) {
+    private void removeFromInventory(String Ingredient) {
         iDbHelper.query("DELETE FROM Inventory WHERE Ingredient='" + Ingredient + "';");
     }
 
-    public void removeFromShoppingList(String Ingredient, String Recipe) {
+    private void removeFromShoppingList(String Ingredient, String Recipe) {
         lDbHelper.query("DELETE FROM List WHERE Ingredient='" + Ingredient + "' AND Recipe='" + Recipe + "';");
     }
 
@@ -202,6 +209,7 @@ public class DataAccessor {
     }
 
     public void deleteAllList(String Recipe) {
+        Recipe = Recipe.replaceAll("'", "''");
         lDbHelper.query("DELETE FROM List WHERE Recipe='" + Recipe + "';");
     }
 

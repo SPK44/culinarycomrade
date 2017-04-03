@@ -31,7 +31,7 @@ public class WeightedMessenger {
 
             @Override
             public int compare(NameNumber o1, NameNumber o2) {
-                return Double.compare(o1.number, o2.number);
+                return Double.compare(o2.number, o1.number);
             }
         });
 

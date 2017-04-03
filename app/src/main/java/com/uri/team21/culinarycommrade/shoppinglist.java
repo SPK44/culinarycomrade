@@ -30,9 +30,9 @@ public class shoppinglist extends ListActivity {
         DataAccessor dataAccess = new DataAccessor(this);
 
         //TODO: these are only here for testing, remove once we can add items to the shopping list from other places
-        dataAccess.addToShoppingList("apples", "apple pie");
-        dataAccess.addToShoppingList("bananas", "banana pie");
-        dataAccess.addToShoppingList("oranges", "orange pie");
+        dataAccess.toggleShoppingList("apples", "apple pie");
+        dataAccess.toggleShoppingList("bananas", "banana pie");
+        dataAccess.toggleShoppingList("oranges", "orange pie");
 
         String[][] shoppingList = dataAccess.getShoppingList();
 

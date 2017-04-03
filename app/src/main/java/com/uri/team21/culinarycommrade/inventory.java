@@ -32,10 +32,13 @@ public class inventory extends ListActivity {
         DataAccessor dataAccess = new DataAccessor(this);
 
         //TODO: these are only here for testing, remove once we can add items to inventory from other places
-        ArrayList<String> r = dataAccess.getRecipes();
-        ArrayList<String> all = dataAccess.getIngredients(r.get(0));
+        ArrayList<String> all = dataAccess.getAllIngredients();
+        int count = 0;
         for(String i : all) {
+            if (count % 4 ==0) {
                 dataAccess.toggleInventory(i);
+            }
+            count++;
         }
 
         ArrayList<String> inventory = dataAccess.getInventory();
