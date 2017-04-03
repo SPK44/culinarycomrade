@@ -69,16 +69,16 @@ public class DataAccessor {
 
 
     public ArrayList<String> getIngredients(String Name) {
-        String query = "SELECT RecipeItem/0/_ItemName";
+        String query = "SELECT RecipeItem_0_ItemName";
         for (int i = 1; i < 25; i++) {
-            query += ", RecipeItem/" + i + "/_ItemName";
+            query += ", RecipeItem_" + i + "_ItemName";
         }
         query += " FROM esha ";
         query += "WHERE _description = '" + Name + "';";
         ArrayList<String> data = new ArrayList<>();
         Cursor cursor = rDbHelper.query(query);
         for (int i = 0; i < 25; i++) {
-            String someData = cursor.getString(cursor.getColumnIndex("RecipeItem/" + i + "/_ItemName"));
+            String someData = cursor.getString(cursor.getColumnIndex("RecipeItem_" + i + "_ItemName"));
             if (someData == null) break;
             data.add(someData);
         }
