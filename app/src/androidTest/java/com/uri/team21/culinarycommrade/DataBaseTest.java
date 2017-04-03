@@ -36,7 +36,7 @@ public class DataBaseTest {
     @Test
     public void test_inventory() {
         access.deleteAllInventory();
-        access.addToInventory(TEST_ITEM);
+        access.toggleInventory(TEST_ITEM);
         ArrayList<String> list = access.getInventory();
         assertEquals("Does not get one item", TEST_ITEM, list.get(0));
     }
