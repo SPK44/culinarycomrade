@@ -32,12 +32,15 @@ public class recipe extends Activity {
         setContentView(R.layout.activity_recipe);
         List_file = new ArrayList<>();
 
-        //TODO: recipeName should be passed to this Activity
-        recipeName = "Apple Pie";
+        Bundle b = getIntent().getExtras();
+        recipeName = "null";
+        if(b != null)
+            recipeName = b.getString("recipeName");
 
+        Log.d(TAG, "Displaying " + recipeName);
         ingList = (ListView)findViewById(R.id.list1);
         dirList = (ListView)findViewById(R.id.list_recipe);
-        recName = (TextView) findViewById(R.id.text);
+        recName = (TextView)findViewById(R.id.textView);
 
         recName.setText(recipeName);
         CreateIngListView();

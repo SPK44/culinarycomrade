@@ -1,6 +1,7 @@
 package com.uri.team21.culinarycommrade;
 
 import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -45,13 +46,26 @@ public class search extends ListActivity {
 
         //Create an adapter for the listView and add the ArrayList to the adapter.
         list.setAdapter(new ArrayAdapter<String>(search.this, android.R.layout.simple_list_item_1,List_file));
-        list.setOnItemClickListener(new OnItemClickListener()
-        {
-            @Override
-            public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3)
-            {
+        //list.setOnItemClickListener(new OnItemClickListener()
+        //{
+            //@Override
+            //public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3)
+            //{
                 //args2 is the listViews Selected index
-            }
-        });
+            //}
+        //});
+    }
+
+    public void onListItemClick(ListView list, View v, int position, long id) {
+        //TODO: make this not hacked together code
+        String[] split = ((list.getItemAtPosition(position)).toString()).split(" - ");
+        String recipeName = split[0];
+        //End of TODO
+        Log.d(TAG, "clicked " + recipeName);
+        Intent intent = new Intent(search.this, recipe.class);
+        Bundle b = new Bundle();
+        b.putString("recipeName", recipeName);
+        intent.putExtras(b);
+        startActivity(intent);
     }
 }
