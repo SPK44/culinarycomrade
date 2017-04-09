@@ -46,14 +46,6 @@ public class search extends ListActivity {
 
         //Create an adapter for the listView and add the ArrayList to the adapter.
         list.setAdapter(new ArrayAdapter<String>(search.this, android.R.layout.simple_list_item_1,List_file));
-        //list.setOnItemClickListener(new OnItemClickListener()
-        //{
-            //@Override
-            //public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3)
-            //{
-                //args2 is the listViews Selected index
-            //}
-        //});
     }
 
     public void onListItemClick(ListView list, View v, int position, long id) {
