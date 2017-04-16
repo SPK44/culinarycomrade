@@ -18,6 +18,8 @@ public class search extends ListActivity {
     /** Called when the activity is first created. */
     ListView list;
     private List<String> List_file;
+    String[] sortedRecipes;
+    double[] sortedWeights;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,8 +33,8 @@ public class search extends ListActivity {
     private void CreateListView() {
         WeightedSearch weightedList = new WeightedSearch(this);
         WeightedMessenger sortedList = weightedList.getSortedList();
-        String[] sortedRecipes = sortedList.recipes;
-        double[] sortedWeights = sortedList.weights;
+        sortedRecipes = sortedList.recipes;
+        sortedWeights = sortedList.weights;
 
         for (int i = 0; i < sortedList.index; i++) {
             String recipeName = sortedRecipes[i];
@@ -49,10 +51,7 @@ public class search extends ListActivity {
     }
 
     public void onListItemClick(ListView list, View v, int position, long id) {
-        //TODO: make this not hacked together code
-        String[] split = ((list.getItemAtPosition(position)).toString()).split(" - ");
-        String recipeName = split[0];
-        //End of TODO
+        String recipeName = sortedRecipes[position];
         Log.d(TAG, "clicked " + recipeName);
         Intent intent = new Intent(search.this, recipe.class);
         Bundle b = new Bundle();

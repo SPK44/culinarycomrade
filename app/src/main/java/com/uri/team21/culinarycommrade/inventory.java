@@ -77,7 +77,7 @@ public class inventory extends ListActivity {
         //check if selected item is a valid ing
         for (int i = 0; i < ingredients.size(); i++) {
             String ingredient = ingredients.get(i);
-            if(ingredient.equals(selected)) {
+            if(ingredient.equals(selected) && selected != "") {
                 valid = 1;
             }
         }
@@ -99,5 +99,6 @@ public class inventory extends ListActivity {
                 startActivity(getIntent());
             }
         }
+        text.setText("");
     }
 }
