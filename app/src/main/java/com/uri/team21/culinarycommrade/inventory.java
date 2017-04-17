@@ -22,6 +22,8 @@ public class inventory extends ListActivity {
     private ArrayList<ingredientView> List_file;
     private List<String> list_file_names;
     ArrayList<String> ingredients;
+    DataAccessor dataAccess;
+    ArrayList<String> inventory;
 
 
     public void onCreate(Bundle savedInstanceState) {
@@ -33,6 +35,11 @@ public class inventory extends ListActivity {
         list = (ListView) findViewById(android.R.id.list);
         CreateListView();
 
+        dataAccess = new DataAccessor(this);
+        ingredients = dataAccess.getAllIngredients();
+        inventory = dataAccess.getInventory();
+
+
         //setup for autocomplete search
         text = (AutoCompleteTextView) findViewById(R.id.autoCompleteTextView);
         ArrayAdapter adapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,ingredients);
@@ -42,9 +49,6 @@ public class inventory extends ListActivity {
 
     private void CreateListView() {
         //Sample Code for displaying data using DataAccess
-        DataAccessor dataAccess = new DataAccessor(this);
-        ingredients = dataAccess.getAllIngredients();
-        ArrayList<String> inventory = dataAccess.getInventory();
 
         for (int i = 0; i < inventory.size(); i++) {
             String ingredient = inventory.get(i);
@@ -67,9 +71,8 @@ public class inventory extends ListActivity {
         });
     }
     public void Search(View view) {
-        DataAccessor dataAccess = new DataAccessor(this);
-        ArrayList<String> inventory = dataAccess.getInventory();
-        ingredients = dataAccess.getAllIngredients();
+
+
         int duplicate = 0;
         int valid = 0;
         String selected = text.getText().toString();
