@@ -4,6 +4,7 @@ import android.os.Parcel;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.filters.SmallTest;
 import android.support.test.runner.AndroidJUnit4;
+import android.util.Log;
 import android.util.Pair;
 import org.junit.Before;
 import org.junit.Test;
@@ -76,6 +77,7 @@ public class DataBaseTest {
 
     @Test
     public void test_recipes() {
+        String allRecipes = "";
         ArrayList<String> recipes = access.getRecipes();
         ArrayList<String> all = access.getAllIngredients();
         for(String i : recipes) {
@@ -83,7 +85,8 @@ public class DataBaseTest {
             for(String j : ingred) {
                 assertTrue(all.contains(j));
             }
+            allRecipes = "INSERT INTO allIngredients (Ingredients) VALUES ('" + i + "');";
         }
-
+        Log.d("YOLO", allRecipes);
     }
 }

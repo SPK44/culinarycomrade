@@ -145,15 +145,15 @@ public class DataAccessor {
 
     public int getYield(String Name) {
         Name = Name.replaceAll("'", "''");
-        String query = "SELECT Yeild/measure/_quantity From esha WHERE _description=" + Name;
+        String query = "SELECT Yield/measure/_quantity From esha WHERE _description=" + Name;
         Cursor cursor = rDbHelper.query(query);
-        String someData = cursor.getString(cursor.getColumnIndex("Yeild/measure/_quantity"));
+        String someData = cursor.getString(cursor.getColumnIndex("Yield/measure/_quantity"));
         int yield = Integer.parseInt(someData);
         return yield;
     }
 
 
-    public String getDescription(String Name) {
+    public String getDirections(String Name) {
         Name = Name.replaceAll("'", "''");
         String query = "SELECT memo/__cdata From esha WHERE _description=" + Name;
         Cursor cursor = rDbHelper.query(query);
