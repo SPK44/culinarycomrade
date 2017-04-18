@@ -10,6 +10,26 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+
+import java.io.BufferedReader;
+import java.io.DataInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import android.os.Bundle;
+import android.app.Activity;
+import android.os.Environment;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,10 +47,14 @@ public class DataBaseTest {
     public static final String TEST_ITEM = "WildTestData";
     public static final String TEST_RECIPE = "WACKYRECIPE";
     private DataAccessor access;
+    Context context;
+    File myExternalFile;
+    private String filename = "SQL.txt";
+    private String filepath = "Downloads";
 
     @Before
     public void setup() {
-        Context context = InstrumentationRegistry.getTargetContext();
+        context = InstrumentationRegistry.getTargetContext();
         access = new DataAccessor(context);
     }
 
@@ -40,6 +64,7 @@ public class DataBaseTest {
         access.toggleInventory(TEST_ITEM);
         ArrayList<String> list = access.getInventory();
         assertEquals("Does not get one item", TEST_ITEM, list.get(0));
+        access.deleteAllInventory();
     }
 
     @Test
@@ -77,16 +102,28 @@ public class DataBaseTest {
 
     @Test
     public void test_recipes() {
-        String allRecipes = "";
+        //String allRecipes = "";
         ArrayList<String> recipes = access.getRecipes();
         ArrayList<String> all = access.getAllIngredients();
-        for(String i : recipes) {
+        for(String i : all) {
+
             ArrayList<String> ingred = access.getIngredients(i);
             for(String j : ingred) {
                 assertTrue(all.contains(j));
             }
-            allRecipes = "INSERT INTO allIngredients (Ingredients) VALUES ('" + i + "');";
+            //String j = i.replaceAll("'", "''");
+           // allRecipes += "INSERT INTO allIngredients (Ingredients) VALUES ('" + j + "');\n";
+
         }
-        Log.d("YOLO", allRecipes);
+    /* Legacy Code for testing
+        try {
+            myExternalFile = new File(context.getExternalFilesDir(filepath), filename);
+            FileOutputStream fos = new FileOutputStream(myExternalFile);
+            fos.write(allRecipes.getBytes());
+            fos.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        */
     }
 }

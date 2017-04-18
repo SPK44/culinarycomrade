@@ -22,7 +22,7 @@ import static android.content.ContentValues.TAG;
 public class recipe extends Activity {
 
     ListView ingList;
-    ListView dirList;
+    TextView dirList;
     TextView recName;
     private String recipeName;
     private ArrayList<ingredientView> List_file;
@@ -39,7 +39,7 @@ public class recipe extends Activity {
 
         Log.d(TAG, "Displaying " + recipeName);
         ingList = (ListView)findViewById(R.id.list1);
-        dirList = (ListView)findViewById(R.id.list_recipe);
+        dirList = (TextView)findViewById(R.id.textDirections);
         recName = (TextView)findViewById(R.id.textView);
 
         recName.setText(recipeName);

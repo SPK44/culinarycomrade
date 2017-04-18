@@ -30,15 +30,15 @@ public class inventory extends ListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_inventory);
 
-        //setup for list view
-        List_file = new ArrayList<>();
-        list = (ListView) findViewById(android.R.id.list);
-        CreateListView();
 
         dataAccess = new DataAccessor(this);
         ingredients = dataAccess.getAllIngredients();
         inventory = dataAccess.getInventory();
 
+        //setup for list view
+        List_file = new ArrayList<>();
+        list = (ListView) findViewById(android.R.id.list);
+        CreateListView();
 
         //setup for autocomplete search
         text = (AutoCompleteTextView) findViewById(R.id.autoCompleteTextView);

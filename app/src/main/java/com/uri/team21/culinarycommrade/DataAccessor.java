@@ -34,6 +34,21 @@ public class DataAccessor {
 
     }
 
+    public ArrayList<String> getAllIngredients() {
+
+        if (unique == null) {
+            unique = new ArrayList<>();
+            Cursor cursor = rDbHelper.query("SELECT Ingredients FROM ingred");
+            while (!cursor.isAfterLast()) {
+                unique.add(cursor.getString(cursor.getColumnIndex("Ingredients")));
+                cursor.moveToNext();
+            }
+            cursor.close();
+        }
+        return unique;
+
+    }
+
     public ArrayList<String> getInventory() {
 
         ArrayList<String> data = new ArrayList<>();
@@ -78,17 +93,19 @@ public class DataAccessor {
         query += "WHERE _description = '" + Name + "';";
         ArrayList<String> data = new ArrayList<>();
         Cursor cursor = rDbHelper.query(query);
-        for (int i = 0; i < 25; i++) {
-            String someData = cursor.getString(cursor.getColumnIndex("RecipeItem_" + i + "_ItemName"));
-            if (someData == null) break;
-            data.add(someData);
+        if (cursor.getCount() > 0) {
+            for (int i = 0; i < 25; i++) {
+                String someData = cursor.getString(cursor.getColumnIndex("RecipeItem_" + i + "_ItemName"));
+                if (someData == null || someData == "") break;
+                data.add(someData);
+            }
         }
         cursor.close();
         return data;
     }
 
 
-    public ArrayList<String> getAllIngredients()
+    public ArrayList<String> getAllIngredients_dynamic()
     {
 
         if (unique == null) {
