@@ -2,6 +2,7 @@ package com.uri.team21.culinarycommrade;
 
 import android.content.Context;
 import android.database.Cursor;
+import android.util.Log;
 
 import java.util.ArrayList;
 import java.util.*;
@@ -96,8 +97,9 @@ public class DataAccessor {
         if (cursor.getCount() > 0) {
             for (int i = 0; i < 25; i++) {
                 String someData = cursor.getString(cursor.getColumnIndex("RecipeItem_" + i + "_ItemName"));
-                if (someData == null || someData == "") break;
+                if (someData == null || someData.length() == 0) break;
                 data.add(someData);
+                //Log.d("DATA", "getIngredients: " + someData.toCharArray()[0]);
             }
         }
         cursor.close();
