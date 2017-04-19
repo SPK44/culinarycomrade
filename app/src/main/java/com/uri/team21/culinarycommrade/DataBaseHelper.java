@@ -11,20 +11,27 @@ public class DataBaseHelper extends SQLiteAssetHelper {
 
     private static final String DATABASE_NAME = "recipes.db3";
     private static final int DATABASE_VERSION = 1;
+    SQLiteDatabase db;
 
     public DataBaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
+        db = getReadableDatabase();
 
     }
 
     public Cursor query(String sql) {
 
-        SQLiteDatabase db = getReadableDatabase();
 
         Cursor c = db.rawQuery(sql, null);
 
         c.moveToFirst();
         return c;
+
+    }
+
+    protected void finalize() {
+
+        db.close();
 
     }
 
