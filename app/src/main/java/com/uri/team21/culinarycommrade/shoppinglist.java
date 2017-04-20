@@ -47,10 +47,10 @@ public class shoppinglist extends ListActivity {
             String ingredient = shoppingList[i][0];
             String recipe = shoppingList[i][1];
             String concat = ingredient + " - (" + recipe + ")";
-            ingredientView ingredientViewAdd = new ingredientView(this, ingredient);
+            ingredientView ingredientViewAdd = new ingredientView(this, ingredient, recipe);
             if(!(recipe.equals("null"))) {
                 List_file.add(ingredientViewAdd);
-                Log.d(TAG, "adding " + ingredient + " to list_file");
+                Log.d(TAG, "adding " + concat + " to list_file");
             }
         }
 

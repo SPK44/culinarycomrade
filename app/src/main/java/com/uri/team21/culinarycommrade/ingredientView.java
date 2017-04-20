@@ -12,9 +12,11 @@ import android.widget.ImageButton;
 public class ingredientView extends LinearLayout {
 
     private TextView ingredientName;
+    private TextView recipeName;
     private ImageButton inventoryButton;
     private ImageButton shoppingButton;
     private String id;
+    private String recipe;
 
 
     public ingredientView(Context context){
@@ -30,21 +32,39 @@ public class ingredientView extends LinearLayout {
         id = "unset";
         setName(id);
 
-        DataAccessor dataAccess = new DataAccessor(this.getContext());
+        recipe = "";
     }
 
     public ingredientView(Context context, String name){
         super(context);
         ingredientName = new TextView(context);
+        recipeName = new TextView(context);
         inventoryButton = new ImageButton(context);
         shoppingButton = new ImageButton(context);
 
         addView(ingredientName);
+        addView(recipeName);
         addView(inventoryButton);
         addView(shoppingButton);
 
-        id = name;
-        setName(id);
+        setName(name);
+        setRecipe("");
+    }
+
+    public ingredientView(Context context, String name, String rec){
+        super(context);
+        ingredientName = new TextView(context);
+        recipeName = new TextView(context);
+        inventoryButton = new ImageButton(context);
+        shoppingButton = new ImageButton(context);
+
+        addView(ingredientName);
+        addView(recipeName);
+        addView(inventoryButton);
+        addView(shoppingButton);
+
+        setName(name);
+        setRecipe(rec);
     }
 
     public void setName(String name){
@@ -52,8 +72,15 @@ public class ingredientView extends LinearLayout {
         ingredientName.setText(id);
     }
 
+    public void setRecipe(String rec){
+        recipe = rec;
+        recipeName.setText(rec);
+    }
+
     public String getName(){
         return id;
     }
+
+    public String getRecipe(){ return recipe; }
 
 }

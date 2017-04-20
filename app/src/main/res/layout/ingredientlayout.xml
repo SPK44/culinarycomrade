@@ -3,22 +3,37 @@
     android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/list">
-    <TextView
-        android:text="TextView"
-        android:layout_width="106dp"
-        android:layout_height="44dp"
-        android:id="@+id/ingName"
-        android:layout_weight="1" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/inventBut"
-        android:src="@drawable/addinventory" />
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/shopBut"
-        android:src="@drawable/addshopping" />
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/ingName"
+            android:layout_weight="0.26" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:id="@+id/recName"
+            android:layout_weight="0.08"
+            android:textSize="10sp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/inventBut"
+            android:src="@drawable/addinventory" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/shopBut"
+            android:src="@drawable/addshopping" />
+    </TableRow>
+
 </LinearLayout>

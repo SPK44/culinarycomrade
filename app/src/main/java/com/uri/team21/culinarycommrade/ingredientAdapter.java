@@ -35,8 +35,7 @@ public class ingredientAdapter extends ArrayAdapter<ingredientView> {
     public View getView(int position, View convertView, ViewGroup parent) {
         ingredientView view;
         View v = convertView;
-
-        System.out.println(convertView);
+        ContainsChecker checker = new ContainsChecker(mContext);
 
         if(convertView == null){
             LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -44,15 +43,16 @@ public class ingredientAdapter extends ArrayAdapter<ingredientView> {
         }
 
         final TextView ingName = (TextView) convertView.findViewById(R.id.ingName);
+        final TextView recName = (TextView) convertView.findViewById(R.id.recName);
+
         ImageButton inventBut = (ImageButton) convertView.findViewById(R.id.inventBut);
         ImageButton shopBut = (ImageButton) convertView.findViewById(R.id.shopBut);
 
-        ContainsChecker checker = new ContainsChecker(mContext);
+        ingName.setText(ingredients.get(position).getName());
+        recName.setText(ingredients.get(position).getRecipe());
 
         Boolean inInv = checker.inInv(ingName.getText().toString());
-        Boolean inList = checker.inList(ingName.getText().toString(), "generic");
-
-        ingName.setText(ingredients.get(position).getName());
+        Boolean inList = checker.inList(ingName.getText().toString(), recName.getText().toString());
 
         if(mContext instanceof inventory){
             inventBut.setImageResource(R.drawable.removeinventory);
@@ -62,14 +62,14 @@ public class ingredientAdapter extends ArrayAdapter<ingredientView> {
             shopBut.setImageResource(R.drawable.removeshopping);
         } else {
             if(inInv)
-                inventBut.setImageResource(R.drawable.addinventory);
-            else
                 inventBut.setImageResource(R.drawable.removeinventory);
-
-            if(inInv)
-                shopBut.setImageResource(R.drawable.addshopping);
             else
+                inventBut.setImageResource(R.drawable.addinventory);
+
+            if(inList)
                 shopBut.setImageResource(R.drawable.removeshopping);
+            else
+                shopBut.setImageResource(R.drawable.addshopping);
         }
 
 
@@ -77,13 +77,14 @@ public class ingredientAdapter extends ArrayAdapter<ingredientView> {
         inventBut.setOnClickListener(new View.OnClickListener() {
             DataAccessor dataAccess = new DataAccessor(mContext);
             String name = ingName.getText().toString();
+            String recipe = recName.getText().toString();
             @Override
             public void onClick(View v) {
                 if(mContext instanceof inventory){
                     dataAccess.toggleInventory(name);
                 } else if(mContext instanceof shoppinglist){
                     dataAccess.toggleInventory(name);
-                    dataAccess.toggleShoppingList(name, "generic");
+                    dataAccess.toggleShoppingList(name, recipe);
                 }
             }
         });
@@ -91,13 +92,14 @@ public class ingredientAdapter extends ArrayAdapter<ingredientView> {
         shopBut.setOnClickListener(new View.OnClickListener() {
             DataAccessor dataAccess = new DataAccessor(mContext);
             String name = ingName.getText().toString();
+            String recipe = recName.getText().toString();
             @Override
             public void onClick(View v) {
                 if(mContext instanceof inventory){
                     dataAccess.toggleInventory(name);
-                    dataAccess.toggleShoppingList(name, "generic");
+                    dataAccess.toggleShoppingList(name, recipe);
                 } else {
-                    dataAccess.toggleShoppingList(name, "generic");
+                    dataAccess.toggleShoppingList(name, recipe);
                 }
             }
         });
