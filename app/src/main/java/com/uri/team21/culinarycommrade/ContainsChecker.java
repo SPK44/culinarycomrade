@@ -33,4 +33,9 @@ public class ContainsChecker {
         }
         return false;
     }
+
+    public void update() {
+        inv = db.getInventory();
+        list = db.getShoppingList();
+    }
 }
