@@ -10,15 +10,15 @@
         android:id="@+id/ingName"
         android:layout_weight="1" />
 
-    <Button
-        android:text="Button"
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/inventBut" />
+        android:id="@+id/inventBut"
+        android:src="@drawable/addinventory" />
 
-    <Button
-        android:text="Button"
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/shopBut" />
+        android:id="@+id/shopBut"
+        android:src="@drawable/addshopping" />
 </LinearLayout>

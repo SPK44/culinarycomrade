@@ -3,7 +3,7 @@ package com.uri.team21.culinarycommrade;
 import android.widget.LinearLayout;
 import android.content.Context;
 import android.widget.TextView;
-import android.widget.Button;
+import android.widget.ImageButton;
 
 /**
  * Created by Shaps on 2/26/2017.
@@ -12,22 +12,22 @@ import android.widget.Button;
 public class ingredientView extends LinearLayout {
 
     private TextView ingredientName;
-    private Button inventoryButton;
-    private Button shoppingButton;
+    private ImageButton inventoryButton;
+    private ImageButton shoppingButton;
     private String id;
 
 
     public ingredientView(Context context){
         super(context);
         ingredientName = new TextView(context);
-        inventoryButton = new Button(context);
-        shoppingButton = new Button(context);
+        inventoryButton = new ImageButton(context);
+        shoppingButton = new ImageButton(context);
 
         addView(ingredientName);
         addView(inventoryButton);
         addView(shoppingButton);
 
-        id = "unsety";
+        id = "unset";
         setName(id);
 
         DataAccessor dataAccess = new DataAccessor(this.getContext());
@@ -36,8 +36,8 @@ public class ingredientView extends LinearLayout {
     public ingredientView(Context context, String name){
         super(context);
         ingredientName = new TextView(context);
-        inventoryButton = new Button(context);
-        shoppingButton = new Button(context);
+        inventoryButton = new ImageButton(context);
+        shoppingButton = new ImageButton(context);
 
         addView(ingredientName);
         addView(inventoryButton);
@@ -45,10 +45,7 @@ public class ingredientView extends LinearLayout {
 
         id = name;
         setName(id);
-
-        DataAccessor dataAccess = new DataAccessor(this.getContext());
     }
-
 
     public void setName(String name){
         id = name;
@@ -57,15 +54,6 @@ public class ingredientView extends LinearLayout {
 
     public String getName(){
         return id;
-    }
-
-    public void setClickListener(OnClickListener listener){
-        inventoryButton.setOnClickListener(listener);
-        shoppingButton.setOnClickListener(listener);
-    }
-
-    public void inventoryClick(){
-        setName("click");
     }
 
 }

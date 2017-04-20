@@ -10,7 +10,7 @@ import java.util.List;
 import android.widget.AdapterView.OnItemClickListener;
 import android.view.LayoutInflater;
 import android.widget.TextView;
-import android.widget.Button;
+import android.widget.ImageButton;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -43,15 +43,64 @@ public class ingredientAdapter extends ArrayAdapter<ingredientView> {
             convertView = inflater.inflate(R.layout.ingredientlayout, parent, false);
         }
 
-        LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        //v = inflater.inflate(R.layout.ingredientlayout, null);
-        //view.setIngredientName("hi");
-        TextView ingName = (TextView) convertView.findViewById(R.id.ingName);
-        Button inventBut = (Button) convertView.findViewById(R.id.inventBut);
-        Button shopBut = (Button) convertView.findViewById(R.id.shopBut);
+        final TextView ingName = (TextView) convertView.findViewById(R.id.ingName);
+        ImageButton inventBut = (ImageButton) convertView.findViewById(R.id.inventBut);
+        ImageButton shopBut = (ImageButton) convertView.findViewById(R.id.shopBut);
+
+        ContainsChecker checker = new ContainsChecker(mContext);
+
+        Boolean inInv = checker.inInv(ingName.getText().toString());
+        Boolean inList = checker.inList(ingName.getText().toString(), "generic");
+
         ingName.setText(ingredients.get(position).getName());
 
+        if(mContext instanceof inventory){
+            inventBut.setImageResource(R.drawable.removeinventory);
+            shopBut.setImageResource(R.drawable.addshopping);
+        } else if(mContext instanceof shoppinglist){
+            inventBut.setImageResource(R.drawable.addinventory);
+            shopBut.setImageResource(R.drawable.removeshopping);
+        } else {
+            if(inInv)
+                inventBut.setImageResource(R.drawable.addinventory);
+            else
+                inventBut.setImageResource(R.drawable.removeinventory);
 
+            if(inInv)
+                shopBut.setImageResource(R.drawable.addshopping);
+            else
+                shopBut.setImageResource(R.drawable.removeshopping);
+        }
+
+
+
+        inventBut.setOnClickListener(new View.OnClickListener() {
+            DataAccessor dataAccess = new DataAccessor(mContext);
+            String name = ingName.getText().toString();
+            @Override
+            public void onClick(View v) {
+                if(mContext instanceof inventory){
+                    dataAccess.toggleInventory(name);
+                } else if(mContext instanceof shoppinglist){
+                    dataAccess.toggleInventory(name);
+                    dataAccess.toggleShoppingList(name, "generic");
+                }
+            }
+        });
+
+        shopBut.setOnClickListener(new View.OnClickListener() {
+            DataAccessor dataAccess = new DataAccessor(mContext);
+            String name = ingName.getText().toString();
+            @Override
+            public void onClick(View v) {
+                if(mContext instanceof inventory){
+                    dataAccess.toggleInventory(name);
+                    dataAccess.toggleShoppingList(name, "generic");
+                } else {
+                    dataAccess.toggleShoppingList(name, "generic");
+                }
+            }
+        });
         return convertView;
     }
 }
