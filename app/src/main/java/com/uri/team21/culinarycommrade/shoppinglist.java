@@ -1,18 +1,18 @@
 package com.uri.team21.culinarycommrade;
 
-        import android.app.ListActivity;
-        import android.os.Bundle;
-        import android.util.Log;
-        import android.view.View;
-        import android.widget.AutoCompleteTextView;
-        import android.widget.ListView;
-        import java.util.ArrayList;
-        import java.util.List;
-        import android.widget.AdapterView.OnItemClickListener;
-        import android.widget.AdapterView;
-        import android.widget.ArrayAdapter;
+import android.app.ListActivity;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.AutoCompleteTextView;
+import android.widget.ListView;
+import java.util.ArrayList;
+import java.util.List;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 
-        import static android.content.ContentValues.TAG;
+import static android.content.ContentValues.TAG;
 
 public class shoppinglist extends ListActivity {
     /** Called when the activity is first created. */
