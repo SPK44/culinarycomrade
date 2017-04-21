@@ -26,6 +26,7 @@ public class recipe extends Activity {
     TextView recName;
     private String recipeName;
     private ArrayList<ingredientView> List_file;
+    private String directions;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -70,5 +71,7 @@ public class recipe extends Activity {
         //Sample Code for displaying data using DataAccess
         DataAccessor dataAccess = new DataAccessor(this);
         //TODO: get directions based on recipeName
+        directions = dataAccess.getDirections(recipeName);
+        dirList.setText(directions);
     }
 }
