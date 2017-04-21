@@ -10,12 +10,14 @@ import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
 public class DataBaseHelper extends SQLiteAssetHelper {
 
     private static final String DATABASE_NAME = "recipes.db3";
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 2;
     SQLiteDatabase db;
 
     public DataBaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
+        this.setForcedUpgrade();
         db = getReadableDatabase();
+
 
     }
 
