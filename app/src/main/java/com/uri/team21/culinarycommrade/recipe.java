@@ -14,6 +14,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.text.method.ScrollingMovementMethod;
 
 import java.util.ArrayList;
 
@@ -44,6 +45,7 @@ public class recipe extends Activity {
         recName = (TextView)findViewById(R.id.textView);
 
         recName.setText(recipeName);
+        dirList.setMovementMethod(new ScrollingMovementMethod());
         CreateIngListView();
         CreateDirListView();
     }
