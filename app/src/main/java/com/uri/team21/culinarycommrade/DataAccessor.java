@@ -164,9 +164,9 @@ public class DataAccessor {
 
     public int getYield(String Name) {
         Name = Name.replaceAll("'", "''");
-        String query = "SELECT Yield/measure/_quantity From esha WHERE _description=" + Name;
+        String query = "SELECT Yield From esha WHERE _description='" + Name + "';";
         Cursor cursor = rDbHelper.query(query);
-        String someData = cursor.getString(cursor.getColumnIndex("Yield/measure/_quantity"));
+        String someData = cursor.getString(cursor.getColumnIndex("Yield"));
         int yield = Integer.parseInt(someData);
         return yield;
     }
@@ -174,9 +174,9 @@ public class DataAccessor {
 
     public String getDirections(String Name) {
         Name = Name.replaceAll("'", "''");
-        String query = "SELECT memo/__cdata From esha WHERE _description=" + Name;
+        String query = "SELECT memo From esha WHERE _description='" + Name + "';";
         Cursor cursor = rDbHelper.query(query);
-        String Directions = cursor.getString(cursor.getColumnIndex("memo/__cdata"));
+        String Directions = cursor.getString(cursor.getColumnIndex("memo"));
         return Directions;
     }
 
