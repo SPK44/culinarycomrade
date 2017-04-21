@@ -164,19 +164,19 @@ public class DataAccessor {
 
     public int getYield(String Name) {
         Name = Name.replaceAll("'", "''");
-        String query = "SELECT Yield From esha WHERE _description='" + Name + "';";
+        String query = "SELECT Yield FROM esha WHERE _description='" + Name + "';";
         Cursor cursor = rDbHelper.query(query);
-        String someData = cursor.getString(cursor.getColumnIndex("Yield"));
-        int yield = Integer.parseInt(someData);
-        return yield;
+        String someData = cursor.getString(0);
+        double yield = Double.parseDouble(someData);
+        return (int)yield;
     }
 
 
     public String getDirections(String Name) {
         Name = Name.replaceAll("'", "''");
-        String query = "SELECT memo From esha WHERE _description='" + Name + "';";
+        String query = "SELECT memo FROM esha WHERE _description='" + Name + "';";
         Cursor cursor = rDbHelper.query(query);
-        String Directions = cursor.getString(cursor.getColumnIndex("memo"));
+        String Directions = cursor.getString(0);
         return Directions;
     }
 
