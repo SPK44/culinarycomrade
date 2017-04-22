@@ -9,30 +9,30 @@
         android:layout_height="50dp">
 
         <TextView
-            android:text="TextView"
+            android:id="@+id/ingName"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/ingName"
-            android:layout_weight="0.26" />
+            android:layout_weight="0.26"
+            android:text="TextView" />
 
         <TextView
-            android:text="TextView"
+            android:id="@+id/recName"
             android:layout_width="40dp"
             android:layout_height="match_parent"
-            android:id="@+id/recName"
             android:layout_weight="0.08"
+            android:text="TextView"
             android:textSize="10sp" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/inventBut"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
             android:src="@drawable/addinventory" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/shopBut"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
             android:src="@drawable/addshopping" />
     </TableRow>
 

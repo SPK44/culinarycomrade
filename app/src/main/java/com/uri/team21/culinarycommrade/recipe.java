@@ -59,7 +59,8 @@ public class recipe extends Activity {
         //A lot of the following is copied over from inventory. I think this should work.
         for (int i = 0; i < ingredients.size(); i++) {
             String ingredient = ingredients.get(i);
-            ingredientView ingredientViewAdd = new ingredientView(this, ingredient, recipeName);
+            //ingredientView ingredientViewAdd = new ingredientView(this, ingredient, recipeName);
+            ingredientView ingredientViewAdd = new ingredientView(this, ingredient, "");
             if (!(ingredient.equals("null"))) {
                 List_file.add(ingredientViewAdd);
                 Log.d(TAG, "adding " + ingredient + " to list_file");
