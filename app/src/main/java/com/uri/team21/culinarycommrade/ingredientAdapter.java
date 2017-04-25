@@ -80,11 +80,12 @@ public class ingredientAdapter extends ArrayAdapter<ingredientView> {
             String recipe = recName.getText().toString();
             @Override
             public void onClick(View v) {
-                if(mContext instanceof inventory){
-                    dataAccess.toggleInventory(name);
-                } else if(mContext instanceof shoppinglist){
+                if(mContext instanceof shoppinglist){
                     dataAccess.toggleInventory(name);
                     dataAccess.toggleShoppingList(name, recipe);
+
+                } else {
+                    dataAccess.toggleInventory(name);
                 }
             }
         });
