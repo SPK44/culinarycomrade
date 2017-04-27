@@ -21,11 +21,15 @@ public class ContainsChecker {
         list = db.getShoppingList();
     }
 
+    // checks if an item is in the cached inventory
     public boolean inInv(String item) {
         return inv.contains(item);
     }
 
+    // checks if an items is in the cached shoppping list
     public boolean inList(String item, String recipe) {
+
+        // brute force contains
         for(String[] s : list) {
             if (s[0].equals(item) && s[1].equals(recipe)){
                 return true;
@@ -34,6 +38,7 @@ public class ContainsChecker {
         return false;
     }
 
+    // updates cached lists
     public void update() {
         inv = db.getInventory();
         list = db.getShoppingList();

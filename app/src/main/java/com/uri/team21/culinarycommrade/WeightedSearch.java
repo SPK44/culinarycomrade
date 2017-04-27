@@ -21,21 +21,20 @@ public class WeightedSearch {
         WeightedMessenger weightedList = new WeightedMessenger(recipes.size());
 
         int k = 0;
-        for(String i : recipes) {
-            ArrayList<String> ingredients = db.getIngredients(i);
+        for(String i : recipes) { // for each recipe
+            ArrayList<String> ingredients = db.getIngredients(i); // get its ingredients
             int count = 0;
-            for(String j: ingredients) {
-                for(String l : inventory)
-                    if (j.equals(l)) {
-                        count++;
-                    }
+            for(String j: ingredients) { // for each ingredient
+                if (inventory.contains(j)) { // if the ingredient is in the inventory
+                        count++; // add one to the count
+                }
             }
-            weightedList.append(i, ((double)count/ingredients.size()));
+            weightedList.append(i, ((double)count/ingredients.size())); // append the wieght to the messanger
         }
 
-        weightedList.sort();
+        weightedList.sort(); // sort the messenger
 
-        return weightedList;
+        return weightedList; // return the messenger
     }
 }
 

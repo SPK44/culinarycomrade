@@ -21,10 +21,15 @@ public class DataAccessor {
         lDbHelper = new DataBaseWriter(context, "List");
     }
 
+
+    // gets list of all recipes
     public ArrayList<String> getRecipes() {
 
+
+        // SQL select statement
         ArrayList<String> data = new ArrayList<>();
         Cursor cursor = rDbHelper.query("SELECT _description FROM esha");
+        // Adds to an array list to return
         while (!cursor.isAfterLast()) {
             data.add(cursor.getString(cursor.getColumnIndex("_description")));
             cursor.moveToNext();
@@ -35,11 +40,12 @@ public class DataAccessor {
 
     }
 
+    // Grabs unique ingredients
     public ArrayList<String> getAllIngredients() {
 
-        if (unique == null) {
+        if (unique == null) { // caches the list until app is killed
             unique = new ArrayList<>();
-            Cursor cursor = rDbHelper.query("SELECT Ingredients FROM ingred");
+            Cursor cursor = rDbHelper.query("SELECT Ingredients FROM ingred"); // grabs from SQL
             while (!cursor.isAfterLast()) {
                 unique.add(cursor.getString(cursor.getColumnIndex("Ingredients")));
                 cursor.moveToNext();
@@ -50,11 +56,12 @@ public class DataAccessor {
 
     }
 
+    // Queries the inventory
     public ArrayList<String> getInventory() {
 
         ArrayList<String> data = new ArrayList<>();
         Cursor cursor = iDbHelper.query("SELECT Ingredient FROM Inventory");
-        while (!cursor.isAfterLast()) {
+        while (!cursor.isAfterLast()) { // same as insert
             data.add(cursor.getString(cursor.getColumnIndex("Ingredient")));
             cursor.moveToNext();
         }
@@ -64,6 +71,7 @@ public class DataAccessor {
 
     }
 
+    // Same as inventory, but a 2D array instead
     public String[][] getShoppingList() {
 
         Cursor cursor = lDbHelper.query("SELECT COUNT(Ingredient) AS Count FROM List");
@@ -180,10 +188,11 @@ public class DataAccessor {
         return Directions;
     }
 
+    // Checks if an item is in the Database or not, then adds or removes. HIGH overhead
     public boolean toggleInventory(String Ingredient) {
         Ingredient = Ingredient.replaceAll("'", "''");
-        Cursor cursor = iDbHelper.query("SELECT Ingredient FROM Inventory WHERE Ingredient='" + Ingredient+ "';");
-        if(cursor.getCount() > 0) {
+        Cursor cursor = iDbHelper.query("SELECT Ingredient FROM Inventory WHERE Ingredient='" + Ingredient+ "';"); // SQL select
+        if(cursor.getCount() > 0) { //Counts items picked up
             removeFromInventory(Ingredient);
             cursor.close();
             return false;
@@ -193,6 +202,7 @@ public class DataAccessor {
         return true;
     }
 
+    // Converse of toggleInventory
     public boolean toggleShoppingList(String Ingredient, String Recipe) {
         Ingredient = Ingredient.replaceAll("'", "''");
         Recipe = Recipe.replaceAll("'", "''");
@@ -206,6 +216,7 @@ public class DataAccessor {
         cursor.close();
         return true;
     }
+
 
     private void addToInventory(String Ingredient) {
         iDbHelper.query("INSERT INTO Inventory (Ingredient) VALUES ('" + Ingredient + "');");

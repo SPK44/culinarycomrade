@@ -20,6 +20,7 @@ public class DataBaseWriter extends SQLiteOpenHelper {
         this.DATABASE_NAME = DATABASE_NAME;
     }
 
+    // Just in case the Accessor forgets. Never used though
     public String getDataBaseName() {
         return DATABASE_NAME;
     }
@@ -35,6 +36,7 @@ public class DataBaseWriter extends SQLiteOpenHelper {
 
     }
 
+    // For the init of the app
     @Override
     public void onCreate(SQLiteDatabase db) {
         String query = "CREATE TABLE " + DATABASE_NAME + " (" +

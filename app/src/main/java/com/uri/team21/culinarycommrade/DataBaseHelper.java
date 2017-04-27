@@ -13,9 +13,10 @@ public class DataBaseHelper extends SQLiteAssetHelper {
     private static final int DATABASE_VERSION = 2;
     SQLiteDatabase db;
 
+
     public DataBaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
-        this.setForcedUpgrade();
+        this.setForcedUpgrade(); // Always uses the lastest DB, regardless of updating
         db = getReadableDatabase();
 
 
@@ -26,11 +27,12 @@ public class DataBaseHelper extends SQLiteAssetHelper {
 
         Cursor c = db.rawQuery(sql, null);
 
-        c.moveToFirst();
+        c.moveToFirst(); // Goes to first item
         return c;
 
     }
 
+    // Closes database before heap deallocation
     protected void finalize() {
 
         db.close();
