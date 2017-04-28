@@ -72,8 +72,8 @@ public class DataAccessor {
     }
 
     // Same as inventory, but a 2D array instead
-    public String[][] getShoppingList() {
-
+    public String[][] getShoppingList()
+    {
         Cursor cursor = lDbHelper.query("SELECT COUNT(Ingredient) AS Count FROM List");
         int length = cursor.getInt(cursor.getColumnIndex("Count"));
         String[][] data = new String[length][2];
@@ -91,8 +91,9 @@ public class DataAccessor {
 
     }
 
-
-    public ArrayList<String> getIngredients(String Name) {
+    //Get Ingredients for a specific Recipe
+    public ArrayList<String> getIngredients(String Name)
+    {
         String query = "SELECT RecipeItem_0_ItemName";
         for (int i = 1; i < 25; i++) {
             query += ", RecipeItem_" + i + "_ItemName";
@@ -114,10 +115,9 @@ public class DataAccessor {
         return data;
     }
 
-
+    //Get all ingredients available in the Database
     public ArrayList<String> getAllIngredients_dynamic()
     {
-
         if (unique == null) {
             ArrayList<String> allIngredients = new ArrayList<String>();
             ArrayList<String> recipes = getRecipes();
@@ -138,7 +138,7 @@ public class DataAccessor {
         return unique;
     }
 
-    //I got most of this Method from stackoverflow, it should work!
+    //Delete repeated ingredients in the Array
     public ArrayList<String> uniqueIngredients(String[] arr)
     {
         ArrayList<String> arrList = new ArrayList<String>();
@@ -159,7 +159,7 @@ public class DataAccessor {
         return arrList;
     }
 
-
+    //Concatenate two arrays into one
     public ArrayList<String> concat(String[] a, String[] b) {
         int aLen = a.length;
         int bLen = b.length;
@@ -170,6 +170,7 @@ public class DataAccessor {
         return d;
     }
 
+    //Get the Yield/ How many the recipe feeds
     public int getYield(String Name) {
         Name = Name.replaceAll("'", "''");
         String query = "SELECT Yield FROM esha WHERE _description='" + Name + "';";
@@ -179,7 +180,7 @@ public class DataAccessor {
         return (int)yield;
     }
 
-
+    //Get directions on how to prepare the a specific recipe
     public String getDirections(String Name) {
         Name = Name.replaceAll("'", "''");
         String query = "SELECT memo FROM esha WHERE _description='" + Name + "';";
