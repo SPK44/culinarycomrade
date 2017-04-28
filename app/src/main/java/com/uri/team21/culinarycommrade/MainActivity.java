@@ -51,10 +51,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(startNewActivity);
     }
 
-    public void navigateSnake(View view) {
-        Intent startNewActivity = new Intent(this, SnakeView.class);
-        startActivity(startNewActivity);
-    }
+    //public void navigateSnake(View view) {
+        //Intent startNewActivity = new Intent(this, SnakeView.class);
+        //startActivity(startNewActivity);
+    //}
 
     public void View(View view) {
         String selected = text.getText().toString();

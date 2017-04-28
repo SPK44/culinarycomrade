@@ -5,8 +5,11 @@ package com.uri.team21.culinarycommrade;
  */
 
 
+import android.app.Activity;
 import android.content.Context;
 import java.util.List;
+
+import android.content.Intent;
 import android.widget.AdapterView.OnItemClickListener;
 import android.view.LayoutInflater;
 import android.widget.TextView;
@@ -88,6 +91,7 @@ public class ingredientAdapter extends ArrayAdapter<ingredientView> {
                     dataAccess.toggleInventory(name);
                 }
             }
+
         });
 
         shopBut.setOnClickListener(new View.OnClickListener() {

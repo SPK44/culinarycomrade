@@ -36,6 +36,7 @@ public class search extends ListActivity {
         sortedRecipes = sortedList.recipes;
         sortedWeights = sortedList.weights;
 
+        //for (int i = 0; i < sortedList.index; i++) {
         for (int i = 0; i < sortedList.index; i++) {
             String recipeName = sortedRecipes[i];
             double recipeWeight = sortedWeights[i] * 100;
