@@ -90,7 +90,10 @@ public class ingredientAdapter extends ArrayAdapter<ingredientView> {
                 } else {
                     dataAccess.toggleInventory(name);
                 }
+                notifyDataSetChanged();
+
             }
+
 
         });
 
@@ -106,6 +109,7 @@ public class ingredientAdapter extends ArrayAdapter<ingredientView> {
                 } else {
                     dataAccess.toggleShoppingList(name, recipe);
                 }
+                notifyDataSetChanged();
             }
         });
         return convertView;
