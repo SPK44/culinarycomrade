@@ -80,7 +80,7 @@ public class inventory extends ListActivity {
         //check if selected item is a valid ing
         for (int i = 0; i < ingredients.size(); i++) {
             String ingredient = ingredients.get(i);
-            if(ingredient.equals(selected) && selected != " ") {
+            if(ingredient.equals(selected) && !selected.equals("")) {
                 valid = 1;
             }
         }
@@ -88,7 +88,7 @@ public class inventory extends ListActivity {
             //check if item already exists in inventory
             for (int i = 0; i < inventory.size(); i++) {
                 String ingredient = inventory.get(i);
-                if(ingredient.equals(selected)) {
+                if(ingredient.equals(selected) ) {
                     duplicate = 1;
                 }
             }
