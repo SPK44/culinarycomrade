@@ -35,7 +35,7 @@ public class ingredientAdapter extends ArrayAdapter<ingredientView> {
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(final int position, View convertView, ViewGroup parent) {
         ingredientView view;
         View v = convertView;
         ContainsChecker checker = new ContainsChecker(mContext);
@@ -90,6 +90,7 @@ public class ingredientAdapter extends ArrayAdapter<ingredientView> {
                 } else {
                     dataAccess.toggleInventory(name);
                 }
+                ingredients.remove(position);
                 notifyDataSetChanged();
 
             }
@@ -109,6 +110,7 @@ public class ingredientAdapter extends ArrayAdapter<ingredientView> {
                 } else {
                     dataAccess.toggleShoppingList(name, recipe);
                 }
+                ingredients.remove(position);
                 notifyDataSetChanged();
             }
         });
