@@ -73,13 +73,12 @@
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:background="@null"
         android:fadingEdge="horizontal|vertical"
         android:visibility="visible"
-        app:srcCompat="@drawable/cclogo" />
+        app:srcCompat="@drawable/cclogo"
+        android:layout_alignBottom="@+id/nav_to_shoppinglist"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
