@@ -90,7 +90,9 @@ public class ingredientAdapter extends ArrayAdapter<ingredientView> {
                 } else {
                     dataAccess.toggleInventory(name);
                 }
-                ingredients.remove(position);
+                if(!(mContext instanceof  recipe)) {
+                    ingredients.remove(position);
+                }
                 notifyDataSetChanged();
 
             }
@@ -110,7 +112,9 @@ public class ingredientAdapter extends ArrayAdapter<ingredientView> {
                 } else {
                     dataAccess.toggleShoppingList(name, recipe);
                 }
-                ingredients.remove(position);
+                if(!(mContext instanceof  recipe)) {
+                    ingredients.remove(position);
+                }
                 notifyDataSetChanged();
             }
         });
