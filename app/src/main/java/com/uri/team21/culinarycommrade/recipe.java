@@ -51,30 +51,31 @@ public class recipe extends Activity {
     }
 
     private void CreateIngListView() {
-        //Sample Code for displaying data using DataAccess
+        //Accesses the database to retrieve the recipe's ingredients
         DataAccessor dataAccess = new DataAccessor(this);
-        //TODO: get ingredients based on recipeName
         ArrayList<String> ingredients = dataAccess.getIngredients(recipeName);
 
-        //A lot of the following is copied over from inventory. I think this should work.
+        //Loops through every ingredient, creating an ingredientView for each of them
         for (int i = 0; i < ingredients.size(); i++) {
             String ingredient = ingredients.get(i);
-            //ingredientView ingredientViewAdd = new ingredientView(this, ingredient, recipeName);
+            //Creates a new ingredientView for the current ingredient
             ingredientView ingredientViewAdd = new ingredientView(this, ingredient, "");
             if (!(ingredient.equals("null"))) {
+                //Adds the ingredient view to the screen's list of ingredientViews
                 List_file.add(ingredientViewAdd);
+                //Prints the added ingredient to the console for debug purposes
                 Log.d(TAG, "adding " + ingredient + " to list_file");
             }
         }
-
+        //Passes the list of ingredientViews to ingList, the UI element responsible for displaying them
         ingList.setAdapter(new ingredientAdapter(recipe.this, R.layout.ingredientlayout, List_file));
 
     }
     private void CreateDirListView() {
-        //Sample Code for displaying data using DataAccess
+        //Retrieves the recipe's directions from the database
         DataAccessor dataAccess = new DataAccessor(this);
-        //TODO: get directions based on recipeName
         directions = dataAccess.getDirections(recipeName);
+        //Passes the directions string to the UI element responsible for displaying it
         dirList.setText(directions);
     }
 }
