@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
+
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 import android.widget.AdapterView.OnItemClickListener;
@@ -35,12 +38,14 @@ public class search extends ListActivity {
         WeightedMessenger sortedList = weightedList.getSortedList();
         sortedRecipes = sortedList.recipes;
         sortedWeights = sortedList.weights;
-
+        DecimalFormat df = new DecimalFormat("##.##");
+        df.setRoundingMode(RoundingMode.DOWN);
         //for (int i = 0; i < sortedList.index; i++) {
         for (int i = 0; i < sortedList.index; i++) {
             String recipeName = sortedRecipes[i];
             double recipeWeight = sortedWeights[i] * 100;
-            String concat = recipeName + " - " + recipeWeight + " % match";
+            String rounded = df.format(recipeWeight);
+            String concat = recipeName + " - " + rounded + " % match";
             if(!(recipeName.equals("null"))) {
                 List_file.add(concat);
                 Log.d(TAG, "adding " + recipeName + " to list_file");
